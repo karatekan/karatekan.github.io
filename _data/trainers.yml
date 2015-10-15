@@ -1,0 +1,10 @@
+- avatar: images/trainers/javier_izquierdo.jpg
+  name: Javier Izquierdo
+  position: Judo
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.

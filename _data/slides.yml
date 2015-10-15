@@ -1,0 +1,27 @@
+- bg: images/slide-1.jpg
+  title:
+    klass: bottom-to-top
+    text: Club Karate-Kan
+  small_title:
+    klass: bottom-to-top
+    text: Tu Gimnasio de Artes Marciales
+- bg: images/slide-2.jpg
+  klass: centered-text
+  small_title:
+    klass: bottom-to-top
+    text: Pioneros en
+  title:
+    klass: bottom-to-top
+    text: Karate Kyokushin
+  buttons:
+    klass: bottom-to-top
+    items:
+      - text: Ver la actividad
+        link_to: kyokushin.html
+- bg: images/slide-3.jpg
+  title:
+    klass: bottom-to-top
+    text: ¡Mucho más que Karate!
+  small_title:
+    klass: bottom-to-top
+    text: Boxeo, Judo, Aikido, Krav Maga, K-1, MMA, BJJ...
