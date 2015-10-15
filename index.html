@@ -2,14 +2,14 @@
 layout: default
 section_id: home
 slides:
-  - bg: images/@stock/slide-1.jpg
+  - bg: images/slide-1.jpg
     title:
       klass: bottom-to-top
       text: Club Karate-Kan
     small_title:
       klass: bottom-to-top
       text: Tu Gimnasio de Artes Marciales
-  - bg: images/@stock/slide-2.jpg
+  - bg: images/slide-2.jpg
     klass: centered-text
     small_title:
       klass: bottom-to-top
@@ -22,7 +22,7 @@ slides:
       items:
         - text: Ver la actividad
           link_to: kyokushin.html
-  - bg: images/@stock/slide-3.jpg
+  - bg: images/slide-3.jpg
     title:
       klass: bottom-to-top
       text: ¡Mucho más que Karate!
@@ -30,55 +30,55 @@ slides:
       klass: bottom-to-top
       text: Boxeo, Judo, Aikido, Krav Maga, K-1, MMA, BJJ...
 
-works:
-  - image: images/@stock/karate_kyokushin.jpg
+activities:
+  - image: images/activities/karate_kyokushin.jpg
     title: Karate Kyokushin
-    link_to: karate_kyokushin.html
+    link_to: activities/karate_kyokushin.html
     klass: graphi-design
     desc: Karate Kyokushin
-  - image: images/@stock/boxing.jpg
+  - image: images/activities/boxing.jpg
     title: Boxeo
-    link_to: boxing.html
+    link_to: activities/boxing.html
     klass: graphi-design
     desc: Boxeo
-  - image: images/@stock/mma.jpg
+  - image: images/activities/mma.jpg
     title: Artes Marciales Mixtas (MMA)
-    link_to: mma.html
+    link_to: activities/mma.html
     klass: graphi-design
     desc: Artes Marciales Mixtas (MMA)
-  - image: images/@stock/brazilian_jiujitsu.jpg
+  - image: images/activities/brazilian_jiujitsu.jpg
     title: Jiu Jitsu Brasileño
-    link_to: brazilian_jiujitsu.html
+    link_to: activities/brazilian_jiujitsu.html
     klass: graphi-design
     desc: Jiu Jitsu Brasileño
-  - image: images/@stock/k1.jpg
+  - image: images/activities/k1.jpg
     title: K-1
-    link_to: k1.html
+    link_to: activities/k1.html
     klass: graphi-design
     desc: K-1
-  - image: images/@stock/krav_maga.jpg
+  - image: images/activities/krav_maga.jpg
     title: Krav Maga
-    link_to: krav_maga.html
+    link_to: activities/krav_maga.html
     klass: graphi-design
     desc: Krav Maga
-  - image: images/@stock/aikido.jpg
+  - image: images/activities/aikido.jpg
     title: Aikido
-    link_to: aikido.html
+    link_to: activities/aikido.html
     klass: graphi-design
     desc: Aikido
-  - image: images/@stock/judo.jpg
+  - image: images/activities/judo.jpg
     title: Judo
-    link_to: judo.html
+    link_to: activities/judo.html
     klass: graphi-design
     desc: Judo
-  - image: images/@stock/karate_infantil.jpg
+  - image: images/activities/karate_infantil.jpg
     title: Karate Infantil
-    link_to: karate_infantil.html
+    link_to: activities/karate_infantil.html
     klass: graphi-design
     desc: Karate Infantil
-  - image: images/@stock/total_entreno.jpg
+  - image: images/activities/total_entreno.jpg
     title: Total Entreno
-    link_to: total_entreno.html
+    link_to: activities/total_entreno.html
     klass: graphi-design
     desc: Total Entreno
 
@@ -101,6 +101,13 @@ services:
   - icon: lock
     title: Biblioteca
     desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+
+teachers:
+  - image: images/trainers/javier_izquierdo.jpg
+    title: Javier Izquierdo
+    link_to: trainers/javier_izquierdo.html
+    klass: graphi-design
+    desc: Javier Izquierdo
 
 milestones:
   - icon: folder-open
@@ -206,7 +213,7 @@ milestones:
       {% include section-header.html title="Nuestras Actividades" %}
       <div class="spacing"></div>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        Descripción
       </p>
       <div class="three spacing"></div>
     </div>
@@ -214,14 +221,14 @@ milestones:
 
   <div class="mod modGallery">
     <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-      {% for work in page.works %}
-        <li class="{{ work.klass }}">
-          <a href='{{ work.link_to }}'>
-            <img alt="" src="{{ work.image }}" />
+      {% for activity in page.activities %}
+        <li class="{{ activity.klass }}">
+          <a href='{{ activity.link_to }}'>
+            <img alt="" src="{{ activivty.image }}" />
             <div class='overlay'>
               <div class='thumb-info'>
-                <h3>{{ work.title }}</h3>
-                <p>{{ work.desc }}</p>
+                <h3>{{ activity.title }}</h3>
+                <p>{{ activity.desc }}</p>
               </div>
             </div>
           </a>
@@ -238,7 +245,7 @@ milestones:
       {% include section-header.html title="Nuestros Servicios" %}
       <div class='spacing'></div>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        Descripción
       </p>
       <div class='three spacing'></div>
     </div>
@@ -294,10 +301,10 @@ milestones:
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our team" %}
+      {% include section-header.html title="Nuestros Profesores" %}
       <div class='spacing'></div>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        Descripción
       </p>
       <div class='two spacing'></div>
     </div>
@@ -334,10 +341,10 @@ milestones:
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our recent posts" %}
+      {% include section-header.html title="Nuestras noticias recientes" %}
       <div class='spacing'></div>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        Descripción
       </p>
       <div class='two spacing'></div>
     </div>

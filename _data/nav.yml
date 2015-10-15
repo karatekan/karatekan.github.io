@@ -1,21 +1,37 @@
 - name: Home
   path: index.html
   section_id: home
-- name: About
+- name: Sobre Nosotros
   path: about.html
   section_id: about
-- name: Services
+- name: Servicios
   path: services.html
   section_id: services
-- name: Portfolio
-  path: portfolio.html
-  section_id: portfolio
+- name: Actividades
+  path: activities/
+  section_id: activities
   children:
-    - name: Portfolio
-      path: portfolio.html
-    - name: Portfolio item
-      path: portfolio-item.html
-- name: Contact
+    - name: Karate Kyokushin
+      path: activities/karate_kyokushin.html
+    - name: Boxeo
+      path: activities/boxing.html
+    - name: MMA
+      path: activities/mma.html
+    - name: BJJ
+      path: activities/bjj.html
+    - name: K-1
+      path: activities/k1.html
+    - name: Krav Maga
+      path: activities/krav_maga.html
+    - name: Aikido
+      path: activities/aikido.html
+    - name: Judo
+      path: activities/judo.html
+    - name: Karate Infantil
+      path: activities/karate_infantil.html
+    - name: Karate Infantil
+      path: activities/karate_infantil.html
+- name: Contacto
   path: contact.html
   section_id: contact
 - name: Blog
