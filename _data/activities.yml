@@ -1,50 +1,55 @@
 - image: images/activities/karate_kyokushin.jpg
   title: Karate Kyokushin
   link_to: activities/karate_kyokushin.html
-  klass: graphi-design
+  klass: martial-art
   desc: Karate Kyokushin
 - image: images/activities/boxing.jpg
   title: Boxeo
   link_to: activities/boxing.html
-  klass: graphi-design
+  klass: contact-sport
   desc: Boxeo
 - image: images/activities/mma.jpg
   title: Artes Marciales Mixtas (MMA)
   link_to: activities/mma.html
-  klass: graphi-design
+  klass: contact-sport
   desc: Artes Marciales Mixtas (MMA)
-- image: images/activities/brazilian_jiujitsu.jpg
+- image: images/activities/bjj.jpg
   title: Jiu Jitsu Brasileño
-  link_to: activities/brazilian_jiujitsu.html
-  klass: graphi-design
+  link_to: activities/bjj.html
+  klass: contact-sport
   desc: Jiu Jitsu Brasileño
 - image: images/activities/k1.jpg
   title: K-1
   link_to: activities/k1.html
-  klass: graphi-design
+  klass: contact-sport
   desc: K-1
 - image: images/activities/krav_maga.jpg
   title: Krav Maga
   link_to: activities/krav_maga.html
-  klass: graphi-design
+  klass: contact-sport
   desc: Krav Maga
 - image: images/activities/aikido.jpg
   title: Aikido
   link_to: activities/aikido.html
-  klass: graphi-design
+  klass: martial-art
   desc: Aikido
 - image: images/activities/judo.jpg
   title: Judo
   link_to: activities/judo.html
-  klass: graphi-design
+  klass: martial-art
   desc: Judo
 - image: images/activities/karate_infantil.jpg
   title: Karate Infantil
   link_to: activities/karate_infantil.html
-  klass: graphi-design
+  klass: martial-art
   desc: Karate Infantil
 - image: images/activities/total_entreno.jpg
   title: Total Entreno
   link_to: activities/total_entreno.html
-  klass: graphi-design
+  klass: fitness
   desc: Total Entreno
+- image: images/activities/gimnasia.jpg
+  title: Gimnasia de mantenimiento
+  link_to: activities/gimnasia.html
+  klass: fitness
+  desc: Gimnasia de mantenimiento
