@@ -85,7 +85,7 @@ section_id: home
             {% unless forloop.first %}
               {% break %}
             {% endunless %}
-            <a href="{{post.url}}"><img alt="" src="{{image}}" /></a>
+            <a href="{{post.url}}"><img alt="{{post.title}}" src="{{image}}" /></a>
           {% endfor %}
           <div class='content'>
             <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
@@ -154,7 +154,7 @@ section_id: home
       {% for activity in site.data.activities %}
         <li class="{{ activity.klass }}">
           <a href='{{ activity.link_to }}'>
-            <img alt="" src="{{ activity.image }}" />
+            <img alt="{{activity.name}}" src="{{ activity.image }}" />
             <div class='overlay'>
               <div class='thumb-info'>
                 <h3>{{ activity.title }}</h3>
@@ -238,7 +238,7 @@ section_id: home
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember'>
           <div class='member'>
-            <img class="avatar" alt="" src="{{ trainer.image }}" />
+            <img class="avatar" alt="{{ trainer.name }}" src="{{ trainer.image }}" />
             <div class='overlay'>
               <div class='intro'>
                 <h3>{{trainer.name}}</h3>
