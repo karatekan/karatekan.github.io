@@ -2,8 +2,6 @@
 layout: default
 title: Boxeo
 ---
-
-{% assign activity = site.data.activities | first %}
-{% assign trainers = site.data.trainers | where: "activity", activity.title %}
-
+{% assign activity = (site.data.activities | where: "title", page.title | first)%}
+{% assign trainers = (site.data.trainers | where: "activity", activity.title) %}
 {% include activity.html %}
