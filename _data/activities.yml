@@ -1,54 +1,61 @@
-- image: images/activities/karate_kyokushin.jpg
+- image: images/activities/karate_kyokushin/activity.jpg
   title: Karate Kyokushin
   link_to: activities/karate_kyokushin.html
   klass: martial-art
+  slides:
+    - link: images/activities/karate_kyokushin/slide_1.jpg
+    - link: images/activities/karate_kyokushin/slide_2.jpg
+  header: images/activities/karate_kyokushin/header.jpg
   desc: Karate Kyokushin
-- image: images/activities/boxing.jpg
+  content:
+    Es una disciplina por la cual los Estudiantes puede encontrar los indicios para ayudarlos en su propia exploración espiritual y desarrollo personal. Abarca las consideraciones filosóficas de la vida y la muerte, la lucha y sobrevivencia.
+    Es una forma práctica de defensa personal, acentuando (en las etapas iniciales) golpes de pies, golpes de manos, bloqueos y movimientos del cuerpo. Es una actividad física intensa, que beneficia directamente nuestro estado mental.
+- image: images/activities/boxeo/activity.jpg
   title: Boxeo
-  link_to: activities/boxing.html
+  link_to: activities/boxeo.html
   klass: contact-sport
   desc: Boxeo
-- image: images/activities/mma.jpg
+- image: images/activities/mma/activity.jpg
   title: Artes Marciales Mixtas (MMA)
   link_to: activities/mma.html
   klass: contact-sport
   desc: Artes Marciales Mixtas (MMA)
-- image: images/activities/bjj.jpg
+- image: images/activities/bjj/activity.jpg
   title: Jiu Jitsu Brasileño
   link_to: activities/bjj.html
   klass: contact-sport
   desc: Jiu Jitsu Brasileño
-- image: images/activities/k1.jpg
+- image: images/activities/k1/activity.jpg
   title: K-1
   link_to: activities/k1.html
   klass: contact-sport
   desc: K-1
-- image: images/activities/krav_maga.jpg
+- image: images/activities/krav_maga/activity.jpg
   title: Krav Maga
   link_to: activities/krav_maga.html
   klass: contact-sport
   desc: Krav Maga
-- image: images/activities/aikido.jpg
+- image: images/activities/aikido/activity.jpg
   title: Aikido
   link_to: activities/aikido.html
   klass: martial-art
   desc: Aikido
-- image: images/activities/judo.jpg
+- image: images/activities/judo/activity.jpg
   title: Judo
   link_to: activities/judo.html
   klass: martial-art
   desc: Judo
-- image: images/activities/karate_infantil.jpg
+- image: images/activities/karate_infantil/activity.jpg
   title: Karate Infantil
   link_to: activities/karate_infantil.html
   klass: martial-art
   desc: Karate Infantil
-- image: images/activities/total_entreno.jpg
+- image: images/activities/total_entreno/activity.jpg
   title: Total Entreno
   link_to: activities/total_entreno.html
   klass: fitness
   desc: Total Entreno
-- image: images/activities/gimnasia.jpg
+- image: images/activities/gimnasia/activity.jpg
   title: Gimnasia de mantenimiento
   link_to: activities/gimnasia.html
   klass: fitness

@@ -14,7 +14,7 @@
     - name: Karate Kyokushin
       path: activities/karate_kyokushin.html
     - name: Boxeo
-      path: activities/boxing.html
+      path: activities/boxeo.html
     - name: MMA
       path: activities/mma.html
     - name: BJJ
