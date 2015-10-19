@@ -1,9 +1,129 @@
-- avatar: images/trainers/javier_izquierdo.jpg
+- image: images/trainers/javier_izquierdo.jpg
   name: Javier Izquierdo
-  position: Judo
+  activity: Judo
   socials:
-    - link: http://twitter.com
-      icon: twitter
+    - link: trainers/javier_izquierdo.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/wilson_ramos.jpg
+  name: Wilson Ramos
+  activity: BJJ
+  socials:
+    - link: trainers/wilson_ramos.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/alex_lutic.jpg
+  name: Alex Lutic
+  activity: K-1
+  socials:
+    - link: trainers/alex_lutic.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/laurent_scotto.jpg
+  name: Laurent Scotto
+  activity: Krav Maga
+  socials:
+    - link: trainers/laurent_scotto.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/yuro_pantiru.jpg
+  name: Yuro Pantiru
+  activity: Boxing
+  socials:
+    - link: trainers/yuro_pantiru.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/francisco_ferreira.jpg
+  name: Francisco Ferreira
+  activity: MMA
+  socials:
+    - link: trainers/francisco_ferreira.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/marco_navarro.jpg
+  name: Marco Navarro
+  activity: Aikido
+  socials:
+    - link: trainers/marco_navarro.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/roberto_barra.jpg
+  name: Roberto Barra
+  activity: Aikido
+  socials:
+    - link: trainers/roberto_barra.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/javier_sanchez.jpg
+  name: Javier Sánchez
+  activity: Karate Kyokushin
+  socials:
+    - link: trainers/javier_sanchez.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/jesus_baguena.jpg
+  name: Jesús Bagena
+  activity: Karate Kyokushin
+  socials:
+    - link: trainers/jesus_baguena.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/ivan_berned.jpg
+  name: Iván Berned
+  activity: Karate Kyokushin
+  socials:
+    - link: trainers/ivan_berned.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/antonio_pinero.jpg
+  name: Antonio Piñero
+  activity: Karate Kyokushin
+  socials:
+    - link: trainers/antonio_pinero.html
+      icon: file-text-o
+    - link: http://facebook.com
+      icon: facebook
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/trainers/hector_lahoz.jpg
+  name: Héctor Lahoz
+  activity: Karate Kyokushin
+  socials:
+    - link: trainers/hector_lahoz.html
+      icon: file-text-o
     - link: http://facebook.com
       icon: facebook
   desc:
