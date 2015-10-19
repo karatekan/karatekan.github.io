@@ -29,8 +29,10 @@
       path: activities/judo.html
     - name: Karate Infantil
       path: activities/karate_infantil.html
-    - name: Karate Infantil
-      path: activities/karate_infantil.html
+    - name: Total Entreno
+      path: activities/total_entreno.html
+    - name: Gimnasia de Mantenimiento
+      path: activities/gimnasia.html
 - name: Contacto
   path: contact.html
   section_id: contact

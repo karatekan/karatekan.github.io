@@ -17,7 +17,7 @@
     klass: bottom-to-top
     items:
       - text: Ver la actividad
-        link_to: kyokushin.html
+        link_to: activities/karate_kyokushin.html
 - bg: images/slide-3.jpg
   title:
     klass: bottom-to-top
