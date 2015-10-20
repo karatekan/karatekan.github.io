@@ -1,4 +1,6 @@
-<div class='full parallax' style='background-image: url(../{{activity.header}}); color: #fff;'>
+{% assign activity = (site.data.activities | where: "title", page.title | first) %}
+{% assign trainers = (site.data.trainers | where: "activity", page.title) %}
+<div class='full parallax' style='background-image:url(../images/activity_header.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title=activity.title tagline=activity.desc color="#fff" class="big" %}

@@ -8,9 +8,10 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/wilson_ramos.jpg
   name: Wilson Ramos
-  activity: BJJ
+  activity: Jiu Jitsu Brasileño (BJJ)
   socials:
     - link: trainers/wilson_ramos.html
       icon: file-text-o
@@ -18,6 +19,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/alex_lutic.jpg
   name: Alex Lutic
   activity: K-1
@@ -28,6 +30,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/laurent_scotto.jpg
   name: Laurent Scotto
   activity: Krav Maga
@@ -38,9 +41,10 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/yuro_pantiru.jpg
   name: Yuro Pantiru
-  activity: Boxing
+  activity: Boxeo
   socials:
     - link: trainers/yuro_pantiru.html
       icon: file-text-o
@@ -48,9 +52,10 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/francisco_ferreira.jpg
   name: Francisco Ferreira
-  activity: MMA
+  activity: Artes Marciales Mixtas (MMA)
   socials:
     - link: trainers/francisco_ferreira.html
       icon: file-text-o
@@ -58,6 +63,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/marco_navarro.jpg
   name: Marco Navarro
   activity: Aikido
@@ -68,6 +74,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/roberto_barra.jpg
   name: Roberto Barra
   activity: Aikido
@@ -78,6 +85,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/javier_sanchez.jpg
   name: Javier Sánchez
   activity: Karate Kyokushin
@@ -88,6 +96,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/jesus_baguena.jpg
   name: Jesús Baguena
   activity: Karate Kyokushin
@@ -98,6 +107,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/ivan_berned.jpg
   name: Iván Berned
   activity: Karate Kyokushin
@@ -108,6 +118,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/antonio_pinero.jpg
   name: Antonio Piñero
   activity: Karate Kyokushin
@@ -118,6 +129,7 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+
 - image: images/trainers/hector_lahoz.jpg
   name: Héctor Lahoz
   activity: Karate Kyokushin

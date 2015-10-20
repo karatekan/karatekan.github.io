@@ -1,0 +1,35 @@
+{% assign trainer = (site.data.trainers | where: "name", page.title | first) %}
+<div class='full parallax' style='background-image:url(../images/trainer_header.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title=trainer.name tagline=trainer.activity color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for slide in trainer.slides %}
+          <div class='slide'>
+            <img alt="" src="../{{slide.link}}" />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <h3>{{trainer.name}}</h3>
+      <p>
+      {{trainer.desc}}
+      </p>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
