@@ -1,0 +1,11 @@
+# Created by http://www.gitignore.io
+_site
+.sass-cache
+
+### vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
