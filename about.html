@@ -3,8 +3,8 @@ layout: default
 title: About
 section_id: about
 ---
-
-<div class='full parallax' style='background-image: url(images/@stock/about-us.jpg); color: #fff;'>
+{% assign about = (site.data.about | first) %}
+<div class='full parallax' style='background-image: url(images/about-us.jpg); color: #fff;'>
   <div class='row'>
     <div class='twelve columns'>
       {% include section-header.html title="Sobre Nosotros" color="#fff" tagline="Conoce nuestra historia" class="big" %}
@@ -17,7 +17,7 @@ section_id: about
   <div class='row'>
     <div class='large-12 columns'>
       <h3>Gimnasio Club Karate-Kan</h3>
-      <p>{{site.data.acout.content}}</p>
+      <p>{{about.content}}</p>
     </div>
   </div>
 </div>
@@ -42,7 +42,7 @@ section_id: about
         <div class='row'>
           <div class='small-12 columns'>
             <div class='items centered-text'>
-              {% for testimonial in site.data.about.testimonials %}
+              {% for testimonial in about.testimonials %}
                 <div class='item'>
                   <p class='quote'>"{{testimonial.quote}}"</p>
                   <p class='author'>- {{testimonial.author}}</p>
