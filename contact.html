@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Contact
+title: Contacto
 section_id: contact
 ---
-
+{% assign contact = (site.data.contact | first) %}
 <div class='full parallax' style='background-image: url(images/@stock/contact-header-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Contact Us" tagline="Drop by or send an email to us" color="#fff" class="big" %}
+      {% include section-header.html title="Contacta con nosotros" tagline="Para lo que necesites" color="#fff" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -21,7 +21,7 @@ section_id: contact
             <form id='contact_form' method='POST'>
               <div class='large-12 columns'>
                 <p id='thanks' style='display: none;'>
-                  Thanks for contacting us, we'll be in touch soon!
+                  Gracias por contactar con nosotros.
                 </p>
               </div>
               <div class='medium-12 columns'>
@@ -38,14 +38,20 @@ section_id: contact
       </div>
       <div class='medium-4 columns'>
         <div class='contact-details'>
-          <h4>Our location:</h4>
-          <p>41 Dean Street, London, UK</p>
-          <h4>Our Phone:</h4>
-          <p>+86 (03) 9810 4612</p>
-          <h4>Fax:</h4>
-          <p>+6102 236338 5456</p>
-          <h4>Our Email:</h4>
-          <p>info@devoll-team.com</p>
+          <h4>Dirección:</h4>
+          <p>{{contact.address}}</p>
+          <h4>Teléfono</h4>
+          <p>{{contact.phone}}</p>
+          <h4>Email:</h4>
+          <p>{{contact.email}}</p>
+          <h4>Horario:</h4>
+          {% for day in contact.open %}
+            <strong>{{day.days}}</strong>
+            <p>
+            {% if day.morning %} {{day.morning}} {% endif %}<br/>
+            {% if day.afternoon %} {{day.afternoon}} {% endif %}
+            </p>
+          {% endfor %}
         </div>
       </div>
     </div>

@@ -1,0 +1,9 @@
+- address: C/ San Antonio María Claret 36 - 38, Zaragoza
+  phone:  976 35 56 60
+  email: gimnasio@karatekan.es
+  open:
+    - days: "Lunes a Viernes:"
+      morning: "9:00h - 15:00h"
+      afternoon: "16:45h - 22:30h"
+    - days: "Sábado:"
+      morning:  "9:00h - 13:00h"
