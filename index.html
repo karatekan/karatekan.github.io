@@ -222,12 +222,16 @@ section_id: home
       <div class='small-6 medium-3 large-2 columns'>
         <div class='mod modTeamMember'>
           <div class='member'>
-            <img class="avatar" alt="{{ trainer.name }}" src="{{ trainer.image }}" />
+            <img class="avatar" alt="{{trainer.name}}" src="images/trainers/{{trainer.link}}.jpg" />
             <div class='overlay'>
               <div class='intro'>
                 <h3>{{trainer.name}}</h3>
                 <p>{{trainer.activity}}</p>
                 <ul class='socials'>
+                  <li>
+                    <a href='trainers/{{trainer.link}}.html'>
+                      <i class='fa fa-file-text-o'></i>
+                  </li>
                   {% for social in trainer.socials %}
                     <li>
                       <a href='{{social.link}}'>

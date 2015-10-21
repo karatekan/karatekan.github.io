@@ -1,6 +1,6 @@
 {% assign activity = (site.data.activities | where: "title", page.title | first) %}
 {% assign trainers = (site.data.trainers | where: "activity", page.title) %}
-<div class='full parallax' style='background-image:url(../images/activity_header.jpg); color: #fff;'>
+<div class='full parallax' style='background-image:url({{site.url}}/images/activity_header.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title=activity.title tagline=activity.desc color="#fff" class="big" %}
@@ -16,7 +16,7 @@
         <div class='slides'>
           {% for slide in activity.slides %}
           <div class='slide'>
-            <img alt="" src="../{{slide.link}}" />
+            <img alt="" src="{{site.url}}/{{slide.link}}" />
           </div>
           {% endfor %}
         </div>
@@ -39,12 +39,16 @@
             <div class='small-12 large-6 columns'>
               <div class='mod modTeamMember'>
                 <div class='member'>
-                  <img class="avatar" alt="{{ trainer.name }}" src="../{{ trainer.image }}" />
+                  <img class="avatar" alt="{{trainer.name}}" src="{{site.url}}/images/trainers/{{trainer.link}}.jpg" />
                   <div class='overlay'>
                     <div class='intro'>
                       <h3>{{trainer.name}}</h3>
                       <p>{{trainer.activity}}</p>
                       <ul class='socials'>
+                        <li>
+                          <a href='{{site.url}}/trainers/{{trainer.link}}.html'>
+                            <i class='fa fa-file-text-o'></i>
+                        </li>
                         {% for social in trainer.socials %}
                           <li>
                             <a href='{{social.link}}'>
