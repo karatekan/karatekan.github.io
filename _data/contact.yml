@@ -7,3 +7,12 @@
       afternoon: "16:45h - 22:30h"
     - days: "Sábado:"
       morning:  "9:00h - 13:00h"
+  socials:
+    - link: http://facebook.com/
+      icon: facebook
+    - link: http://twitter.com/
+      icon: twitter
+    - link: http://plus.google.com/
+      icon: google-plus
+    - link: http://youtube.com/
+      icon: youtube
