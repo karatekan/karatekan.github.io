@@ -6,7 +6,7 @@ layout: default
 <div class='full parallax' style='background-image: url({{site.url}}/images/@stock/blog-header-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our blog" tagline="Know what we are thinking and doing" color="#fff" class="big" %}
+      {% include section-header.html title="Nuestro blog" tagline="Entérate de nuestras noticias" color="#fff" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -23,21 +23,21 @@ layout: default
         <div class="pager">
           {% if paginator.next_page %}
             {% if paginator.next_page == 1 %}
-              <a href="/blog" class="older">Older Entries</a>
+              <a href="/blog" class="older">Noticias antiguas</a>
             {% else %}
-              <a href="/blog/page{{ paginator.next_page }}" class="older">Older Entries</a>
+              <a href="/blog/page{{paginator.next_page}}" class="older">Noticias antiguas</a>
             {% endif %}
           {% else %}
-            <span class="older">Older Entries</span>
+            <span class="older">Noticias antiguas</span>
           {% endif %}
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-              <a href="/blog" class="newer">Newer Entries</a>
+              <a href="/blog" class="newer">Noticias nuevas</a>
             {% else %}
-              <a href="/blog/page{{ paginator.previous_page }}" class="newer">Newer Entries</a>
+              <a href="/blog/page{{ paginator.previous_page }}" class="newer">Noticias nuevas</a>
             {% endif %}
           {% else %}
-            <span class="newer">Newer Entries</span>
+            <span class="newer">Noticias nuevas</span>
           {% endif %}
         </div>
       {% endif %}

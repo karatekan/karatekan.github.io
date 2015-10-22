@@ -30,18 +30,18 @@ section_id: home
         {% endif %}
 
         <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class='bg' style='background-image: url({{slide.bg}});'></div>
           <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2>{{ slide.small_title.text }}</h2>
+                <h2>{{slide.small_title.text}}</h2>
               </div>
             </div>
           </div>
           <div class='title {{ slide.title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2>{{ slide.title.text }}</h2>
+                <h2>{{slide.title.text}}</h2>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ section_id: home
               <div class='large-12 columns'>
                 <div class='two spacing'></div>
                 {% for button in slide.buttons.items %}
-                  <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                  <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{button.text}}</a>
                 {% endfor %}
               </div>
             </div>
@@ -88,7 +88,7 @@ section_id: home
             <a href="{{post.url}}"><img alt="{{post.title}}" src="{{image}}" /></a>
           {% endfor %}
           <div class='content'>
-            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+            <p class='date'>{{post.date | date: "%-d/%-m/%Y" }}</p>
             <h4><a href="#">{{post.title}}</a></h4>
             <p>{{post.excerpt}}</p>
             <!--
