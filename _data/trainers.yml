@@ -4,8 +4,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: wilson_ramos
   name: Wilson Ramos
@@ -13,8 +11,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: alex_lutic
   name: Alex Lutic
@@ -22,8 +18,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: laurent_scotto
   name: Laurent Scotto
@@ -31,8 +25,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: yuro_pantiru
   name: Yuro Pantiru
@@ -40,8 +32,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: francisco_ferreira
   name: Francisco Ferreira
@@ -49,8 +39,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: marco_navarro
   name: Marco Navarro
@@ -58,8 +46,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: roberto_barra
   name: Roberto Barra
@@ -67,8 +53,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: javier_sanchez
   name: Javier Sánchez
@@ -76,8 +60,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: jesus_baguena
   name: Jesús Baguena
@@ -85,8 +67,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: ivan_berned
   name: Iván Berned
@@ -94,8 +74,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: antonio_pinero
   name: Antonio Piñero
@@ -103,8 +81,6 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 
 - link: hector_lahoz
   name: Héctor Lahoz
@@ -112,5 +88,3 @@
   socials:
     - link: http://facebook.com
       icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.

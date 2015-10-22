@@ -2,13 +2,10 @@
   title: Karate Kyokushin
   link_to: activities/karate_kyokushin.html
   klass: martial-art
-  desc: Karate Kyokushin
   slides:
     - link: images/activities/karate_kyokushin/slide_1.jpg
     - link: images/activities/karate_kyokushin/slide_2.jpg
-  content:
-    Es una disciplina por la cual los Estudiantes puede encontrar los indicios para ayudarlos en su propia exploración espiritual y desarrollo personal. Abarca las consideraciones filosóficas de la vida y la muerte, la lucha y sobrevivencia.
-    Es una forma práctica de defensa personal, acentuando (en las etapas iniciales) golpes de pies, golpes de manos, bloqueos y movimientos del cuerpo. Es una actividad física intensa, que beneficia directamente nuestro estado mental.
+  desc: Karate Kyokushin
 
 - image: images/activities/boxeo/activity.jpg
   title: Boxeo
@@ -17,8 +14,6 @@
   slides:
     - link: images/activities/boxeo/slide_1.jpg
     - link: images/activities/boxeo/slide_2.jpg
-  content:
-    Lorem
   desc: Boxeo
 
 - image: images/activities/mma/activity.jpg
@@ -28,8 +23,6 @@
   slides:
     - link: images/activities/mma/slide_1.jpg
     - link: images/activities/mma/slide_2.jpg
-  content:
-    Lorem
   desc: Artes Marciales Mixtas (MMA)
 
 - image: images/activities/bjj/activity.jpg
@@ -40,8 +33,6 @@
   slides:
     - link: images/activities/bjj/slide_1.jpg
     - link: images/activities/bjj/slide_2.jpg
-  content:
-    Lorem
 
 - image: images/activities/k-1/activity.jpg
   title: K-1
@@ -51,8 +42,6 @@
   slides:
     - link: images/activities/k-1/slide_1.jpg
     - link: images/activities/k-1/slide_2.jpg
-  content:
-    Lorem
 
 - image: images/activities/krav_maga/activity.jpg
   title: Krav Maga
@@ -62,8 +51,6 @@
   slides:
     - link: images/activities/krav_maga/slide_1.jpg
     - link: images/activities/krav_maga/slide_2.jpg
-  content:
-    Lorem
 
 - image: images/activities/aikido/activity.jpg
   title: Aikido
@@ -73,8 +60,6 @@
   slides:
     - link: images/activities/aikido/slide_1.jpg
     - link: images/activities/aikido/slide_2.jpg
-  content:
-    Lorem
 
 - image: images/activities/judo/activity.jpg
   title: Judo
@@ -84,8 +69,6 @@
   slides:
     - link: images/activities/judo/slide_1.jpg
     - link: images/activities/judo/slide_2.jpg
-  content:
-    Lorem
 
 - image: images/activities/karate_infantil/activity.jpg
   title: Karate Infantil
@@ -95,8 +78,6 @@
   slides:
     - link: images/activities/karate_infantil/slide_1.jpg
     - link: images/activities/karate_infantil/slide_2.jpg
-  content:
-    Lorem
 
 - image: images/activities/total_entreno/activity.jpg
   title: Total Entreno
@@ -106,8 +87,6 @@
   slides:
     - link: images/activities/total_entreno/slide_1.jpg
     - link: images/activities/total_entreno/slide_2.jpg
-  content:
-    Lorem
 
 - image: images/activities/gimnasia/activity.jpg
   title: Gimnasia de mantenimiento
@@ -117,5 +96,3 @@
   slides:
     - link: images/activities/gimnasia/slide_1.jpg
     - link: images/activities/gimnasia/slide_2.jpg
-  content:
-    Lorem

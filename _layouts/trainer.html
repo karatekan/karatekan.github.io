@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 {% assign trainer = (site.data.trainers | where: "name", page.title | first) %}
 <div class='full parallax' style='background-image:url({{site.url}}/images/trainer_header.jpg); color: #fff;'>
   <div class='row'>
@@ -27,7 +32,7 @@
     <div class='large-8 columns'>
       <h3>{{trainer.name}}</h3>
       <p>
-      {{trainer.desc}}
+      {{content}}
       </p>
     </div>
   </div>
