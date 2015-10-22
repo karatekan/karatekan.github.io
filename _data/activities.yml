@@ -43,7 +43,7 @@
   content:
     Lorem
 
-- image: images/activities/k1/activity.jpg
+- image: images/activities/k-1/activity.jpg
   title: K-1
   link_to: activities/k-1.html
   klass: contact-sport
