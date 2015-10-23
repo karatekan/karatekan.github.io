@@ -4,7 +4,7 @@ layout: default
 
 
 {% assign trainer = (site.data.trainers | where: "name", page.title | first) %}
-<div class='full parallax' style='background-image:url({{site.url}}/images/trainer_header.jpg); color: #fff;'>
+<div class='full parallax' style='background-image:url({{site.url}}/images/trainer.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title=trainer.name tagline=trainer.activity color="#fff" class="big" %}
