@@ -5,7 +5,7 @@ section_id: about
 sitemap:
   priority: 0.8
 ---
-{% assign about = (site.data.about | first) %}
+{% assign about = site.data.about.first %}
 <div class='full parallax' style='background-image: url(images/about.jpg); color: #fff;'>
   <div class='row'>
     <div class='twelve columns'>
