@@ -813,8 +813,8 @@ ul.shortcode-list i {
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
 }
 .contain-to-grid .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
 }
 .contain-to-grid .top-bar-section ul li {
   background: transparent;
@@ -923,8 +923,8 @@ ul.shortcode-list i {
   top: 2.14286rem;
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area, .f-topbar-fixed.shrink .top-bar .title-area li, .f-topbar-fixed.shrink .top-bar .title-area a {
   height: 60px;
