@@ -89,10 +89,10 @@
     - link: images/activities/total_entreno/slide_2.jpg
 
 - image: images/activities/gimnasia/activity.jpg
-  title: Gimnasia de mantenimiento
+  title: Gimnasia de Mantenimiento
   link_to: activities/gimnasia.html
   klass: fitness
-  desc: Gimnasia de mantenimiento
+  desc: Gimnasia de Mantenimiento
   slides:
     - link: images/activities/gimnasia/slide_1.jpg
     - link: images/activities/gimnasia/slide_2.jpg
