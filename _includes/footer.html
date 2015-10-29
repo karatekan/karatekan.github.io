@@ -36,9 +36,15 @@
       <ul class='socials'>
         {% for social in contact.socials%}
         <li>
-          <a href='{{social.link}}'>
-            <i class='fa fa-{{social.icon}}'></i>
-          </a>
+          {% if social.icon == "google-plus" %}
+            <a href='{{social.link}}' rel='publisher'>
+              <i class='fa fa-{{social.icon}}'></i>
+            </a>
+          {% else  %}
+            <a href='{{social.link}}'>
+              <i class='fa fa-{{social.icon}}'></i>
+            </a>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>
