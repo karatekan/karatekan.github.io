@@ -12,7 +12,7 @@
   section_id: activities
   children:
     - name: Karate Kyokushin
-      path: activities/karate_kyokushin.html
+      path: activities/karate-kyokushin.html
     - name: Boxeo
       path: activities/boxeo.html
     - name: MMA
@@ -22,15 +22,15 @@
     - name: K-1
       path: activities/k-1.html
     - name: Krav Maga
-      path: activities/krav_maga.html
+      path: activities/krav-maga.html
     - name: Aikido
       path: activities/aikido.html
     - name: Judo
       path: activities/judo.html
     - name: Karate Infantil
-      path: activities/karate_infantil.html
+      path: activities/karate-infantil.html
     - name: Total Entreno
-      path: activities/total_entreno.html
+      path: activities/total-entreno.html
     - name: Gimnasia de Mantenimiento
       path: activities/gimnasia.html
 - name: Contacto
