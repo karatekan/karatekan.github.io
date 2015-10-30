@@ -1,0 +1,11 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
+User-Agent: *
+Disallow: /css/
+Disallow: /images/
+Disallow: /javascript/
+Disallow: /fonts/
+Sitemap: {{ "/sitemap.xml" | prepend: site.baseurl }}
