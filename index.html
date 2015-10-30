@@ -93,16 +93,6 @@ sitemap:
             <p class='date'>{{post.date | date: "%-d/%-m/%Y" }}</p>
             <h4><a href="{{post.url}}">{{post.title}}</a></h4>
             <p>{{post.excerpt}}</p>
-            <!--
-              <div class="tags">
-                {% for cat in post.categories %}
-                  <a href="#">{{cat | capitalize}}</a>
-                  {% unless forloop.last %}
-                    ,
-                  {% endunless %}
-                {% endfor %}
-              </div>
-            -->
           </div>
         </div>
       </div>
