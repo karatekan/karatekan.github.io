@@ -1,20 +1,18 @@
-left:
-  - icon: heart
-    title: Musculación / Fitness / Cardio
-    desc: "<p>Tenemos todo el material necesario para que puedas mejorar tu condición física (Cintas para correr, mancuernas, press de banca, máquinas...). Además, si quieres, podemos crearte una tabla con tu rutina personalizada.</p>"
-  - icon: cutlery
-    title: Dieta (Alimentación)
-    desc: "<p>Si quieres adelgazar, consejos para mejorar tu dieta, o ganar rendimiento en tus entrenamientos mediante la suplementación, podemos asesorarte.</p>"
-  - icon: user
-    title: Entrenador Personal
-    desc: "<p>Podemos proveerte de un control totalmente individual y personalizado de tu entrenamiento, para que consigas los mejores resultados en el menor tiempo posible.</p>"
-right:
-  - icon: caret-square-o-up
-    title: Plataforma Vibratoria
-    desc: "<p>Puedes hacer un entrenamiento centrado en ella, o incluirla en tu rutina para relajar los músculos después del entreno.</p><br />"
-  - icon: money
-    title: Tienda
-    desc: "<p>Podemos conseguir lo que necesites, ya sea merchandising del Club Karate-Kan o material para entrenar con nosotros (karategis, bucales, espinilleras, guantes...).</p>"
-  - icon: book
-    title: Biblioteca
-    desc: "<p>Si te gustaría conocer más a fondo nuestro arte Karate Kyokushin, en ella tenemos libros antiguos con los que podrás conocer las raices de nuestro karate y nuestros maestros.</p>"
+- icon: heart
+  title: Musculación / Fitness / Cardio
+  desc: "<p>Tenemos todo el material necesario para que puedas mejorar tu condición física (Cintas para correr, mancuernas, press de banca, máquinas...). Además, si quieres, podemos crearte una tabla con tu rutina personalizada.</p>"
+- icon: cutlery
+  title: Dieta (Alimentación)
+  desc: "<p>Si quieres adelgazar, consejos para mejorar tu dieta, o ganar rendimiento en tus entrenamientos mediante la suplementación, podemos asesorarte.</p>"
+- icon: user
+  title: Entrenador Personal
+  desc: "<p>Podemos proveerte de un control totalmente individual y personalizado de tu entrenamiento, para que consigas los mejores resultados en el menor tiempo posible.</p>"
+- icon: caret-square-o-up
+  title: Plataforma Vibratoria
+  desc: "<p>Puedes hacer un entrenamiento centrado en ella, o incluirla en tu rutina para relajar los músculos después del entreno.</p><br />"
+- icon: money
+  title: Tienda
+  desc: "<p>Podemos conseguir lo que necesites, ya sea merchandising del Club Karate-Kan o material para entrenar con nosotros (karategis, bucales, espinilleras, guantes...).</p>"
+- icon: book
+  title: Biblioteca
+  desc: "<p>Si te gustaría conocer más a fondo nuestro arte Karate Kyokushin, en ella tenemos libros antiguos con los que podrás conocer las raices de nuestro karate y nuestros maestros.</p>"
