@@ -3317,6 +3317,7 @@ body {
 .modTeamMember .overlay p {
   font-style: italic;
   margin-bottom: 30px;
+  color: #999;
 }
 .modTeamMember .member:hover .overlay {
   opacity: 1;
@@ -3619,6 +3620,7 @@ body {
   }
   .modTeamMember .overlay p {
     margin-bottom: 10px;
+    color: #999;
   }
   .modTeamMember ul i {
     width: 24px;
