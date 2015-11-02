@@ -40,9 +40,9 @@ layout: default
       {% else %}
       <h4>Maestro</h4>
       {% endif %}
+        <ul class='large-block-grid-1 columns'>
         {% for trainer in trainers %}
-        <div class='small-12 large-12 columns'>
-          <div class='mod modTeamMember'>
+          <li class='mod modTeamMember'>
             <div class='member'>
               <img class="avatar" alt="{{trainer.name}}" src="{{site.url}}/images/trainers/{{trainer.link}}.jpg" />
               <div class='overlay'>
@@ -66,10 +66,9 @@ layout: default
                 </div>
               </div>
             </div>
-            <div class='two spacing'></div>
-          </div>
-        </div>
-      {% endfor %}
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
   <div class='four spacing'></div>

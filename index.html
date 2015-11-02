@@ -183,9 +183,9 @@ sitemap:
     </div>
   </div>
   <div class='row'>
-    {% for trainer in site.data.trainers %}
-      <div class='small-6 medium-3 large-2 columns'>
-        <div class='mod modTeamMember'>
+    <ul class='small-block-grid-2 medium-block-grid-3 large-block-grid-5 columns'>
+      {% for trainer in site.data.trainers %}
+        <li class='mod modTeamMember'>
           <div class='member'>
             <img class="avatar" alt="{{trainer.name}}" src="images/trainers/{{trainer.link}}.jpg" />
             <div class='overlay'>
@@ -210,8 +210,8 @@ sitemap:
             </div>
           </div>
           <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
