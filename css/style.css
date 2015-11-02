@@ -2529,13 +2529,23 @@ form input.error, form textarea.error {
   font-weight: bold;
   margin-bottom: 40px;
   text-transform: uppercase;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 .modDefaultSlider .sequence .small-title h2 {
-  font-size: 1.28571rem;
+  font-size: 1.48571rem;
   font-weight: normal;
   color: #fff;
   letter-spacing: 2px;
   margin-bottom: 5px;
+  text-shadow:
+    -0.25px -0.25px 0 #000,
+    0.25px -0.25px 0 #000,
+    -0.25px 0.25px 0 #000,
+    0.25px 0.25px 0 #000;
 }
 .modDefaultSlider .sequence .right {
   text-align: right;
