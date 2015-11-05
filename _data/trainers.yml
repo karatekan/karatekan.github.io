@@ -1,7 +1,35 @@
+- link: hector-lahoz
+  name: Héctor Lahoz
+  activity: Karate Kyokushin
+  socials:
+    - link: https://www.facebook.com/ector.troya
+      icon: facebook
+
+- link: javier-sanchez
+  name: Javier Sánchez
+  activity: Karate Kyokushin
+  socials:
+    - link: https://www.facebook.com/ShihanJavier
+      icon: facebook
+
+- link: yuro-pantiru
+  name: Yuro Pantiru
+  activity: Boxeo
+  socials:
+    - link: https://www.facebook.com/profile.php?id=100006402166586
+      icon: facebook
+
 - link: javier-izquierdo
   name: Javier Izquierdo
   activity: Judo
   socials:
+
+- link: laurent-scotto
+  name: Laurent Scotto
+  activity: Krav Maga
+  socials:
+    - link: https://www.facebook.com/kravmagazaragoza.fekm.5
+      icon: facebook
 
 - link: wilson-ramos
   name: Wilson Ramos
@@ -15,20 +43,6 @@
   activity: K-1
   socials:
     - link: https://www.facebook.com/alexLutic1
-      icon: facebook
-
-- link: laurent-scotto
-  name: Laurent Scotto
-  activity: Krav Maga
-  socials:
-    - link: https://www.facebook.com/kravmagazaragoza.fekm.5
-      icon: facebook
-
-- link: yuro-pantiru
-  name: Yuro Pantiru
-  activity: Boxeo
-  socials:
-    - link: https://www.facebook.com/profile.php?id=100006402166586
       icon: facebook
 
 - link: francisco-ferreira
@@ -52,33 +66,14 @@
     - link: https://www.facebook.com/aikinomada.aikinomada
       icon: facebook
 
-- link: javier-sanchez
-  name: Javier Sánchez
+- link: antonio-pinero
+  name: Antonio Piñero
   activity: Karate Kyokushin
   socials:
-    - link: https://www.facebook.com/ShihanJavier
-      icon: facebook
 
 - link: jesus-baguena
   name: Jesús Baguena
   activity: Karate Kyokushin
   socials:
     - link: https://www.facebook.com/moterojesus
-      icon: facebook
-
-- link: ivan-berned
-  name: Iván Berned
-  activity: Karate Kyokushin
-  socials:
-
-- link: antonio-pinero
-  name: Antonio Piñero
-  activity: Karate Kyokushin
-  socials:
-
-- link: hector-lahoz
-  name: Héctor Lahoz
-  activity: Karate Kyokushin
-  socials:
-    - link: https://www.facebook.com/ector.troya
       icon: facebook
