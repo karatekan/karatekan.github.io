@@ -1,6 +1,6 @@
 {% for service in site.data.services %}
-{% cycle 'startrow': '<div class="row">', '' %}
-  <div class='medium-6 columns'>
+{% cycle 'startrow': '<div class="large-12 columns">', '' %}
+  <div class='small-12 medium-6 large-6 columns'>
     <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
       <div class='icon-text-simple'>
         <i class='fa fa-{{service.icon}}'></i>
