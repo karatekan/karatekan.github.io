@@ -1,72 +1,88 @@
 - link: hector-lahoz
   name: Héctor Lahoz
-  activity: Karate Kyokushin
+  activities:
+    - Karate Kyokushin
+    - Karate Infantil
   socials:
     - link: https://www.facebook.com/ector.troya
       icon: facebook
 
 - link: javier-sanchez
   name: Javier Sánchez
-  activity: Karate Kyokushin
+  activities:
+    - Karate Kyokushin
+    - Gimnasia de Mantenimiento
   socials:
     - link: https://www.facebook.com/ShihanJavier
       icon: facebook
 
 - link: yuro-pantiru
   name: Yuro Pantiru
-  activity: Boxeo
+  activities:
+    - Boxeo
+    - Artes Marciales Mixtas (MMA)
   socials:
     - link: https://www.facebook.com/profile.php?id=100006402166586
       icon: facebook
 
 - link: javier-izquierdo
   name: Javier Izquierdo
-  activity: Judo
+  activities:
+    - Judo
   socials:
 
 - link: laurent-scotto
   name: Laurent Scotto
-  activity: Krav Maga
+  activities:
+    - Krav Maga
   socials:
     - link: https://www.facebook.com/kravmagazaragoza.fekm.5
       icon: facebook
 
 - link: wilson-ramos
   name: Wilson Ramos
-  activity: Jiu Jitsu Brasileño (BJJ)
+  activities:
+    - Jiu Jitsu Brasileño (BJJ)
+    - Artes Marciales Mixtas (MMA)
   socials:
     - link: https://www.facebook.com/wilson.ramos.71216
       icon: facebook
 
 - link: alex-lutic
   name: Álex Lutic
-  activity: K-1
+  activities:
+    - K-1
+    - Artes Marciales Mixtas (MMA)
   socials:
     - link: https://www.facebook.com/alexLutic1
       icon: facebook
 
 - link: marco-navarro
   name: Marco Navarro
-  activity: Aikido
+  activities:
+    - Aikido
   socials:
     - link: https://www.facebook.com/marcoantonio.navarroramillete
       icon: facebook
 
 - link: roberto-barra
   name: Roberto Barra
-  activity: Aikido
+  activities:
+    - Aikido
   socials:
     - link: https://www.facebook.com/aikinomada.aikinomada
       icon: facebook
 
 - link: antonio-pinero
   name: Antonio Piñero
-  activity: Karate Kyokushin
+  activities:
+    - Karate Kyokushin
   socials:
 
 - link: jesus-baguena
   name: Jesús Baguena
-  activity: Karate Kyokushin
+  activities:
+    - Karate Kyokushin
   socials:
     - link: https://www.facebook.com/moterojesus
       icon: facebook

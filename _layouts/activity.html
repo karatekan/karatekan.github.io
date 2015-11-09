@@ -2,7 +2,12 @@
 layout: default
 ---
 {% assign activity = site.data.activities | where: "title", page.title | first %}
-{% assign trainers = site.data.trainers | where: "activity", page.title %}
+{% assign trainers = "" | split: "/" %}
+{% for trainer in site.data.trainers %}
+  {% if trainer.activities contains page.title %}
+    {% assign trainers = trainers | push: trainer %}
+  {% endif %}
+{% endfor %}
 <div class='full parallax' style='background-image:url({{site.url}}/images/activity.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -36,9 +41,9 @@ layout: default
     </div>
     <div class='large-4 columns'>
       {% if trainers.size > 1 %}
-      <h4>Maestros</h4>
+      <h4>Profesores</h4>
       {% else %}
-      <h4>Maestro</h4>
+      <h4>Profesor</h4>
       {% endif %}
         <ul class='large-block-grid-1 columns'>
         {% for trainer in trainers %}
@@ -48,7 +53,7 @@ layout: default
               <div class='overlay'>
                 <div class='intro'>
                   <h3>{{trainer.name}}</h3>
-                  <p>{{trainer.activity}}</p>
+                  <p>{{activity.title}}</p>
                   <ul class='socials'>
                     <li>
                       <a href='{{site.url}}/trainers/{{trainer.link}}.html'>
