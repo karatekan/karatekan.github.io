@@ -18,7 +18,7 @@ layout: default
         <div class='slides'>
           {% for slide in trainer.slides %}
           <div class='slide'>
-            <img alt="" src="{{site.url}}/{{slide.link}}" />
+            <img alt="{{trainer.name}}" src="{{site.url}}/{{slide.link}}" />
           </div>
           {% endfor %}
         </div>

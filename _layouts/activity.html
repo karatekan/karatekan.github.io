@@ -24,7 +24,7 @@ layout: default
         <div class='slides'>
           {% for slide in activity.slides %}
           <div class='slide'>
-            <img alt="" src="{{site.url}}/{{slide.link}}" />
+            <img alt="{{activity.title}}" src="{{site.url}}/{{slide.link}}" />
           </div>
           {% endfor %}
         </div>
