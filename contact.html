@@ -45,7 +45,7 @@ sitemap:
           <h4>Teléfono</h4>
           <p>{{contact.phone}}</p>
           <h4>Email:</h4>
-          <p>{{contact.email}}</p>
+          <p><a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
           <h4>Horario:</h4>
           {% for day in contact.open %}
             <strong>{{day.days}}</strong>
