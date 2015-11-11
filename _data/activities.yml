@@ -5,7 +5,7 @@
   slides:
     - link: images/activities/karate-kyokushin/slide-1.jpg
     - link: images/activities/karate-kyokushin/slide-2.jpg
-  desc: Karate Kyokushin
+  desc: Dureza y disciplina. Combate con contacto pleno.
 
 - image: images/activities/boxeo/activity.jpg
   title: Boxeo
@@ -14,7 +14,7 @@
   slides:
     - link: images/activities/boxeo/slide-1.jpg
     - link: images/activities/boxeo/slide-2.jpg
-  desc: Boxeo
+  desc: Dominio de los puños en el combate.
 
 - image: images/activities/mma/activity.jpg
   title: Artes Marciales Mixtas (MMA)
@@ -23,76 +23,76 @@
   slides:
     - link: images/activities/mma/slide-1.jpg
     - link: images/activities/mma/slide-2.jpg
-  desc: Artes Marciales Mixtas (MMA)
+  desc: Técnicas de combate de pie y suelo.
 
 - image: images/activities/bjj/activity.jpg
   title: Jiu Jitsu Brasileño (BJJ)
   link_to: activities/bjj.html
   klass: martial-art
-  desc: Jiu Jitsu Brasileño
   slides:
     - link: images/activities/bjj/slide-1.jpg
     - link: images/activities/bjj/slide-2.jpg
+  desc: Lucha cuerpo a cuerpo en el suelo.
 
 - image: images/activities/k-1/activity.jpg
   title: K-1
   link_to: activities/k-1.html
   klass: contact-sport
-  desc: K-1
   slides:
     - link: images/activities/k-1/slide-1.jpg
     - link: images/activities/k-1/slide-2.jpg
+  desc: Técnicas de combate de puño y pierna.
 
 - image: images/activities/krav-maga/activity.jpg
   title: Krav Maga
   link_to: activities/krav-maga.html
   klass: contact-sport
-  desc: Krav Maga
   slides:
     - link: images/activities/krav-maga/slide-1.jpg
     - link: images/activities/krav-maga/slide-2.jpg
+  desc: Defensa personal usada por FBI, GIGN, etc.
 
 - image: images/activities/aikido/activity.jpg
   title: Aikido
   link_to: activities/aikido.html
   klass: martial-art
-  desc: Aikido
   slides:
     - link: images/activities/aikido/slide-1.jpg
     - link: images/activities/aikido/slide-2.jpg
+  desc: Neutralización del adversario sin dañarlo
 
 - image: images/activities/judo/activity.jpg
   title: Judo
   link_to: activities/judo.html
   klass: martial-art
-  desc: Judo
   slides:
     - link: images/activities/judo/slide-1.jpg
     - link: images/activities/judo/slide-2.jpg
+  desc: Recomendado por la OMS y UNESCO
 
 - image: images/activities/karate-infantil/activity.jpg
   title: Karate Infantil
   link_to: activities/karate-infantil.html
   klass: martial-art
-  desc: Karate Infantil
   slides:
     - link: images/activities/karate-infantil/slide-1.jpg
     - link: images/activities/karate-infantil/slide-2.jpg
+  desc: Desarrollo físico y personal de los niños
 
 - image: images/activities/total-entreno/activity.jpg
   title: Total Entreno
   link_to: activities/total-entreno.html
   klass: fitness
-  desc: Total Entreno
   slides:
     - link: images/activities/total-entreno/slide-1.jpg
     - link: images/activities/total-entreno/slide-2.jpg
+  desc: Fitness de alto rendimiento.
 
 - image: images/activities/gimnasia/activity.jpg
   title: Gimnasia de Mantenimiento
   link_to: activities/gimnasia.html
   klass: fitness
-  desc: Gimnasia de Mantenimiento
   slides:
     - link: images/activities/gimnasia/slide-1.jpg
     - link: images/activities/gimnasia/slide-2.jpg
+  desc: Mejora tu físico, salud y bienestar.
