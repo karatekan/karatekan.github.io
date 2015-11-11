@@ -28,7 +28,7 @@
 - image: images/activities/bjj/activity.jpg
   title: Jiu Jitsu Brasileño (BJJ)
   link_to: activities/bjj.html
-  klass: contact-sport
+  klass: martial-art
   desc: Jiu Jitsu Brasileño
   slides:
     - link: images/activities/bjj/slide-1.jpg
