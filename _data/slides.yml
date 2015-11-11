@@ -9,6 +9,13 @@
   klass: centered-text
   small_title:
     klass: bottom-to-top
+    text: Boxeo, Judo, Aikido, Krav Maga, K-1, MMA, BJJ...
+  title:
+    klass: bottom-to-top
+    text: ¡Mucho más que Karate!
+- bg: images/slide-3.jpg
+  small_title:
+    klass: bottom-to-top
     text: Pioneros en
   title:
     klass: bottom-to-top
@@ -18,10 +25,3 @@
     items:
       - text: Ver la actividad
         link_to: activities/karate-kyokushin.html
-- bg: images/slide-3.jpg
-  title:
-    klass: bottom-to-top
-    text: ¡Mucho más que Karate!
-  small_title:
-    klass: bottom-to-top
-    text: Boxeo, Judo, Aikido, Krav Maga, K-1, MMA, BJJ...
