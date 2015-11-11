@@ -1071,10 +1071,10 @@ form input.error, form textarea.error {
   color: #F9CE06;
 }
 .pager .older {
-  float: left;
+  float: right;
 }
 .pager .newer {
-  float: right;
+  float: left;
 }
 
 /*Blog comments */
