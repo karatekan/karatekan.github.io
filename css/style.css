@@ -670,6 +670,15 @@ hr {
   background-attachment: fixed;
 }
 
+.parallax .modSectionHeader .special-title h2 {
+    color: #fff;
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
 ul.shortcode-list {
   list-style: none;
   margin: 0 0 20px;
@@ -2537,15 +2546,14 @@ form input.error, form textarea.error {
 }
 .modDefaultSlider .sequence .small-title h2 {
   font-size: 1.48571rem;
-  font-weight: normal;
   color: #fff;
   letter-spacing: 2px;
   margin-bottom: 5px;
   text-shadow:
-    -0.25px -0.25px 0 #000,
-    0.25px -0.25px 0 #000,
-    -0.25px 0.25px 0 #000,
-    0.25px 0.25px 0 #000;
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 .modDefaultSlider .sequence .right {
   text-align: right;
@@ -3266,9 +3274,20 @@ body {
 
 .modSectionHeader.big h2 {
   font-size: 4rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
 }
 .modSectionHeader.big h3 {
-  font-weight: normal;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
   letter-spacing: 3px;
 }
 
