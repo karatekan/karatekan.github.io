@@ -1145,8 +1145,9 @@ form input.error, form textarea.error {
   list-style: none;
   line-height: 1.875rem;
 }
-#footer ul a {
+#footer a {
   color: #999;
+  text-decoration: underline;
 }
 #footer ul a:hover {
   color: #eee;
@@ -1181,10 +1182,9 @@ form input.error, form textarea.error {
   background: #eee;
 }
 
-#footer.fullwidth p.copyright {
+#footer p.copyright {
   padding-left: 30px;
-  float: left;
-  font-size: 1.28571rem;
+  text-align: center;
 }
 #footer.fullwidth ul.socials {
   text-align: right;

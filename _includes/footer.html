@@ -1,18 +1,13 @@
 {% assign contact = site.data.contact.first %}
 <div id='footer'>
-  <div class='three spacing'></div>
+  <div class='two spacing'></div>
   <div class='row'>
     <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
         <a href='index.html'>
           <img alt="{{site.title}}" src="{{site.url}}/images/footer.png" />
         </a>
-      <p>
-        ©{{ site.time | date: '%Y'}} Club Karate Kan
-        <br/>
-        Crafted by Nacho García
-      </p>
-      <div class='spacing'></div>
+    <div class='spacing'></div>
     </div>
     <div class='large-6 medium-6 columns'>
       <div class='spacing'></div>
@@ -49,7 +44,10 @@
       <div class='spacing'></div>
     </div>
   </div>
-  <div class='two spacing'></div>
+  <div class='fullwidth'>
+    <p class="copyright">©{{ site.time | date: '%Y'}} Club Karate Kan - Crafted with &hearts; by Nacho García</p>
+  </div>
+  <div class='spacing'></div>
 </div>
 <script src="{{ "/javascripts/jquery.countTo.js" | prepend: site.baseurl }}" type="text/javascript"></script>
 <script src="{{ "/javascripts/jquery.appear.js" | prepend: site.baseurl }}" type="text/javascript"></script>
