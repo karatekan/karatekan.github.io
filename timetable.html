@@ -161,31 +161,30 @@ timetable:
   <div class='row'>
     <div class='large-12 columns'>
       <h3>Horario</h3>
+      <table>
+      <tr>
+        <th>Horas</th>
+        {% for day in page.timetable %}
+        <th>{{day.name}}</th>
+        {% endfor %}
+      </tr>
+      {% for hour in page.hours %}
+        <tr>
+          <th>{{hour.start}}<br />
+            {{hour.end}}</th>
+          {% for day in page.timetable %}
+          <td>
+            {% for activity in day.activities %}
+              {% if activity.start < hour.end and activity.start >= hour.start %}
+              {{activity.title}}<br />
+              {{activity.subtitle}}
+              {% endif %}
+            {% endfor %}
+          </td>
+        {% endfor %}
+        </tr>
+      {% endfor %}
+      </table>
     </div>
   </div>
 </div>
-
-<table>
-  <tr>
-    <th>Horas</th>
-    {% for day in page.timetable %}
-    <th>{{day.name}}</th>
-    {% endfor %}
-  </tr>
-  {% for hour in page.hours %}
-    <tr>
-      <th>{{hour.start}}<br />
-        {{hour.end}}</th>
-      {% for day in page.timetable %}
-      <td>
-        {% for activity in day.activities %}
-          {% if activity.start < hour.end and activity.start >= hour.start %}
-          {{activity.title}}<br />
-          {{activity.subtitle}}
-          {% endif %}
-        {% endfor %}
-      </td>
-    {% endfor %}
-    </tr>
-  {% endfor %}
-</table>
