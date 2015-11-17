@@ -4,6 +4,149 @@ title: Horario
 section_id: timetable
 sitemap:
   priority: 0.6
+hours:
+  - start: "08:00"
+    end: "09:30"
+  - start: "09:30"
+    end: "10:30"
+  - start: "10:30"
+    end: "12:00"
+  - start: "13:15"
+    end: "14:30"
+  - start: "17:45"
+    end: "18:45"
+  - start: "18:45"
+    end: "20:00"
+  - start: "20:00"
+    end: "21:15"
+  - start: "21:15"
+    end: "22:30"
+timetable:
+  - name: Lunes
+    activities:
+      - title: Gimnasia de Mantenimiento
+        start: "09:30"
+        end: "10:30"
+      - title: Brazilian Jiu Jitsu
+        start: "10:30"
+        end: "12:00"
+      - title: Karate Kyokushin
+        start: "13:15"
+        end: "14:30"
+      - title: Karate Infantil
+        subtitle: "Menos de 5 años"
+        start: "17:45"
+        end: "18:45"
+      - title: Karate Kyokushin
+        start: "18:45"
+        end: "20:00"
+      - title: Krav Maga
+        start: "20:00"
+        end: "21:15"
+      - title: Artes Marciales Mixtas (MMA)
+        start: "21:15"
+        end: "22:30"
+  - name: Martes
+    activities:
+      - title: Aikido
+        start: "08:00"
+        end: "09:30"
+      - title: K-1
+        start: "10:30"
+        end: "12:00"
+      - title: Krav Maga
+        start:
+        end:
+      - title: Karate Infantil
+        subtitle: Entre 5 y 12 años
+        start: "17:45"
+        end: "18:45"
+      - title: K-1
+        start: "18:45"
+        end: "20:00"
+      - title: Judo
+        start: "20:00"
+        end: "21:15"
+      - title: Aikido
+        start: "21:15"
+        end: "22:30"
+      - title: Jiu Jitsu Brasileño
+        start: "18:45"
+        end: "20:00"
+  - name: Miércoles
+    activities:
+      - title: Gimnasia de Mantenimiento
+        start: "09:30"
+        end: "10:30"
+      - title: Brazilian Jiu Jitsu
+        start: "10:30"
+        end: "12:00"
+      - title: Karate Kyokushin
+        start: "13:15"
+        end: "14:30"
+      - title: Karate Infantil
+        subtitle: "Entre 12 y 16 años"
+        start: "17:45"
+        end: "18:45"
+      - title: Karate Kyokushin
+        start: "18:45"
+        end: "20:00"
+      - title: Krav Maga
+        start: "20:00"
+        end: "21:15"
+      - title: Artes Marciales Mixtas (MMA)
+        start: "21:15"
+        end: "22:30"
+  - name: Jueves
+    activities:
+      - title: Aikido
+        start: "08:00"
+        end: "09:30"
+      - title: K-1
+        start: "10:30"
+        end: "12:00"
+      - title: Krav Maga
+        start:
+        end:
+      - title: Karate Infantil
+        subtitle: Entre 5 y 12 años
+        start: "17:45"
+        end: "18:45"
+      - title: K-1
+        start: "18:45"
+        end: "20:00"
+      - title: Judo
+        start: "20:00"
+        end: "21:15"
+      - title: Aikido
+        start: "21:15"
+        end: "22:30"
+      - title: Jiu Jitsu Brasileño
+        start: "18:45"
+        end: "20:00"
+  - name: Viernes
+    activities:
+      - title: Gimnasia de Mantenimiento
+        start: "09:30"
+        end: "10:30"
+      - title: Brazilian Jiu Jitsu
+        start: "10:30"
+        end: "12:00"
+      - title: Karate Kyokushin
+        start: "13:15"
+        end: "14:30"
+      - title: Karate Kyokushin
+        start: "18:45"
+        end: "20:00"
+      - title: Judo
+        start: "20:00"
+        end: "21:15"
+      - title: K-1
+        start: "20:00"
+        end: "21:15"
+      - title: Artes Marciales Mixtas (MMA)
+        start: "21:15"
+        end: "22:30"
 ---
 <div class='full parallax' style='background-image: url(images/timetable.jpg); color: #fff;'>
   <div class='row'>
@@ -22,3 +165,27 @@ sitemap:
   </div>
 </div>
 
+<table>
+  <tr>
+    <th>Horas</th>
+    {% for day in page.timetable %}
+    <th>{{day.name}}</th>
+    {% endfor %}
+  </tr>
+  {% for hour in page.hours %}
+    <tr>
+      <th>{{hour.start}}<br />
+        {{hour.end}}</th>
+      {% for day in page.timetable %}
+      <td>
+        {% for activity in day.activities %}
+          {% if activity.start < hour.end and activity.start >= hour.start %}
+          {{activity.title}}<br />
+          {{activity.subtitle}}
+          {% endif %}
+        {% endfor %}
+      </td>
+    {% endfor %}
+    </tr>
+  {% endfor %}
+</table>
