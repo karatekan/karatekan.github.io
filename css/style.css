@@ -1031,6 +1031,30 @@ ul.info i:hover {
   color: #fff;
 }
 
+/* Timetable */
+.timetable table {
+  width: 100%;
+}
+.timetable th {
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+}
+.timetable td {
+  text-align: center;
+  vertical-align: middle;
+}
+.timetable span.title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.timetable span.subtitle {
+  font-size: 0.85714rem;
+}
+.timetable hr {
+  margin: 1.3rem 0 1.1rem;
+}
+
 /*Contact page */
 .contact-details h4 {
   margin-bottom: 5px;

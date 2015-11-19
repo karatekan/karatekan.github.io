@@ -27,126 +27,163 @@ timetable:
       - title: Gimnasia de Mantenimiento
         start: "09:30"
         end: "10:30"
+        color: Orchid
       - title: Brazilian Jiu Jitsu
         start: "10:30"
         end: "12:00"
+        color: Gold
       - title: Karate Kyokushin
         start: "13:15"
         end: "14:30"
+        color: Red
       - title: Karate Infantil
         subtitle: "Menos de 5 años"
         start: "17:45"
         end: "18:45"
+        color: Chocolate
       - title: Karate Kyokushin
         start: "18:45"
         end: "20:00"
+        color: Red
       - title: Krav Maga
         start: "20:00"
         end: "21:15"
+        color: Purple
       - title: Artes Marciales Mixtas (MMA)
         start: "21:15"
         end: "22:30"
+        color: Grey
   - name: Martes
     activities:
       - title: Aikido
         start: "08:00"
         end: "09:30"
+        color: Green
       - title: K-1
         start: "10:30"
         end: "12:00"
+        color: DarkBlue
       - title: Krav Maga
-        start:
-        end:
+        start: "11:00"
+        end:  "12:30"
+        color: Purple
       - title: Karate Infantil
         subtitle: Entre 5 y 12 años
         start: "17:45"
         end: "18:45"
+        color: Sienna
       - title: K-1
         start: "18:45"
         end: "20:00"
+        color: DarkBlue
       - title: Judo
         start: "20:00"
         end: "21:15"
+        color: Blue
       - title: Aikido
         start: "21:15"
         end: "22:30"
+        color: Green
       - title: Jiu Jitsu Brasileño
         start: "18:45"
         end: "20:00"
+        color: Gold
   - name: Miércoles
     activities:
       - title: Gimnasia de Mantenimiento
         start: "09:30"
         end: "10:30"
+        color: Orchid
       - title: Brazilian Jiu Jitsu
         start: "10:30"
         end: "12:00"
+        color: Gold
       - title: Karate Kyokushin
         start: "13:15"
         end: "14:30"
+        color: Red
       - title: Karate Infantil
         subtitle: "Entre 12 y 16 años"
         start: "17:45"
         end: "18:45"
+        color: Brown
       - title: Karate Kyokushin
         start: "18:45"
         end: "20:00"
+        color: Red
       - title: Krav Maga
         start: "20:00"
         end: "21:15"
+        color: Purple
       - title: Artes Marciales Mixtas (MMA)
         start: "21:15"
         end: "22:30"
+        color: Grey
   - name: Jueves
     activities:
       - title: Aikido
         start: "08:00"
         end: "09:30"
+        color: Green
       - title: K-1
         start: "10:30"
         end: "12:00"
+        color: DarkBlue
       - title: Krav Maga
-        start:
-        end:
+        start: "11:00"
+        end: "12:30"
+        color: Purple
       - title: Karate Infantil
         subtitle: Entre 5 y 12 años
         start: "17:45"
         end: "18:45"
+        color: Sienna
       - title: K-1
         start: "18:45"
         end: "20:00"
+        color: DarkBlue
       - title: Judo
         start: "20:00"
         end: "21:15"
+        color: Blue
       - title: Aikido
         start: "21:15"
         end: "22:30"
+        color: Green
       - title: Jiu Jitsu Brasileño
         start: "18:45"
         end: "20:00"
+        color: Gold
   - name: Viernes
     activities:
       - title: Gimnasia de Mantenimiento
         start: "09:30"
         end: "10:30"
+        color: Orchid
       - title: Brazilian Jiu Jitsu
         start: "10:30"
         end: "12:00"
+        color: Gold
       - title: Karate Kyokushin
         start: "13:15"
         end: "14:30"
+        color: Red
       - title: Karate Kyokushin
         start: "18:45"
         end: "20:00"
+        color: Red
       - title: Judo
         start: "20:00"
         end: "21:15"
+        color: Blue
       - title: K-1
         start: "20:00"
         end: "21:15"
+        color: DarkBlue
       - title: Artes Marciales Mixtas (MMA)
         start: "21:15"
         end: "22:30"
+        color: Grey
 ---
 <div class='full parallax' style='background-image: url(images/timetable.jpg); color: #fff;'>
   <div class='row'>
@@ -161,30 +198,34 @@ timetable:
   <div class='row'>
     <div class='large-12 columns'>
       <h3>Horario</h3>
-      <table>
-      <tr>
-        <th>Horas</th>
-        {% for day in page.timetable %}
-        <th>{{day.name}}</th>
-        {% endfor %}
-      </tr>
-      {% for hour in page.hours %}
-        <tr>
-          <th>{{hour.start}}<br />
-            {{hour.end}}</th>
-          {% for day in page.timetable %}
-          <td>
-            {% for activity in day.activities %}
-              {% if activity.start < hour.end and activity.start >= hour.start %}
-              {{activity.title}}<br />
-              {{activity.subtitle}}
-              {% endif %}
+      <div class='timetable'>
+        <table>
+          <tr>
+            <th>Horas</th>
+            {% for day in page.timetable %}
+            <th>{{day.name}}</th>
             {% endfor %}
-          </td>
+          </tr>
+        {% for hour in page.hours %}
+          <tr>
+            <th>{{hour.start}}<br />
+              {{hour.end}}</th>
+            {% for day in page.timetable %}
+            <td>
+              {% for activity in day.activities %}
+                {% if activity.start < hour.end and activity.start >= hour.start %}
+                <span class="title" style="color: {{activity.color}}">{{activity.title}}</span><br />
+                {% if activity.subtitle %}<span class="subtitle" style="color: {{activity.color}}">{{activity.subtitle}}</span><br />{% endif %}
+                <span class="hour" style="color: {{activity.color}}">{{activity.start}} - {{activity.end}}</span><br />
+                <hr style="border-color: {{activity.color}}" />
+                {% endif %}
+              {% endfor %}
+            </td>
+          {% endfor %}
+          </tr>
         {% endfor %}
-        </tr>
-      {% endfor %}
-      </table>
+        </table>
+      </div>
     </div>
   </div>
 </div>
