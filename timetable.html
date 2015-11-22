@@ -201,7 +201,7 @@ timetable:
       <div class='timetable'>
         <table>
           <tr>
-            <th>Horas</th>
+            <th style="width: 55px;">Horas</th>
             {% for day in page.timetable %}
             <th>{{day.name}}</th>
             {% endfor %}
@@ -214,10 +214,11 @@ timetable:
             <td>
               {% for activity in day.activities %}
                 {% if activity.start < hour.end and activity.start >= hour.start %}
-                <span class="title" style="color: {{activity.color}}">{{activity.title}}</span><br />
-                {% if activity.subtitle %}<span class="subtitle" style="color: {{activity.color}}">{{activity.subtitle}}</span><br />{% endif %}
-                <span class="hour" style="color: {{activity.color}}">{{activity.start}} - {{activity.end}}</span><br />
-                <hr style="border-color: {{activity.color}}" />
+                <div class='activity' style="background-color: {{activity.color}}">
+                  <span class="title">{{activity.title}}</span><br />
+                  {% if activity.subtitle %}<span class="subtitle">{{activity.subtitle}}</span><br />{% endif %}
+                  <span class="hour">{{activity.start}} - {{activity.end}}</span><br />
+                </div>
                 {% endif %}
               {% endfor %}
             </td>

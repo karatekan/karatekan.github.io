@@ -1034,15 +1034,23 @@ ul.info i:hover {
 /* Timetable */
 .timetable table {
   width: 100%;
+  table-layout: fixed;
 }
 .timetable th {
   text-align: center;
   vertical-align: middle;
   color: black;
+  padding: 0px;
 }
 .timetable td {
   text-align: center;
   vertical-align: middle;
+  color: white;
+  padding: 0px;
+}
+.timetable div.activity {
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
 }
 .timetable span.title {
   font-weight: bold;
