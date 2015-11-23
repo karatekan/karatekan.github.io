@@ -20,17 +20,18 @@ sitemap:
       <div class='medium-8 columns'>
         <div class='form'>
           <div class='row'>
-            <form id='contact_form' method='POST' action="http://formspree.io/lupus_zgz@hotmail.com">
+            <form method='POST' action="http://formspree.io/gimnasio@karatekan.es">
               <div class='large-12 columns'>
                 <p id='thanks' style='display: none;'>
                   Gracias por contactar con nosotros.
                 </p>
               </div>
               <div class='medium-12 columns'>
-                <input class='required' name='name' placeholder='NOMBRE' type='text' />
-                <input class='required email' name='_replyto' placeholder='EMAIL' type='email' />
-                <input class='required' name='_subject' placeholder='ASUNTO' type='text' />
-                <textarea class='required' name='message' placeholder='MENSAJE'></textarea>
+                <input required name='name' placeholder='NOMBRE' type='text' />
+                <input required email name='_replyto' placeholder='EMAIL' type='email' />
+                <input required name='_subject' placeholder='ASUNTO' type='text' />
+                <textarea required name='message' placeholder='MENSAJE'></textarea>
+                <input type="hidden" name="_next" value="{{site.url}}" />
                 <input class='button white' type='submit' />
               </div>
             </form>
