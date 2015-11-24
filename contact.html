@@ -15,49 +15,48 @@ sitemap:
   <div class='four spacing'></div>
 </div>
 
-  <div class='full'>
-    <div class='row'>
-      <div class='medium-8 columns'>
-        <div class='form'>
-          <div class='row'>
-            <form method='POST' action="http://formspree.io/gimnasio@karatekan.es">
-              <div class='large-12 columns'>
-                <p id='thanks' style='display: none;'>
-                  Gracias por contactar con nosotros.
-                </p>
-              </div>
-              <div class='medium-12 columns'>
-                <input required name='name' placeholder='NOMBRE' type='text' />
-                <input required email name='_replyto' placeholder='EMAIL' type='email' />
-                <input required name='_subject' placeholder='ASUNTO' type='text' />
-                <textarea required name='message' placeholder='MENSAJE'></textarea>
-                <input type="hidden" name="_next" value="{{site.url}}" />
-                <input class='button white' type='submit' />
-              </div>
-            </form>
-          </div>
+<div class='full'>
+  <div class='row'>
+    <div class='medium-8 columns'>
+      <div class='form'>
+        <div class='row'>
+          <form method='POST' action="http://formspree.io/gimnasio@karatekan.es">
+            <div class='large-12 columns'>
+              <p id='thanks' style='display: none;'>
+                Gracias por contactar con nosotros.
+              </p>
+            </div>
+            <div class='medium-12 columns'>
+              <input required name='name' placeholder='NOMBRE' type='text' />
+              <input required name='_replyto' placeholder='EMAIL' type='email' />
+              <input required name='_subject' placeholder='ASUNTO' type='text' />
+              <textarea required name='message' placeholder='MENSAJE'></textarea>
+              <input type="hidden" name="_next" value="{{site.url}}" />
+              <input class='button white' type='submit' />
+            </div>
+          </form>
         </div>
-        <div class='two spacing'></div>
       </div>
-      <div class='medium-4 columns'>
-        <div class='contact-details'>
-          <h4>Dirección:</h4>
-          <p><a href="http://maps.google.com/?daddr={{contact.address | uri_escape}}" target="_blank">{{contact.address}}</a></p>
-          <h4>Teléfono</h4>
-          <p>{{contact.phone}}</p>
-          <h4>Email:</h4>
-          <p><a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
-          <h4>Horario:</h4>
-          {% for day in contact.open %}
-            <strong>{{day.days}}</strong>
-            <p>
-            {% if day.morning %} {{day.morning}} {% endif %}<br/>
-            {% if day.afternoon %} {{day.afternoon}} {% endif %}
-            </p>
-          {% endfor %}
-        </div>
+      <div class='two spacing'></div>
+    </div>
+    <div class='medium-4 columns'>
+      <div class='contact-details'>
+        <h4>Dirección:</h4>
+        <p><a href="http://maps.google.com/?daddr={{contact.address | uri_escape}}" target="_blank">{{contact.address}}</a></p>
+        <h4>Teléfono</h4>
+        <p>{{contact.phone}}</p>
+        <h4>Email:</h4>
+        <p><a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
+        <h4>Horario:</h4>
+        {% for day in contact.open %}
+          <strong>{{day.days}}</strong>
+          <p>
+          {% if day.morning %} {{day.morning}} {% endif %}<br/>
+          {% if day.afternoon %} {{day.afternoon}} {% endif %}
+          </p>
+        {% endfor %}
       </div>
     </div>
   </div>
-  <div class='four spacing'></div>
 </div>
+<div class='four spacing'></div>
