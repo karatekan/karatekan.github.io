@@ -1,3 +1,9 @@
+- link: antonio-pinero
+  name: Antonio Piñero
+  activities:
+    - Karate Kyokushin
+  socials:
+
 - link: hector-lahoz
   name: Héctor Lahoz
   activities:
@@ -73,12 +79,6 @@
   socials:
     - link: https://www.facebook.com/aikinomada.aikinomada
       icon: facebook
-
-- link: antonio-pinero
-  name: Antonio Piñero
-  activities:
-    - Karate Kyokushin
-  socials:
 
 - link: jesus-baguena
   name: Jesús Baguena
