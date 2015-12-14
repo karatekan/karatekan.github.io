@@ -29,6 +29,14 @@
       start: "21:15"
       end: "22:30"
       color: Grey
+    - title: Boxeo
+      start: "17:00"
+      end: "18:30"
+      color: Black
+    - title: Total Entreno
+      start: "19:00"
+      end: "20:00"
+      color: Orange
 - name: Martes
   activities:
     - title: Aikido
@@ -64,6 +72,11 @@
       start: "18:45"
       end: "20:00"
       color: Gold
+    - title: Total Entreno
+      start: "19:00"
+      end: "20:00"
+      color: Orange
+
 - name: Miércoles
   activities:
     - title: Gimnasia de Mantenimiento
@@ -95,6 +108,15 @@
       start: "21:15"
       end: "22:30"
       color: Grey
+    - title: Boxeo
+      start: "17:00"
+      end: "18:30"
+      color: Black
+    - title: Total Entreno
+      start: "19:00"
+      end: "20:00"
+      color: Orange
+
 - name: Jueves
   activities:
     - title: Aikido
@@ -130,6 +152,11 @@
       start: "18:45"
       end: "20:00"
       color: Gold
+    - title: Total Entreno
+      start: "19:00"
+      end: "20:00"
+      color: Orange
+
 - name: Viernes
   activities:
     - title: Gimnasia de Mantenimiento
@@ -160,3 +187,7 @@
       start: "21:15"
       end: "22:30"
       color: Grey
+    - title: Boxeo
+      start: "17:00"
+      end: "18:30"
+      color: black
