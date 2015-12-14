@@ -42,7 +42,15 @@ hours:
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-      <h3>Horario</h3>
+      <h3>Horario Musculación</h3>
+      {% for day in site.data.contact.first.open %}
+        <strong>{{day.days}}</strong>
+        <p>
+          {% if day.morning %} {{day.morning}} {% endif %}<br/>
+          {% if day.afternoon %} {{day.afternoon}} {% endif %}
+        </p>
+      {% endfor %}
+      <h3>Horario Actividades</h3>
       <div class='timetable'>
         <table>
           <tr>
