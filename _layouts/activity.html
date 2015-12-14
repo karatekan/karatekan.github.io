@@ -38,7 +38,18 @@ layout: default
       {{content}}
     </div>
     <aside class='large-3 columns'>
-      {% if trainers.size > 1 %}
+      <h4>Horarios</h4>
+      <dl>
+      {% for day in site.data.timetable %}
+      {% assign hours = day.activities | where: "title", activity.title %}
+      {% if hours.first != nil %} <dt>{{day.name}}</dt> {% endif %}
+        {% for hour in hours %}
+          <dd>{{hour.start}}h - {{hour.end}}h</dd>
+        {% endfor %}
+      {% endfor %}
+      </dl>
+
+     {% if trainers.size > 1 %}
       <h4>Profesores</h4>
       {% else %}
       <h4>Profesor</h4>
@@ -72,17 +83,6 @@ layout: default
           </li>
         {% endfor %}
       </ul>
-      <h4>Horarios</h4>
-      <dl>
-      {% for day in site.data.timetable %}
-      {% assign hours = day.activities | where: "title", activity.title %}
-      {% if hours.first != nil %} <dt>{{day.name}}</dt> {% endif %}
-        {% for hour in hours %}
-          <dd>{{hour.start}}h - {{hour.end}}h</dd>
-        {% endfor %}
-      {% endfor %}
-      </dl>
-
     </aside>
   </div>
   <div class='four spacing'></div>
