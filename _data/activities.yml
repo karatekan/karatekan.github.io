@@ -5,7 +5,7 @@
   slides:
     - link: images/activities/karate-kyokushin/slide-1.jpg
     - link: images/activities/karate-kyokushin/slide-2.jpg
-  desc: Dureza y disciplina. Combate con contacto pleno.
+  desc: Dureza y disciplina. Combate con contacto pleno
 
 - image: images/activities/boxeo/activity.jpg
   title: Boxeo
@@ -14,7 +14,7 @@
   slides:
     - link: images/activities/boxeo/slide-1.jpg
     - link: images/activities/boxeo/slide-2.jpg
-  desc: Dominio de los puños en el combate.
+  desc: Dominio de los puños en el combate
 
 - image: images/activities/mma/activity.jpg
   title: Artes Marciales Mixtas (MMA)
@@ -23,7 +23,7 @@
   slides:
     - link: images/activities/mma/slide-1.jpg
     - link: images/activities/mma/slide-2.jpg
-  desc: Técnicas de combate de pie y suelo.
+  desc: Técnicas de combate de pie y suelo
 
 - image: images/activities/bjj/activity.jpg
   title: Jiu Jitsu Brasileño (BJJ)
@@ -32,7 +32,7 @@
   slides:
     - link: images/activities/bjj/slide-1.jpg
     - link: images/activities/bjj/slide-2.jpg
-  desc: Lucha cuerpo a cuerpo en el suelo.
+  desc: Lucha cuerpo a cuerpo en el suelo
 
 - image: images/activities/k-1/activity.jpg
   title: K-1
@@ -41,7 +41,7 @@
   slides:
     - link: images/activities/k-1/slide-1.jpg
     - link: images/activities/k-1/slide-2.jpg
-  desc: Técnicas de combate de puño y pierna.
+  desc: Técnicas de combate de puño y pierna
 
 - image: images/activities/krav-maga/activity.jpg
   title: Krav Maga
@@ -50,7 +50,7 @@
   slides:
     - link: images/activities/krav-maga/slide-1.jpg
     - link: images/activities/krav-maga/slide-2.jpg
-  desc: Defensa personal usada por FBI, GIGN, etc.
+  desc: Defensa personal usada por FBI, GIGN, etc
 
 - image: images/activities/aikido/activity.jpg
   title: Aikido
@@ -86,7 +86,7 @@
   slides:
     - link: images/activities/total-entreno/slide-1.jpg
     - link: images/activities/total-entreno/slide-2.jpg
-  desc: Fitness de alto rendimiento.
+  desc: Fitness de alto rendimiento
 
 - image: images/activities/gimnasia/activity.jpg
   title: Gimnasia de Mantenimiento
@@ -95,4 +95,4 @@
   slides:
     - link: images/activities/gimnasia/slide-1.jpg
     - link: images/activities/gimnasia/slide-2.jpg
-  desc: Mejora tu físico, salud y bienestar.
+  desc: Mejora tu físico, salud y bienestar
