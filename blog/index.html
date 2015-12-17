@@ -9,7 +9,7 @@ sitemap:
   <article class='big mod modBlogPost'>
     <div class='images'>
       {% for image in post.images %}
-        <figure class='image'><img alt="post.title" src="{{site.url}}/images/posts/{{image}}" /></figure>
+      <figure class='image'><img alt="{{post.title}}" src="{{site.url}}/images/posts/{{image}}" /></figure>
       {% endfor %}
     </div>
     <div class='content'>
