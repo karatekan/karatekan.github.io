@@ -23,13 +23,13 @@
     - link: https://www.facebook.com/ShihanJavier
       icon: facebook
 
-- link: yuro-pantiru
-  name: Yuro Pantiru
+- link: wilson-ramos
+  name: Wilson Ramos
   activities:
-    - Boxeo
+    - Jiu Jitsu Brasileño (BJJ)
     - Artes Marciales Mixtas (MMA)
   socials:
-    - link: https://www.facebook.com/profile.php?id=100006402166586
+    - link: https://www.facebook.com/wilson.ramos.71216
       icon: facebook
 
 - link: javier-izquierdo
@@ -38,21 +38,21 @@
     - Judo
   socials:
 
-- link: laurent-scotto
-  name: Laurent Scotto
+- link: jesus-baguena
+  name: Jesús Baguena
   activities:
-    - Krav Maga
+    - Karate Kyokushin
   socials:
-    - link: https://www.facebook.com/kravmagazaragoza.fekm.5
+    - link: https://www.facebook.com/moterojesus
       icon: facebook
 
-- link: wilson-ramos
-  name: Wilson Ramos
+- link: yuro-pantiru
+  name: Yuro Pantiru
   activities:
-    - Jiu Jitsu Brasileño (BJJ)
+    - Boxeo
     - Artes Marciales Mixtas (MMA)
   socials:
-    - link: https://www.facebook.com/wilson.ramos.71216
+    - link: https://www.facebook.com/profile.php?id=100006402166586
       icon: facebook
 
 - link: alex-lutic
@@ -80,10 +80,10 @@
     - link: https://www.facebook.com/aikinomada.aikinomada
       icon: facebook
 
-- link: jesus-baguena
-  name: Jesús Baguena
+- link: laurent-scotto
+  name: Laurent Scotto
   activities:
-    - Karate Kyokushin
+    - Krav Maga
   socials:
-    - link: https://www.facebook.com/moterojesus
+    - link: https://www.facebook.com/kravmagazaragoza.fekm.5
       icon: facebook
