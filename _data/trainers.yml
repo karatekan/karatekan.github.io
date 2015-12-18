@@ -4,6 +4,15 @@
     - Karate Kyokushin
   socials:
 
+- link: javier-sanchez
+  name: Javier Sánchez
+  activities:
+    - Karate Kyokushin
+    - Gimnasia de Mantenimiento
+  socials:
+    - link: https://www.facebook.com/ShihanJavier
+      icon: facebook
+
 - link: hector-lahoz
   name: Héctor Lahoz
   activities:
@@ -12,15 +21,6 @@
     - Total Entreno
   socials:
     - link: https://www.facebook.com/ector.troya
-      icon: facebook
-
-- link: javier-sanchez
-  name: Javier Sánchez
-  activities:
-    - Karate Kyokushin
-    - Gimnasia de Mantenimiento
-  socials:
-    - link: https://www.facebook.com/ShihanJavier
       icon: facebook
 
 - link: wilson-ramos
