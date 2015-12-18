@@ -8,7 +8,7 @@
       start: "09:30"
       end: "10:30"
       color: Orchid
-    - title: Brazilian Jiu Jitsu
+    - title: Jiu Jitsu Brasileño (BJJ)
       start: "10:30"
       end: "12:00"
       color: Gold
@@ -73,7 +73,7 @@
       start: "21:15"
       end: "22:30"
       color: Green
-    - title: Jiu Jitsu Brasileño
+    - title: Jiu Jitsu Brasileño (BJJ)
       start: "18:45"
       end: "20:00"
       color: Gold
@@ -92,7 +92,7 @@
       start: "09:30"
       end: "10:30"
       color: Orchid
-    - title: Brazilian Jiu Jitsu
+    - title: Jiu Jitsu Brasileño (BJJ)
       start: "10:30"
       end: "12:00"
       color: Gold
@@ -157,7 +157,7 @@
       start: "21:15"
       end: "22:30"
       color: Green
-    - title: Jiu Jitsu Brasileño
+    - title: Jiu Jitsu Brasileño (BJJ)
       start: "18:45"
       end: "20:00"
       color: Gold
@@ -168,11 +168,7 @@
 
 - name: Viernes
   activities:
-    - title: Gimnasia de Mantenimiento
-      start: "09:30"
-      end: "10:30"
-      color: Orchid
-    - title: Brazilian Jiu Jitsu
+    - title: Jiu Jitsu Brasileño (BJJ)
       start: "10:30"
       end: "12:00"
       color: Gold
