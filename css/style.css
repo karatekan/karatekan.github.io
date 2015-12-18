@@ -1032,25 +1032,34 @@ ul.info i:hover {
 }
 
 /* Timetable */
+.timetable{
+  overflow-x: auto;
+}
 .timetable table {
   width: 100%;
-  table-layout: fixed;
+  border-collapse: collapse;
 }
 .timetable th {
   text-align: center;
-  vertical-align: middle;
+  vertical-align: top;
   color: black;
   padding: 0px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0px 10px 0px;
 }
 .timetable td {
   text-align: center;
-  vertical-align: middle;
   color: white;
-  padding: 0px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
 }
 .timetable div.activity {
+  height: 80px;
+  width: 200px;
   border: 1px solid black;
-  padding: 10px 10px 10px 10px;
+  margin: 1px;
+  padding: 10px;
 }
 .timetable span.title {
   font-weight: bold;
