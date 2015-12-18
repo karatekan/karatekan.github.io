@@ -8,5 +8,6 @@ excerpt:
   Hablamos sobre el fundador Masutatsu "Sosai" Oyama, el Dojo Kun, Shihan
   Antonio Piñero, y ¡muchísimo más!
 ---
-
-<div data-configid="0/13686284" style="width:525px; height:371px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+<div class="video-container">
+  <div data-configid="0/13686284" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+</div>

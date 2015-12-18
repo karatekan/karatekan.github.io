@@ -9,4 +9,6 @@ excerpt:
 Os dejamos el vídeo que se grabó en nuestro club, han realizado un trabajo impresionante.
 Esperamos que lo disfruteis.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PVzTueZTwVs?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PVzTueZTwVs?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>

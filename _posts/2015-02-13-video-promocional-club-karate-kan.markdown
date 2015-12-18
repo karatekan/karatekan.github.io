@@ -12,4 +12,6 @@ Especialzados en artes marciales en el centro de Zaragoza (junto a la Ciudad Uni
 
 Primer Club de Karate Kyokushin en España fundado en 1968.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bSsxPDQWb0I?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bSsxPDQWb0I?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
