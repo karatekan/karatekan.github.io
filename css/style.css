@@ -1030,7 +1030,12 @@ ul.info i:hover {
   background: #F9CE06;
   color: #fff;
 }
-
+/* Trainers */
+.trainer img{
+  float: right;
+  margin: 0px 20px 0px 20px;
+  border: 1px solid black;
+}
 /* Timetable */
 .timetable{
   overflow-x: auto;

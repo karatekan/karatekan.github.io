@@ -29,9 +29,10 @@ layout: default
   <div class='row'>
     <div class='large-12 columns'>
       <h3>{{trainer.name}}</h3>
-      <p>
+      <figure class="trainer">
+        <img alt="{{trainer.name}}" src="{{site.url}}/images/trainers/{{trainer.link}}.jpg" />
+      </figure>
       {{content}}
-      </p>
     </div>
   </div>
   <div class='four spacing'></div>
