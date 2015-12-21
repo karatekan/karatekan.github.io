@@ -3,7 +3,7 @@ layout: post
 title:  Primer número de nuestra revista Kanku
 date:   2015-06-22 11:00:00
 images:
-  - 2015-06-22-primer-numero-de-nuestra-revista-kanku.jpg
+  - 2015-06-22-primer-numero-revista-kanku.jpg
 redirect_from:
   - /component/k2/item/266-revista-kanku-club-karate-kan/
 excerpt:

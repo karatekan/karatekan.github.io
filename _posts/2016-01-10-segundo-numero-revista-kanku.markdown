@@ -3,7 +3,7 @@ layout: post
 title:  Segundo número de nuestra revista Kanku
 date:   2016-01-10 11:00:00
 images:
-  - 2016-01-10-segundo-numero-de-nuestra-revista-kanku.jpg
+  - 2016-01-10-segundo-numero-revista-kanku.jpg
 excerpt:
   En ella hablamos de
 published: false
