@@ -2,43 +2,43 @@
   path: index.html
   section_id: home
 - name: Sobre Nosotros
-  path: about.html
+  path: sobre-nosotros.html
   section_id: about
 - name: Servicios
-  path: services.html
+  path: servicios.html
   section_id: services
 - name: Actividades
-  path: activities/
+  path: actividades/
   section_id: activities
   children:
     - name: Karate Kyokushin
-      path: activities/karate-kyokushin.html
+      path: actividades/karate-kyokushin.html
     - name: Boxeo
-      path: activities/boxeo.html
+      path: actividades/boxeo.html
     - name: MMA
-      path: activities/mma.html
+      path: actividades/mma.html
     - name: BJJ
-      path: activities/bjj.html
+      path: actividades/bjj.html
     - name: K-1
-      path: activities/k-1.html
+      path: actividades/k-1.html
     - name: Krav Maga
-      path: activities/krav-maga.html
+      path: actividades/krav-maga.html
     - name: Aikido
-      path: activities/aikido.html
+      path: actividades/aikido.html
     - name: Judo
-      path: activities/judo.html
+      path: actividades/judo.html
     - name: Karate Infantil
-      path: activities/karate-infantil.html
+      path: actividades/karate-infantil.html
     - name: Total Entreno
-      path: activities/total-entreno.html
+      path: actividades/total-entreno.html
     - name: Gimnasia de Mantenimiento
-      path: activities/gimnasia.html
+      path: actividades/gimnasia.html
 - name: Contacto
-  path: contact.html
+  path: contacto.html
   section_id: contact
 - name: Blog
   path: blog/
   section_id: blog
 - name: Horario
-  path: timetable.html
+  path: horario.html
   section_id: timetable

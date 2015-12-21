@@ -3,6 +3,8 @@ layout: post
 title:  Grabación de video musical en el gimnasio
 date:   2015-04-17 11:00:00
 images:
+redirect_from:
+  - /component/k2/item/262-de-vito-magnus-imperial-club-official-video
 excerpt:
   De Vito - Magnus Imperial Club (Official Video)
 ---

@@ -3,6 +3,8 @@ layout: post
 title:  Club Karate-Kan Hombu Español
 date:   2014-12-18 11:00:00
 images:
+redirect_from:
+  - /component/k2/item/253-club-karate-kan-hombu-espanol
 excerpt:
   Historia del primer dojo fundado de karate Kyokushin fundado en España en 1968.
 ---

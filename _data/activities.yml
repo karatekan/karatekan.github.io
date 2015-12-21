@@ -1,6 +1,6 @@
 - image: images/activities/karate-kyokushin/activity.jpg
   title: Karate Kyokushin
-  link_to: activities/karate-kyokushin.html
+  link_to: actividades/karate-kyokushin.html
   klass: martial-art
   slides:
     - link: images/activities/karate-kyokushin/slide-1.jpg
@@ -9,7 +9,7 @@
 
 - image: images/activities/boxeo/activity.jpg
   title: Boxeo
-  link_to: activities/boxeo.html
+  link_to: actividades/boxeo.html
   klass: contact-sport
   slides:
     - link: images/activities/boxeo/slide-1.jpg
@@ -18,7 +18,7 @@
 
 - image: images/activities/mma/activity.jpg
   title: Artes Marciales Mixtas (MMA)
-  link_to: activities/mma.html
+  link_to: actividades/mma.html
   klass: contact-sport
   slides:
     - link: images/activities/mma/slide-1.jpg
@@ -27,7 +27,7 @@
 
 - image: images/activities/bjj/activity.jpg
   title: Jiu Jitsu Brasileño (BJJ)
-  link_to: activities/bjj.html
+  link_to: actividades/bjj.html
   klass: martial-art
   slides:
     - link: images/activities/bjj/slide-1.jpg
@@ -36,7 +36,7 @@
 
 - image: images/activities/k-1/activity.jpg
   title: K-1
-  link_to: activities/k-1.html
+  link_to: actividades/k-1.html
   klass: contact-sport
   slides:
     - link: images/activities/k-1/slide-1.jpg
@@ -45,7 +45,7 @@
 
 - image: images/activities/krav-maga/activity.jpg
   title: Krav Maga
-  link_to: activities/krav-maga.html
+  link_to: actividades/krav-maga.html
   klass: contact-sport
   slides:
     - link: images/activities/krav-maga/slide-1.jpg
@@ -54,7 +54,7 @@
 
 - image: images/activities/aikido/activity.jpg
   title: Aikido
-  link_to: activities/aikido.html
+  link_to: actividades/aikido.html
   klass: martial-art
   slides:
     - link: images/activities/aikido/slide-1.jpg
@@ -63,7 +63,7 @@
 
 - image: images/activities/judo/activity.jpg
   title: Judo
-  link_to: activities/judo.html
+  link_to: actividades/judo.html
   klass: martial-art
   slides:
     - link: images/activities/judo/slide-1.jpg
@@ -72,7 +72,7 @@
 
 - image: images/activities/karate-infantil/activity.jpg
   title: Karate Infantil
-  link_to: activities/karate-infantil.html
+  link_to: actividades/karate-infantil.html
   klass: martial-art
   slides:
     - link: images/activities/karate-infantil/slide-1.jpg
@@ -81,7 +81,7 @@
 
 - image: images/activities/total-entreno/activity.jpg
   title: Total Entreno
-  link_to: activities/total-entreno.html
+  link_to: actividades/total-entreno.html
   klass: fitness
   slides:
     - link: images/activities/total-entreno/slide-1.jpg
@@ -90,7 +90,7 @@
 
 - image: images/activities/gimnasia/activity.jpg
   title: Gimnasia de Mantenimiento
-  link_to: activities/gimnasia.html
+  link_to: actividades/gimnasia.html
   klass: fitness
   slides:
     - link: images/activities/gimnasia/slide-1.jpg

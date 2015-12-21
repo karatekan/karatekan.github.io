@@ -3,6 +3,8 @@ layout: post
 title:  Vídeo promocional del Club Karate Kan
 date:   2015-02-13 11:00:00
 images:
+redirect_from:
+  - /component/k2/item/256-video-promocional-club-karate-kan
 excerpt:
   Nuestro gimnasio, en unos segundos.
 ---
