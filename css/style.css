@@ -2675,6 +2675,7 @@ form input.error, form textarea.error {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   border-radius: 100px;
+  margin: 0px 0px 0px 10px;
 }
 .modDefaultSlider .sequence .sequence-pagination li.current {
   background-color: rgba(255, 255, 255, 0.4);

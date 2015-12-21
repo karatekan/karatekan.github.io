@@ -5,6 +5,8 @@
   small_title:
     klass: bottom-to-top
     text: Tu Gimnasio de Artes Marciales
+  buttons:
+    klass: bottom-to-top
 - bg: images/slide-2.jpg
   klass: centered-text
   small_title:
@@ -13,6 +15,8 @@
   title:
     klass: bottom-to-top
     text: ¡Mucho más que Karate!
+  buttons:
+    klass: bottom-to-top
 - bg: images/slide-3.jpg
   small_title:
     klass: bottom-to-top
