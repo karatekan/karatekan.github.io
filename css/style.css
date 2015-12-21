@@ -3004,7 +3004,8 @@ form input.error, form textarea.error {
   color: #F9CE06;
 }
 .modGallery ul.gallery img {
-  width: 100%;
+  width: 101%;
+  max-width: 101%;
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
