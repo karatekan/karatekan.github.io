@@ -28,4 +28,4 @@
     klass: bottom-to-top
     items:
       - text: Ver la actividad
-        link_to: activities/karate-kyokushin.html
+        link_to: actividades/karate-kyokushin.html
