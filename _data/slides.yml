@@ -7,6 +7,9 @@
     text: Tu Gimnasio de Artes Marciales
   buttons:
     klass: bottom-to-top
+    items:
+      - text: Sobre Nosotros
+        link_to: sobre-nosotros.html
 - bg: images/slide-2.jpg
   klass: centered-text
   small_title:
@@ -20,6 +23,9 @@
     items:
       - text: Actividades
         link_to: actividades/
+      - klass: boxed
+        text: Horario
+        link_to: horario.html
 - bg: images/slide-3.jpg
   small_title:
     klass: bottom-to-top
