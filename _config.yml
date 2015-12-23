@@ -12,6 +12,9 @@ facebook_username:  karate.kan
 # Build settings
 markdown: kramdown
 
+gems:
+    - jekyll-redirect-from
+
 paginate: 3
 paginate_path: "blog/page:num"
 sass:
