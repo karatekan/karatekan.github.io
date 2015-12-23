@@ -1,0 +1,17 @@
+---
+layout: post
+title:  Nueva página web
+date:   2015-12-23 18:15:22
+excerpt:
+  Año nuevo, web nueva
+---
+Con la llegada del año, estrenamos una nueva página web.
+Nuestro objetivo es daros el mejor servicio, por ello utiliza las últimas tecnologías para ser más atractiva, detallada y accesible.
+
+Poco a poco iremos introduciendo nuevas funcionalidades, como los Pasos de Grado
+de nuestras Artes Marciales o las tarifas del gimnasio.
+
+Esperamos que os guste, y no dudeis en contactar con nosotros para cualquier
+duda o sugerencia.
+
+¡Feliz Navidad y próspero Año Nuevo!
