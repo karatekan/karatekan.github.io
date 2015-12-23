@@ -4,7 +4,7 @@ title:  Curso de Katas y Knockdown 2015
 date:   2014-11-05 11:00:00
 images:
 redirect_from:
-  - /component/k2/item/251-curso-de-katas-y-knock-down-2014
+  - /component/k2/item/251-curso-de-katas-y-knock-down-2014/
 excerpt:
 ---
 Otro año más, desde Gimnasio Club Karate-Kan Kyokushin Zaragoza queremos
