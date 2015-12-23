@@ -8,4 +8,4 @@ Disallow: /css/
 Disallow: /images/
 Disallow: /javascript/
 Disallow: /fonts/
-Sitemap: {{ "/sitemap.xml" | prepend: site.baseurl }}
+Sitemap: {{ "/sitemap.xml" | prepend: site.url }}
