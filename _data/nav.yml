@@ -1,7 +1,7 @@
 - name: Home
   path: index.html
   section_id: home
-- name: Sobre Nosotros
+- name: Nosotros
   path: sobre-nosotros.html
   section_id: about
 - name: Servicios
