@@ -5,7 +5,7 @@ date:   2015-06-22 11:00:00
 images:
   - 2015-06-22-primer-numero-revista-kanku.jpg
 redirect_from:
-  - /component/k2/item/266-revista-kanku-club-karate-kan/
+  - /component/k2/item/266-revista-kanku-club-karate-kan
 excerpt:
   Hablamos sobre el fundador Masutatsu "Sosai" Oyama, el Dojo Kun, Shihan
   Antonio Piñero, y ¡muchísimo más!

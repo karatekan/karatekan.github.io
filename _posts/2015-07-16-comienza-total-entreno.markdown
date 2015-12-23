@@ -5,7 +5,7 @@ date:   2015-07-16 11:00:00
 images:
   - 2015-07-16-comienza-total-entreno.jpg
 redirect_from:
-  - /component/k2/item/267-comienza-total-entreno/
+  - /component/k2/item/267-comienza-total-entreno
 excerpt:
   Nuestra nueva actividad de fitness
 ---
