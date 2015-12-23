@@ -17,6 +17,9 @@
     text: ¡Mucho más que Karate!
   buttons:
     klass: bottom-to-top
+    items:
+      - text: Actividades
+        link_to: actividades/
 - bg: images/slide-3.jpg
   small_title:
     klass: bottom-to-top
