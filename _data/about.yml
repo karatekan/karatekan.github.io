@@ -21,3 +21,11 @@
       author: Cristina
     - quote: Dojo pionero de Kyokushin karate en España
       author: Miguel
+  slides:
+    - link: images/about/slide-1.jpg
+    - link: images/about/slide-2.jpg
+    - link: images/about/slide-3.jpg
+    - link: images/about/slide-4.jpg
+    - link: images/about/slide-5.jpg
+    - link: images/about/slide-6.jpg
+    - link: images/about/slide-7.jpg

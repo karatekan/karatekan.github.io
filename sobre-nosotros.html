@@ -24,12 +24,25 @@ redirect_from:
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for slide in about.slides %}
+          <div class='slide'>
+            <img alt="{{activity.title}}" src="{{site.url}}/{{slide.link}}" />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='large-12 columns'>
       <h3>Gimnasio Club Karate-Kan</h3>
       {{about.content}}
     </div>
   </div>
 </div>
-
 <div class='full parallax' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
