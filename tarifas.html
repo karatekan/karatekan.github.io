@@ -1,0 +1,50 @@
+---
+layout: default
+title: Tarifas
+section_id: tarifas
+redirect_from:
+  - /nosotros/tarifas/
+sitemap:
+  priority: 0.6
+---
+{% assign pricing = site.data.pricing %}
+<div class='full parallax' style='background-image: url(images/pricing.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Tarifas" tagline="Matrículas y pruebas gratuitas" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+  {% for price in pricing %}
+    {% cycle 'openrow': '<div class="row">', '', '', '' %}
+      <div class='medium-6 large-3 columns'>
+        <div class='mod modPriceBox {% if price.featured %} featured {% endif %}'>
+          <div class='info'>
+            <p class='level'>{{price.name}}</p>
+            <p class='desc'>{{price.description}}</p>
+            {% for cost in price.costs %}
+            <p class='price'>
+              <span class='dollar'>€</span>
+              <span class='number'>{{cost.number}}</span>
+              <span class='features'>{{cost.desc}}</span>
+            </p>
+            {% endfor %}
+          </div>
+          <div class='features'>
+            <ul>
+              {% for feature in price.features %}
+              <li class='{% cycle 'features': '', 'even' %}'>{{feature}}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% cycle 'closerow': '', '', '', '</div>' %}
+  {% endfor %}
+  </div>
+</div>
+<div class='four spacing'></div>
