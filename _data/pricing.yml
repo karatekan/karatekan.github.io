@@ -50,7 +50,8 @@
     - number: 10
       desc: 3 días
   features:
-    - "1 mes de Total Entreno para los ya socios"
+    - "1 mes de Total Entreno"
+    - "Necesario ser socio"
 - name: Entrenador Personal
   description: La más personalizada
   costs:

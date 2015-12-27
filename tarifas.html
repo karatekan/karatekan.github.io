@@ -20,7 +20,7 @@ sitemap:
 <div class='full'>
   <div class='row'>
   {% for price in pricing %}
-    {% cycle 'openrow': '<div class="row">', '', '', '' %}
+    {% cycle 'openrow': '<div class="large-12 columns">', '', '', '' %}
       <div class='medium-6 large-3 columns'>
         <div class='mod modPriceBox {% if price.featured %} featured {% endif %}'>
           <div class='info'>
