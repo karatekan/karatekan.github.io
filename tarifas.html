@@ -37,7 +37,8 @@ sitemap:
           <div class='features'>
             <ul>
               {% for feature in price.features %}
-              <li class='{% cycle 'features': '', 'even' %}'>{{feature}}</li>
+              {% capture modulo %}{{forloop.index | modulo:2}}{% endcapture %}
+              <li {% if modulo == '0' %} class='even' {% endif %}>{{feature}}</li>
               {% endfor %}
             </ul>
           </div>
