@@ -1,11 +1,11 @@
 - name: Una actividad
-  description: La más simple
+  description: La tarifa simple
   costs:
     - number: 44
   features:
     - "1 Arte Marcial"
 - name: Actividad + Gimnasio
-  description: La más habitual
+  description: La tarifa habitual
   costs:
     - number: 47
       desc: 1 mes
@@ -26,13 +26,13 @@
   features:
     - "Entrena otro Arte Marcial más durante 1 mes"
 - name: Gimnasia
-  description: La más económica
+  description: La tarifa económica
   costs:
     - number: 15
   features:
     - "1 mes de Gimnasia de Mantenimiento"
 - name: Total Entreno
-  description: La más funcional
+  description: La tarifa funcional
   costs:
     - number: 19
       desc: "1 día"
@@ -53,7 +53,7 @@
     - "1 mes de Total Entreno"
     - "Necesario ser socio"
 - name: Entrenador Personal
-  description: La más personalizada
+  description: La tarifa personalizada
   costs:
     - number: 20
       desc: 1 sesión
