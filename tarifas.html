@@ -17,7 +17,7 @@ sitemap:
   <div class='four spacing'></div>
 </div>
 
-<div class='full'>
+<section class='full'>
   <div class='row'>
   {% for price in pricing %}
     {% cycle 'openrow': '<div class="large-12 columns">', '', '', '' %}
@@ -47,5 +47,31 @@ sitemap:
       {% cycle 'closerow': '', '', '', '</div>' %}
   {% endfor %}
   </div>
-</div>
+</section>
+
+<section class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Preguntas Frecuentes" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+
+  <div class='row'>
+    {% for faq in site.data.faq %}
+    {% cycle 'startrow': '<div class="large-12 columns">', '' %}
+      <div class='small-12 medium-6 large-6 columns'>
+        <div class='mod modIconText'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-question-circle'></i>
+            <h3>{{faq.question}}</h3>
+            {{faq.answer}}
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    {% cycle 'endrow': '', '</div>' %}
+    {% endfor %}
+  </div>
+</section>
 <div class='four spacing'></div>
