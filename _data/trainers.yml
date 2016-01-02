@@ -69,8 +69,6 @@
   activities:
     - Aikido
   socials:
-    - link: https://www.facebook.com/marcoantonio.navarroramillete
-      icon: facebook
 
 - link: roberto-barra
   name: Roberto Barra
@@ -85,5 +83,7 @@
   activities:
     - Krav Maga
   socials:
+    - link: http://kmzfekm.wix.com/kmzfekm
+      icon: globe
     - link: https://www.facebook.com/kravmagazaragoza.fekm.5
       icon: facebook
