@@ -3,7 +3,7 @@ title: Gimnasio Karate Kan
 email: gimnasio@karatekan.es
 description: > # this means to ignore newlines until "baseurl:"
   Gimnasio de artes marciales en Zaragoza. Pioneros en Karate Kyokushin.
-  Prueba Boxeo, Judo, Aikido, Krav Maga, K-1, Total Entreno, MMA, BJJ o Karate Infantil
+  Prueba Boxeo, Judo, Aikido, Krav Maga, K-1, MMA, BJJ o Karate Infantil
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.karatekan.es" # the base hostname & protocol for your site
 twitter_username: ClubKarateKan
