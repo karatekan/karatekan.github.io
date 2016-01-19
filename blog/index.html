@@ -8,9 +8,9 @@ sitemap:
 {% for post in paginator.posts %}
   <article class='big mod modBlogPost'>
     <div class='images'>
-      {% for image in post.images %}
-      <figure class='image'><img alt="{{post.title}}" src="{{site.url}}/images/posts/{{image}}" /></figure>
-      {% endfor %}
+      {% if post.images.first %}
+      <figure class='image'><img alt="{{post.title}}" src="{{site.url}}/images/posts/{{post.images.first}}" /></figure>
+      {% endif %}
     </div>
     <div class='content'>
       <p class='info'>
