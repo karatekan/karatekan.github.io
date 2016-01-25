@@ -29,6 +29,10 @@
       start: "18:45"
       end: "20:00"
       color: Red
+    - title: Total Entreno
+      start: "19:00"
+      end: "20:00"
+      color: Orange
     - title: Krav Maga
       start: "20:00"
       end: "21:15"
@@ -37,10 +41,6 @@
       start: "21:15"
       end: "22:30"
       color: Grey
-    - title: Total Entreno
-      start: "20:00"
-      end: "21:00"
-      color: Orange
 
 - name: Martes
   activities:
@@ -57,26 +57,26 @@
       start: "17:45"
       end: "18:45"
       color: Sienna
+    - title: Sanda
+      start: "18:45"
+      end: "20:15"
+      color: Indigo
     - title: K-1
       start: "18:45"
       end: "20:00"
       color: DarkBlue
+    - title: Aikido
+      start: "19:00"
+      end: "20:00"
+      color: Green
     - title: Judo
       start: "20:00"
       end: "21:15"
       color: Blue
-    - title: Aikido
-      start: "21:15"
-      end: "22:30"
-      color: Green
     - title: Jiu Jitsu Brasileño (BJJ)
       start: "21:15"
       end: "22:30"
       color: Gold
-    - title: Total Entreno
-      start: "19:00"
-      end: "20:00"
-      color: Orange
 
 - name: Miércoles
   activities:
@@ -109,6 +109,10 @@
       start: "18:45"
       end: "20:00"
       color: Red
+    - title: Total Entreno
+      start: "19:00"
+      end: "20:00"
+      color: Orange
     - title: Krav Maga
       start: "20:00"
       end: "21:15"
@@ -117,10 +121,6 @@
       start: "21:15"
       end: "22:30"
       color: Grey
-    - title: Total Entreno
-      start: "20:00"
-      end: "21:00"
-      color: Orange
 
 - name: Jueves
   activities:
@@ -137,26 +137,26 @@
       start: "17:45"
       end: "18:45"
       color: Sienna
+    - title: Sanda
+      start: "18:45"
+      end: "20:15"
+      color: Indigo
     - title: K-1
       start: "18:45"
       end: "20:00"
       color: DarkBlue
+    - title: Aikido
+      start: "19:00"
+      end: "20:00"
+      color: Green
     - title: Judo
       start: "20:00"
       end: "21:15"
       color: Blue
-    - title: Aikido
-      start: "21:15"
-      end: "22:30"
-      color: Green
     - title: Jiu Jitsu Brasileño (BJJ)
       start: "21:15"
       end: "22:30"
       color: Gold
-    - title: Total Entreno
-      start: "19:00"
-      end: "20:00"
-      color: Orange
 
 - name: Viernes
   activities:
