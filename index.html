@@ -160,6 +160,7 @@ sitemap:
   <div class='row'>
     <ul class='small-block-grid-2 medium-block-grid-3 large-block-grid-5 columns'>
       {% for trainer in site.data.trainers %}
+       {% if trainer.activities.first %}
         <li class='mod modTeamMember'>
           <div class='member'>
             <img class="avatar" alt="{{trainer.name}}" src="images/trainers/{{trainer.link}}.jpg" />
@@ -186,6 +187,7 @@ sitemap:
           </div>
           <div class='two spacing'></div>
         </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>
