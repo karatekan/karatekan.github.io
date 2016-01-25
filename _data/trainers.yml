@@ -83,7 +83,15 @@
     - link: https://www.facebook.com/kravmagazaragoza.fekm.5
       icon: facebook
 
+- link: gheorghe-lupu
+  name: Gheorghe Lupu
+  activities:
+    - Sanda
+  socials:
+    - link: https://www.facebook.com/gheorghe.lupu.3
+      icon: facebook
 
+# Legacy trainers
 - link: marco-navarro
   name: Marco Navarro
   activities:

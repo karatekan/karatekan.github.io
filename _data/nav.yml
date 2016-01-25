@@ -30,6 +30,8 @@
       path: actividades/aikido.html
     - name: Judo
       path: actividades/judo.html
+    - name: Sanda
+      path: actividades/sanda.html
     - name: Karate Infantil
       path: actividades/karate-infantil.html
     - name: Total Entreno

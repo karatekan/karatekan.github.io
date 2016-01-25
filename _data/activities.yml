@@ -70,6 +70,13 @@
     - link: images/activities/judo/slide-2.jpg
   desc: Recomendado por la OMS y UNESCO
 
+- image: images/activities/sanda/activity.jpg
+  title: Sanda
+  link_to: actividades/sanda.html
+  klass: martial-art
+  slides:
+  desc:
+
 - image: images/activities/karate-infantil/activity.jpg
   title: Karate Infantil
   link_to: actividades/karate-infantil.html
