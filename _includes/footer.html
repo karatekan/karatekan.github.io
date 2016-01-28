@@ -11,7 +11,7 @@
     </div>
     <div class='large-6 medium-6 columns'>
       <div class='spacing'></div>
-      {% capture map %}http://maps.google.com/maps/api/staticmap?&markers=icon:{{site.url}}/images/marker.ico|color:red|{{contact.address}}&size=530x200&format=JPG&key=AIzaSyBE8uBh0FLLpqu3FRH9OX7x-HsjYkpCtq8{% endcapture %}
+      {% capture map %}http://maps.google.com/maps/api/staticmap?&markers=color:red|label:K|{{contact.address}}&size=530x200&format=JPG&key=AIzaSyBE8uBh0FLLpqu3FRH9OX7x-HsjYkpCtq8{% endcapture %}
       <a href="http://maps.google.com/?daddr={{contact.address | uri_escape}}" target="_blank">
         <img alt="Mapa" src="{{map | uri_escape}}" />
       </a>
