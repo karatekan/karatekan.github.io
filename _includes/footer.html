@@ -11,9 +11,10 @@
     </div>
     <div class='large-6 medium-6 columns'>
       <div class='spacing'></div>
-      <div class='embed-responsive embed-responsive-16by9'>
-        <iframe style="height: 200px; width: 100%; border: none" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5963.02932509119!2d-0.893301!3d41.644621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c268cb202488171!2sGimnasio+Club+Karate+-+Kan+Kyokushin+Zaragoza!5e0!3m2!1ses!2ses!4v1445430515628" allowfullscreen></iframe>
-      </div>
+      {% capture map %}http://maps.google.com/maps/api/staticmap?&markers=icon:{{site.url}}/images/marker.ico|color:red|{{contact.address}}&size=530x200&format=JPG&key=AIzaSyBE8uBh0FLLpqu3FRH9OX7x-HsjYkpCtq8{% endcapture %}
+      <a href="http://maps.google.com/?daddr={{contact.address | uri_escape}}" target="_blank">
+        <img alt="Mapa" src="{{map | uri_escape}}" />
+      </a>
       <div class='spacing'></div>
     </div>
     <div class='large-3 medium-3 columns'>

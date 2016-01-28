@@ -1193,7 +1193,6 @@ form input.error, form textarea.error {
 }
 #footer a {
   color: #999;
-  text-decoration: underline;
 }
 #footer ul a:hover {
   color: #eee;
