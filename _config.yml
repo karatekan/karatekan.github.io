@@ -13,7 +13,10 @@ facebook_username:  karate.kan
 markdown: kramdown
 
 gems:
+    - jekyll-paginate
     - jekyll-redirect-from
+    - jekyll-sitemap
+    - jekyll-feed
 
 paginate: 12
 paginate_path: "blog/page:num"
