@@ -75,6 +75,7 @@
   link_to: actividades/sanda.html
   klass: martial-art
   slides:
+    - link: images/activities/sanda/slide-1.jpg
   desc: Sistema de combate completo
 
 - image: images/activities/karate-infantil/activity.jpg
