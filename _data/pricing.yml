@@ -62,7 +62,7 @@
   features:
     - "Entrenamiento personalizado"
     - "Uso de todo el material necesariod durante la actividad"
-- name: < 16 años
+- name: '&lt; 16 años'
   description: Para los más jóvenes
   costs:
     - number: 35
