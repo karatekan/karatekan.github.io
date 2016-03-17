@@ -4,11 +4,12 @@ title: Boxeo
 image: images/activities/boxeo/activity.jpg
 link_to: actividades/boxeo.html
 klass: contact-sport
+video: uDu2c5DtLww
+position: 2
 slides:
   - link: images/activities/boxeo/slide-1.jpg
   - link: images/activities/boxeo/slide-2.jpg
 desc: Dominio de los puños en el combate
-video: uDu2c5DtLww
 ---
 <p>El boxeo es un deporte de combate en el que dos contrincantes luchan utilizando únicamente sus puños con guantes, golpeando a su adversario de la cintura hacia arriba.</p>
 

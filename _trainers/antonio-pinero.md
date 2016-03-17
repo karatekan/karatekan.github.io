@@ -5,6 +5,7 @@ link: antonio-pinero
 activities:
   - Karate Kyokushin
 socials:
+position: 1
 redirect_from:
   - /nosotros/quienes-somos/item/142-antonio-pinero-shihan/
 ---

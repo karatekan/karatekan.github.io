@@ -8,6 +8,7 @@ activities:
 socials:
   - link: https://www.facebook.com/alexLutic1
     icon: facebook
+position: 8
 ---
 <h5>Karate (Shito-Ryu)</h5>
 <p>3 años (gim Aragón, maestro José Antonio Maura)</p>

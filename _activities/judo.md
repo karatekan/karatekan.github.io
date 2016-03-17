@@ -4,6 +4,7 @@ title: Judo
 image: images/activities/judo/activity.jpg
 link_to: actividades/judo.html
 klass: martial-art
+position: 8
 slides:
   - link: images/activities/judo/slide-1.jpg
   - link: images/activities/judo/slide-2.jpg

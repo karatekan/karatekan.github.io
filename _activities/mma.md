@@ -4,6 +4,7 @@ title: Artes Marciales Mixtas (MMA)
 image: images/activities/mma/activity.jpg
 link_to: actividades/mma.html
 klass: contact-sport
+position: 3
 slides:
   - link: images/activities/mma/slide-1.jpg
   - link: images/activities/mma/slide-2.jpg

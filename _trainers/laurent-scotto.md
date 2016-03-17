@@ -9,6 +9,7 @@ socials:
     icon: globe
   - link: https://www.facebook.com/kravmagazaragoza.fekm.5
     icon: facebook
+position: 10
 ---
 <h5>Monitor Cinturon Negro 1°DARGA FEKM.</h5>
 <h5>Representante de la Federación Europea de Krav Maga-Richard DOUIEB en Zaragoza.</h5>

@@ -162,7 +162,8 @@ slides:
     </div>
 
   <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-6">
-      {% for activity in site.activities %}
+      {% assign activities = site.activities | sort: 'position' %}
+      {% for activity in activities %}
         <li class="{{ activity.klass }}">
           <a href='{{ activity.link_to }}'>
             <img alt="{{activity.title}}" src="{{ activity.image }}" />
@@ -198,7 +199,8 @@ slides:
   </div>
   <div class='row'>
     <ul class='small-block-grid-2 medium-block-grid-3 large-block-grid-5 columns'>
-      {% for trainer in site.trainers %}
+      {% assign trainers = site.trainers | sort: 'position' %}
+      {% for trainer in trainers %}
        {% if trainer.activities.first %}
         <li class='mod modTeamMember'>
           <div class='member'>

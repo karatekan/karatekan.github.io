@@ -4,6 +4,7 @@ title: Aikido
 image: images/activities/aikido/activity.jpg
 link_to: actividades/aikido.html
 klass: martial-art
+position: 7
 slides:
   - link: images/activities/aikido/slide-1.jpg
   - link: images/activities/aikido/slide-2.jpg

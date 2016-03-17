@@ -8,6 +8,7 @@ activities:
 socials:
   - link: https://www.facebook.com/profile.php?id=100006402166586
     icon: facebook
+position: 7
 ---
 <p>Boxeador profesional.<p>
 <p>Campeon de aragon FIDAM 75kg.<p>

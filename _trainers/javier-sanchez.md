@@ -8,6 +8,7 @@ activities:
 socials:
   - link: https://www.facebook.com/ShihanJavier
     icon: facebook
+position: 2
 redirect_from:
   - /nosotros/quienes-somos/item/143-javier-sanchez-shihan/
 ---

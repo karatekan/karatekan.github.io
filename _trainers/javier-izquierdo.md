@@ -5,6 +5,7 @@ link: javier-izquierdo
 activities:
   - Judo
   - Aikido
+position: 5
 socials:
 redirect_from:
   - /nosotros/quienes-somos/item/259-javier-izquierdo/

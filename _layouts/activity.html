@@ -2,8 +2,9 @@
 layout: default
 ---
 {% assign activity = site.activities | where: "title", page.title | first %}
+{% assign ordered_trainers = site.trainers | sort: 'position' %}
 {% assign trainers = "" | split: "/" %}
-{% for trainer in site.trainers %}
+{% for trainer in ordered_trainers %}
   {% if trainer.activities contains page.title %}
     {% assign trainers = trainers | push: trainer %}
   {% endif %}

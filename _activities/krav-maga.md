@@ -4,6 +4,7 @@ title: Krav Maga
 image: images/activities/krav-maga/activity.jpg
 link_to: actividades/krav-maga.html
 klass: contact-sport
+position: 6
 slides:
   - link: images/activities/krav-maga/slide-1.jpg
   - link: images/activities/krav-maga/slide-2.jpg

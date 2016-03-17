@@ -34,8 +34,8 @@ section_id: activities
       </div>
 
       <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
-
-        {% for activity in site.activities %}
+      {% assign activities = site.activities | sort: 'position' %}
+      {% for activity in activities %}
           <li class="{{ activity.klass }}">
             <a href='/{{activity.link_to}}'>
               <img alt="{{activity.title}}" src="/{{activity.image}}" />
@@ -48,9 +48,7 @@ section_id: activities
             </a>
           </li>
         {% endfor %}
-
       </ul>
-
     </div>
   </div>
 

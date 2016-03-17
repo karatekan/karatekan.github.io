@@ -9,6 +9,7 @@ slides:
   - link: images/activities/bjj/slide-2.jpg
 desc: Lucha cuerpo a cuerpo en el suelo
 video: TeUAS74fHdk
+position: 4
 redirect_from:
   - /actividades/brasilian-jiu-jitsu/
 ---

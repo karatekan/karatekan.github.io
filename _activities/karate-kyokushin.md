@@ -9,6 +9,7 @@ slides:
   - link: images/activities/karate-kyokushin/slide-2.jpg
 desc: Dureza y disciplina. Combate con contacto pleno
 video: QGaFLX2KirY
+position: 1
 redirect_from:
   - /karate-kyokushin/
   - /karate-kyokushin/descubre-el-kyokushin/

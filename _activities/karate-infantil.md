@@ -4,6 +4,7 @@ title: Karate Infantil
 image: images/activities/karate-infantil/activity.jpg
 link_to: actividades/karate-infantil.html
 klass: martial-art
+position: 10
 slides:
   - link: images/activities/karate-infantil/slide-1.jpg
   - link: images/activities/karate-infantil/slide-2.jpg

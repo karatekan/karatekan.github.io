@@ -7,6 +7,7 @@ activities:
 socials:
   - link: https://www.facebook.com/gheorghe.lupu.3
     icon: facebook
+position: 11
 ---
 <h5>Títulos oficiales de Sanda (Wushu)</h5>
 <ul>

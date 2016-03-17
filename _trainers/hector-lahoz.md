@@ -9,6 +9,7 @@ activities:
 socials:
   - link: https://www.facebook.com/ector.troya
     icon: facebook
+position: 3
 redirect_from:
   - /nosotros/quienes-somos/item/131-hector-lahoz-sensei/
 ---
