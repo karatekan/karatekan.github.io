@@ -5,6 +5,7 @@ image: images/activities/sanda/activity.jpg
 link_to: actividades/sanda.html
 klass: martial-art
 position: 9
+video: lGrV-sqwVZU
 slides:
   - link: images/activities/sanda/slide-1.jpg
   - link: images/activities/sanda/slide-2.jpg
