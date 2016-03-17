@@ -6,6 +6,7 @@
     - link: images/activities/karate-kyokushin/slide-1.jpg
     - link: images/activities/karate-kyokushin/slide-2.jpg
   desc: Dureza y disciplina. Combate con contacto pleno
+  video: QGaFLX2KirY
 
 - image: images/activities/boxeo/activity.jpg
   title: Boxeo
@@ -15,6 +16,7 @@
     - link: images/activities/boxeo/slide-1.jpg
     - link: images/activities/boxeo/slide-2.jpg
   desc: Dominio de los puños en el combate
+  video: uDu2c5DtLww
 
 - image: images/activities/mma/activity.jpg
   title: Artes Marciales Mixtas (MMA)
@@ -33,6 +35,7 @@
     - link: images/activities/bjj/slide-1.jpg
     - link: images/activities/bjj/slide-2.jpg
   desc: Lucha cuerpo a cuerpo en el suelo
+  video: TeUAS74fHdk
 
 - image: images/activities/k-1/activity.jpg
   title: K-1
@@ -52,6 +55,7 @@
     - link: images/activities/krav-maga/slide-1.jpg
     - link: images/activities/krav-maga/slide-2.jpg
   desc: Defensa personal usada por FBI, GIGN, etc
+  video: MhrIYx_DBng
 
 - image: images/activities/aikido/activity.jpg
   title: Aikido
