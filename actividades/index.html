@@ -3,9 +3,7 @@ layout: default
 title: Actividades
 section_id: activities
 ---
-
-
-<div class='full parallax' style='background-image: url({{site.url}}/images/activity.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(/images/activity.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Actividades" tagline="Artes marciales, fitness... Lo que necesites" color="#fff" class="big" %}
@@ -37,10 +35,10 @@ section_id: activities
 
       <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
 
-        {% for activity in site.data.activities %}
+        {% for activity in site.activities %}
           <li class="{{ activity.klass }}">
-            <a href='{{site.url}}/{{activity.link_to}}'>
-              <img alt="{{activity.title}}" src="{{site.url}}/{{activity.image}}" />
+            <a href='/{{activity.link_to}}'>
+              <img alt="{{activity.title}}" src="/{{activity.image}}" />
               <div class='overlay'>
                 <div class='thumb-info'>
                   <h3>{{ activity.title }}</h3>

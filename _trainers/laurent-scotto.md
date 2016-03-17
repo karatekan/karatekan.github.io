@@ -1,6 +1,7 @@
 ---
 layout: trainer
 title: Laurent Scotto
+link: laurent-scotto
 activities:
   - Krav Maga
 socials:

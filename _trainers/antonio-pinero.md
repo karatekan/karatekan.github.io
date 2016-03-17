@@ -1,6 +1,7 @@
 ---
 layout: trainer
 title: Antonio Piñero
+link: antonio-pinero
 activities:
   - Karate Kyokushin
 socials:

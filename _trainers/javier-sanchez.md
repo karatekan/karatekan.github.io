@@ -1,6 +1,7 @@
 ---
 layout: trainer
 title: Javier Sánchez
+link: javier-sanchez
 activities:
   - Karate Kyokushin
   - Gimnasia de Mantenimiento

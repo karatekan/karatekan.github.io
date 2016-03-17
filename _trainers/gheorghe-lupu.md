@@ -1,6 +1,7 @@
 ---
 layout: trainer
 title: Gheorghe Lupu
+link: gheorghe-lupu
 activities:
   - Sanda
 socials:

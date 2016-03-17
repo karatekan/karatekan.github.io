@@ -1,6 +1,7 @@
 ---
 layout: trainer
 title: Héctor Lahoz
+link: hector-lahoz
 activities:
   - Karate Kyokushin
   - Karate Infantil

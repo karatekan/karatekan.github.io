@@ -1,6 +1,7 @@
 ---
 layout: trainer
 title: Wilson Ramos
+link: wilson-ramos
 activities:
   - Jiu Jitsu Brasileño (BJJ)
   - Artes Marciales Mixtas (MMA)

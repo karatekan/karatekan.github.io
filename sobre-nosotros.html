@@ -18,6 +18,7 @@ testimonials:
     author: Cristina
   - quote: Dojo pionero de Kyokushin karate en España
     author: Miguel
+
 slides:
   - link: images/about/slide-1.jpg
   - link: images/about/slide-2.jpg
@@ -27,19 +28,19 @@ slides:
   - link: images/about/slide-6.jpg
   - link: images/about/slide-7.jpg
 
-content: "<p>Gracias a Shihan Antonio Piñero, a su labor y al Club Karate-Kan, hoy el Karate Kyokushin es conocido y practicado por miles de personas en España.</p>
+text: "<p>Gracias a Shihan Antonio Piñero, a su labor y al Club Karate-Kan, hoy el Karate Kyokushin es conocido y practicado por miles de personas en España.</p>
 
-<p>Nacido en la ciudad de Zaragoza en 1944, comenzó su relación con el mundo del karate alrededor de 1960 en el London Karate Kai, con profesores como B. Boulton, S. Arnail y Loek Hollander. En Londres obtuvo su primer Dan, en el Crystal Palace ante el Maestro Masutatsu Oyama.</p>
+  <p>Nacido en la ciudad de Zaragoza en 1944, comenzó su relación con el mundo del karate alrededor de 1960 en el London Karate Kai, con profesores como B. Boulton, S. Arnail y Loek Hollander. En Londres obtuvo su primer Dan, en el Crystal Palace ante el Maestro Masutatsu Oyama.</p>
 
-<p>Con su regreso a España formó parte del equipo nacional. No fue derrotado en ningún combate de los que participó en diferentes campeonatos internacionales.</p>
+  <p>Con su regreso a España formó parte del equipo nacional. No fue derrotado en ningún combate de los que participó en diferentes campeonatos internacionales.</p>
 
-<p>Cuando empieza a dedicarse a la enseñanza del Karate Kyokushinkai funda en su ciudad natal el Gimnasio de Karate Kan el año 1968 y es el primer Maestro Nacional de Kyokushinkai en España. Este mismo año Su Majestad el Rey de España D. Juan Carlos I, aceptó la Presidencia de Honor de su Club, previa petición por su parte y gracias a la amistad que les une.</p>
+  <p>Cuando empieza a dedicarse a la enseñanza del Karate Kyokushinkai funda en su ciudad natal el Gimnasio de Karate Kan el año 1968 y es el primer Maestro Nacional de Kyokushinkai en España. Este mismo año Su Majestad el Rey de España D. Juan Carlos I, aceptó la Presidencia de Honor de su Club, previa petición por su parte y gracias a la amistad que les une.</p>
 
-<p>Su labor para la difusión de la escuela de Sosai Oyama es fundamental en su país. Son muy numerosos los alumnos que han recibido sus enseñanzas, tanto en el dojo Karate-Kan como en los diversos encuentros nacionales e internacionales por él organizados.</p>
+  <p>Su labor para la difusión de la escuela de Sosai Oyama es fundamental en su país. Son muy numerosos los alumnos que han recibido sus enseñanzas, tanto en el dojo Karate-Kan como en los diversos encuentros nacionales e internacionales por él organizados.</p>
 
-<p>En la actualidad, con un Octavo Dan, Shihan Antonio Piñero es el Presidente de Kyokushin Karate en España, Presidente de la European Kyokushin junto a Loek Hollander (9º Dan) y Vice-presidente de la Kyokushin World Federation.</p>
+  <p>En la actualidad, con un Octavo Dan, Shihan Antonio Piñero es el Presidente de Kyokushin Karate en España, Presidente de la European Kyokushin junto a Loek Hollander (9º Dan) y Vice-presidente de la Kyokushin World Federation.</p>
 
-<p>Hoy en día, gracias a todo lo mencionado anteriormente, Club Karate – Kan es un dojo referente en Karate Kyokushin en España. Con numerosas artes marciales y deportes de contacto impartidos en el centro, es uno de los más antiguos de Zaragoza. Maestros y profesores con muchos años de experiencia y testada profesionalidad, son los encargados de impartir todas estas disciplinas.</p>"
+  <p>Hoy en día, gracias a todo lo mencionado anteriormente, Club Karate – Kan es un dojo referente en Karate Kyokushin en España. Con numerosas artes marciales y deportes de contacto impartidos en el centro, es uno de los más antiguos de Zaragoza. Maestros y profesores con muchos años de experiencia y testada profesionalidad, son los encargados de impartir todas estas disciplinas.</p>"
 ---
 <div class='full parallax' style='background-image: url(images/about.jpg); color: #fff;'>
   <div class='row'>
@@ -57,7 +58,7 @@ content: "<p>Gracias a Shihan Antonio Piñero, a su labor y al Club Karate-Kan, 
         <div class='slides'>
           {% for slide in page.slides %}
           <div class='slide'>
-            <img alt="Instalaciones" src="{{site.url}}/{{slide.link}}" />
+            <img alt="Instalaciones" src="/{{slide.link}}" />
           </div>
           {% endfor %}
         </div>
@@ -68,7 +69,7 @@ content: "<p>Gracias a Shihan Antonio Piñero, a su labor y al Club Karate-Kan, 
   <div class='row'>
     <div class='large-12 columns'>
       <h3>Gimnasio Club Karate-Kan</h3>
-      {{page.content}}
+      {{page.text}}
     </div>
   </div>
 </div>

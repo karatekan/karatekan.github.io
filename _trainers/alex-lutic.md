@@ -1,6 +1,7 @@
 ---
 layout: trainer
 title: Álex Lutic
+link: alex-lutic
 activities:
   - K-1
   - Artes Marciales Mixtas (MMA)

@@ -3,12 +3,12 @@ layout: default
 ---
 {% assign activity = site.activities | where: "title", page.title | first %}
 {% assign trainers = "" | split: "/" %}
-{% for trainer in site.data.trainers %}
+{% for trainer in site.trainers %}
   {% if trainer.activities contains page.title %}
     {% assign trainers = trainers | push: trainer %}
   {% endif %}
 {% endfor %}
-<div class='full parallax' style='background-image:url({{site.url}}/images/activity.jpg); color: #fff;'>
+<div class='full parallax' style='background-image:url(/images/activity.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title=activity.title tagline=activity.desc color="#fff" class="big" %}
@@ -24,7 +24,7 @@ layout: default
         <div class='slides'>
           {% for slide in activity.slides %}
           <div class='slide'>
-            <img alt="{{activity.title}}" src="{{site.url}}/{{slide.link}}" />
+            <img alt="{{activity.title}}" src="/{{slide.link}}" />
           </div>
           {% endfor %}
         </div>
@@ -64,14 +64,15 @@ layout: default
         {% for trainer in trainers %}
           <li class='mod modTeamMember'>
             <div class='member'>
-              <img class="avatar" alt="{{trainer.name}}" src="{{site.url}}/images/trainers/{{trainer.link}}.jpg" />
+              <img class="avatar" alt="{{trainer.title}}"
+              src="/images/trainers/{{trainer.link}}.jpg" />
               <div class='overlay'>
                 <div class='intro'>
-                  <h3>{{trainer.name}}</h3>
+                  <h3>{{trainer.title}}</h3>
                   <p>{{activity.title}}</p>
                   <ul class='socials'>
                     <li>
-                      <a href='{{site.url}}/entrenadores/{{trainer.link}}.html'>
+                      <a href='/entrenadores/{{trainer.link}}.html'>
                         <i class='fa fa-file-text-o'></i>
                       </a>
                     </li>
