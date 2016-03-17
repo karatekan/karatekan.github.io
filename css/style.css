@@ -1010,6 +1010,23 @@ ul.shortcode-list i {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* iframe videos responsive */
+.video-container{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
 /* portfolio item meta */
 ul.info {
   margin: 0;
@@ -1489,22 +1506,6 @@ form input.error, form textarea.error {
 }
 .modBlogPost .content {
   padding: 30px 20px;
-}
-.modBlogPost .content .video-container{
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-.modBlogPost .content .video-container iframe,
-.modBlogPost .content .video-container object,
-.modBlogPost .content .video-container embed{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
 }
 .modBlogPost h4 a {
   color: #333;
