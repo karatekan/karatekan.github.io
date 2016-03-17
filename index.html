@@ -198,14 +198,14 @@ slides:
   </div>
   <div class='row'>
     <ul class='small-block-grid-2 medium-block-grid-3 large-block-grid-5 columns'>
-      {% for trainer in site.data.trainers %}
+      {% for trainer in site.trainers %}
        {% if trainer.activities.first %}
         <li class='mod modTeamMember'>
           <div class='member'>
-            <img class="avatar" alt="{{trainer.name}}" src="images/trainers/{{trainer.link}}.jpg" />
+            <img class="avatar" alt="{{trainer.title}}" src="images/trainers/{{trainer.link}}.jpg" />
             <div class='overlay'>
               <div class='intro'>
-                <h3>{{trainer.name}}</h3>
+                <h3>{{trainer.title}}</h3>
                 <p>{{trainer.activities.first}}</p>
                 <ul class='socials'>
                   <li>
