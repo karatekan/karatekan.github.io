@@ -1,6 +1,11 @@
 ---
 layout: trainer
 title: Roberto Barra
+activities:
+  - Aikido
+socials:
+  - link: https://www.facebook.com/aikinomada.aikinomada
+    icon: facebook
 ---
 <p>26 años de práctica ininterrumpida, 8 años de experiencia como profesor. 4º DAN ACAE – AIKIKAI HOMBU DOJO (JAPON).</p>
 

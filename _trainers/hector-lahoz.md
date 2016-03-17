@@ -1,6 +1,13 @@
 ---
 layout: trainer
 title: Héctor Lahoz
+activities:
+  - Karate Kyokushin
+  - Karate Infantil
+  - Total Entreno
+socials:
+  - link: https://www.facebook.com/ector.troya
+    icon: facebook
 redirect_from:
   - /nosotros/quienes-somos/item/131-hector-lahoz-sensei/
 ---

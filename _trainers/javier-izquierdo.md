@@ -1,6 +1,10 @@
 ---
 layout: trainer
 title: Javier Izquierdo
+activities:
+  - Judo
+  - Aikido
+socials:
 redirect_from:
   - /nosotros/quienes-somos/item/259-javier-izquierdo/
 ---

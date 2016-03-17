@@ -1,6 +1,11 @@
 ---
 layout: trainer
 title: Jesús Baguena
+activities:
+  - Karate Kyokushin
+socials:
+  - link: https://www.facebook.com/moterojesus
+    icon: facebook
 ---
 <p>Entró con 16 años al gimnasio Norland, habiendo aprendido de Alberto Melus durante
 un año.</p>

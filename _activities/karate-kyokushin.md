@@ -1,6 +1,14 @@
 ---
 layout: activity
+image: images/activities/karate-kyokushin/activity.jpg
 title: Karate Kyokushin
+link_to: actividades/karate-kyokushin.html
+klass: martial-art
+slides:
+  - link: images/activities/karate-kyokushin/slide-1.jpg
+  - link: images/activities/karate-kyokushin/slide-2.jpg
+desc: Dureza y disciplina. Combate con contacto pleno
+video: QGaFLX2KirY
 redirect_from:
   - /karate-kyokushin/
   - /karate-kyokushin/descubre-el-kyokushin/

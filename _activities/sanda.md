@@ -1,6 +1,13 @@
 ---
 layout: activity
 title: Sanda
+image: images/activities/sanda/activity.jpg
+link_to: actividades/sanda.html
+klass: martial-art
+slides:
+  - link: images/activities/sanda/slide-1.jpg
+  - link: images/activities/sanda/slide-2.jpg
+desc: Sistema de combate completo
 ---
 <p>Es la modalidad deportiva y competitiva del wushu en la categoría de
 "Combate", en el cual se encuentran técnicas de golpes y proyecciones.</p>

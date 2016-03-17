@@ -1,6 +1,13 @@
 ---
 layout: activity
 title: Karate Infantil
+image: images/activities/karate-infantil/activity.jpg
+link_to: actividades/karate-infantil.html
+klass: martial-art
+slides:
+  - link: images/activities/karate-infantil/slide-1.jpg
+  - link: images/activities/karate-infantil/slide-2.jpg
+desc: Desarrollo físico y personal de los niños
 redirect_from:
   - /karate-kyokushin/porque-karate-para-tu-hijo/
 ---

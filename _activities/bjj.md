@@ -1,6 +1,14 @@
 ---
 layout: activity
 title: Jiu Jitsu Brasileño (BJJ)
+image: images/activities/bjj/activity.jpg
+link_to: actividades/bjj.html
+klass: martial-art
+slides:
+  - link: images/activities/bjj/slide-1.jpg
+  - link: images/activities/bjj/slide-2.jpg
+desc: Lucha cuerpo a cuerpo en el suelo
+video: TeUAS74fHdk
 redirect_from:
   - /actividades/brasilian-jiu-jitsu/
 ---

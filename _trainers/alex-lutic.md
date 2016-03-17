@@ -1,6 +1,12 @@
 ---
 layout: trainer
 title: Álex Lutic
+activities:
+  - K-1
+  - Artes Marciales Mixtas (MMA)
+socials:
+  - link: https://www.facebook.com/alexLutic1
+    icon: facebook
 ---
 <h5>Karate (Shito-Ryu)</h5>
 <p>3 años (gim Aragón, maestro José Antonio Maura)</p>

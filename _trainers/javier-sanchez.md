@@ -1,6 +1,12 @@
 ---
 layout: trainer
 title: Javier Sánchez
+activities:
+  - Karate Kyokushin
+  - Gimnasia de Mantenimiento
+socials:
+  - link: https://www.facebook.com/ShihanJavier
+    icon: facebook
 redirect_from:
   - /nosotros/quienes-somos/item/143-javier-sanchez-shihan/
 ---

@@ -1,6 +1,13 @@
 ---
 layout: activity
 title: Aikido
+image: images/activities/aikido/activity.jpg
+link_to: actividades/aikido.html
+klass: martial-art
+slides:
+  - link: images/activities/aikido/slide-1.jpg
+  - link: images/activities/aikido/slide-2.jpg
+desc: Neutralización del adversario sin dañarlo
 ---
 <p>El Aikido (vía de la unión con la energía universal - ki) es un arte marcial japonés, uno de los más evolucionados que actualmente existen.
 Su fundador O Sensei Morihei Ueshiba, tras una larga serie de experiencias en su vida personal y dominando diversos artes de combate, llegó a la conclusión de que intentar vencer a los demás con el empleo de la fuerza bruta, era un ejercicio vacio.

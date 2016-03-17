@@ -12,6 +12,14 @@ facebook_username:  karate.kan
 # Build settings
 markdown: kramdown
 
+collections:
+  activities:
+    output: true
+    permalink: /actividades/:path
+  trainers:
+    output: true
+    permalink: /entrenadores/:path
+
 gems:
     - jekyll-paginate
     - jekyll-redirect-from

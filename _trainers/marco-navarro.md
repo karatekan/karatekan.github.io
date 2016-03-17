@@ -1,6 +1,8 @@
 ---
 layout: trainer
 title: Marco Navarro
+activities:
+socials:
 ---
 <p>25 años de práctica ininterrumpida de Artes Marciales</p>
 

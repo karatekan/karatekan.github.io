@@ -2,6 +2,47 @@
 layout: default
 title: Artes Marciales en Zaragoza
 section_id: home
+slides:
+  - bg: images/slide-1.jpg
+    title:
+      klass: bottom-to-top
+      text: Club Karate-Kan
+    small_title:
+      klass: bottom-to-top
+      text: Tu Gimnasio de Artes Marciales
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Sobre Nosotros
+          link_to: sobre-nosotros.html
+  - bg: images/slide-2.jpg
+    klass: centered-text
+    small_title:
+      klass: bottom-to-top
+      text: Boxeo, Judo, Aikido, Krav Maga, K-1, MMA, BJJ...
+    title:
+      klass: bottom-to-top
+      text: ¡Mucho más que Karate!
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Actividades
+          link_to: actividades/
+        - klass: boxed
+          text: Horario
+          link_to: horario.html
+  - bg: images/slide-3.jpg
+    small_title:
+      klass: bottom-to-top
+      text: Pioneros en
+    title:
+      klass: bottom-to-top
+      text: Karate Kyokushin
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Ver la actividad
+          link_to: actividades/karate-kyokushin.html
 ---
 <section class='mod modDefaultSlider'>
   <div class='sequence' data-timeout='3000'>
@@ -12,7 +53,7 @@ section_id: home
       <span></span>
     </a>
     <ul class='sequence-pagination'>
-      {% for slide in site.data.slides %}
+      {% for slide in page.slides %}
         {% if forloop.first %}
           {% assign class = 'current' %}
         {% else %}
@@ -22,7 +63,7 @@ section_id: home
       {% endfor %}
     </ul>
     <ul class='sequence-canvas'>
-      {% for slide in site.data.slides %}
+      {% for slide in page.slides %}
         {% if forloop.first %}
           {% assign style = 'static' %}
         {% else %}
@@ -121,7 +162,7 @@ section_id: home
     </div>
 
   <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-6">
-      {% for activity in site.data.activities %}
+      {% for activity in site.activities %}
         <li class="{{ activity.klass }}">
           <a href='{{ activity.link_to }}'>
             <img alt="{{activity.title}}" src="{{ activity.image }}" />

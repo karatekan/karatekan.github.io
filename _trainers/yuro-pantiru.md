@@ -1,6 +1,12 @@
 ---
 layout: trainer
 title: Yuro Pantiru
+activities:
+  - Boxeo
+  - Artes Marciales Mixtas (MMA)
+socials:
+  - link: https://www.facebook.com/profile.php?id=100006402166586
+    icon: facebook
 ---
 <p>Boxeador profesional.<p>
 <p>Campeon de aragon FIDAM 75kg.<p>

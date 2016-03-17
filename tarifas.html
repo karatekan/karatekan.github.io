@@ -4,8 +4,90 @@ title: Tarifas
 section_id: tarifas
 redirect_from:
   - /nosotros/tarifas/
+
+pricing:
+  - name: Una actividad
+    description: La tarifa simple
+    costs:
+      - number: 44
+    features:
+      - "1 Arte Marcial"
+  - name: Actividad + Gimnasio
+    description: La tarifa habitual
+    costs:
+      - number: 47
+        desc: 1 mes
+      - number: 132
+        desc: 3 meses
+      - number: 444
+        desc: 1 año
+    featured: true
+    features:
+      - "Un Arte Marcial"
+      - "Acceso total al gimnasio"
+      - "Tablas de musculación personalizadas"
+      - "Plataforma vibratoria incluida"
+  - name: + Actividad
+    description: Añade otro Arte Marcial
+    costs:
+      - number: "+20"
+    features:
+      - "Entrena otro Arte Marcial más durante 1 mes"
+  - name: Gimnasia
+    description: La tarifa económica
+    costs:
+      - number: 15
+    features:
+      - "1 mes de Gimnasia de Mantenimiento"
+  - name: Total Entreno
+    description: La tarifa funcional
+    costs:
+      - number: 19
+        desc: "1 día"
+      - number: 24
+        desc: "2 días"
+      - number: 29
+        desc: "3 días"
+    features:
+      - "1 mes de Total Entreno"
+  - name: Total Socios
+    description: Para los que quieren más
+    costs:
+      - number: 5
+        desc: 1 día
+      - number: 10
+        desc: 3 días
+    features:
+      - "1 mes de Total Entreno"
+      - "Necesario ser socio"
+  - name: Entrenador Personal
+    description: La tarifa personalizada
+    costs:
+      - number: 20
+        desc: 1 sesión
+      - number: 80
+        desc: 5 sesiones
+    features:
+      - "Entrenamiento personalizado"
+      - "Uso de todo el material necesariod durante la actividad"
+  - name: '&lt; 16 años'
+    description: Para los más jóvenes
+    costs:
+      - number: 35
+    features:
+      - "1 mes de un Arte Marcial"
+
+faqs:
+  - question: "¿Cómo tengo que pagar?"
+    answer: "<p>La matrícula es gratuita. Únicamente deberás pagar al principio de cada mes la tarifa que hayas elegido. Se suele pagar en efectivo, aunque hay personas que prefieren realizar una domiciliación.</p>"
+  - question: "¿Tengo que comprarme algo?"
+    answer: "<p>Al principio basta con venir en chándal. Si más adelante decides que de verdad te gusta la actividad: Para los deportes de contacto te harán falta protecciones, y para las Artes Marciales la indumentaria correspondiente. Además, en las Artes Marciales Federadas deberás pagar una cuota anual la cual te incluirá un seguro y hará tus cinturones oficiales.</p>"
+  - question: "Nunca he hecho Artes Marciales. ¿Puedo empezar ahora?"
+    answer: "<p>Por supuesto, todos hemos empezado alguna vez. En nuestros grupos hay personas de todos los niveles y edades, todos los meses hay alguna persona nueva empezando la actividad.</p>"
+  - question: "¿Cuánto tiempo tardaré en conseguir el cinturón negro?"
+    answer: "<p>Depende enormemente de cada persona: el tiempo que dedique a entrenar, la facilidad para asimilar conocimientos, la situación personal, el interés, etc. Cada persona es un mundo y con el tiempo va cambiando, por lo que es una pregunta imposible de responder.</p>"
 ---
-{% assign pricing = site.data.pricing %}
+{% assign pricing = page.pricing %}
 <div class='full parallax' style='background-image: url(images/pricing.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -56,7 +138,7 @@ redirect_from:
   </div>
 
   <div class='row'>
-    {% for faq in site.data.faq %}
+    {% for faq in page.faqs %}
     {% cycle 'startrow': '<div class="large-12 columns">', '' %}
       <div class='small-12 medium-6 large-6 columns'>
         <div class='mod modIconText'>

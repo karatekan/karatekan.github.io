@@ -1,6 +1,9 @@
 ---
 layout: trainer
 title: Antonio Piñero
+activities:
+  - Karate Kyokushin
+socials:
 redirect_from:
   - /nosotros/quienes-somos/item/142-antonio-pinero-shihan/
 ---

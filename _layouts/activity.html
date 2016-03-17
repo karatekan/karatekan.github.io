@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign activity = site.data.activities | where: "title", page.title | first %}
+{% assign activity = site.activities | where: "title", page.title | first %}
 {% assign trainers = "" | split: "/" %}
 {% for trainer in site.data.trainers %}
   {% if trainer.activities contains page.title %}

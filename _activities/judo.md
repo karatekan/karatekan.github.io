@@ -1,6 +1,13 @@
 ---
 layout: activity
 title: Judo
+image: images/activities/judo/activity.jpg
+link_to: actividades/judo.html
+klass: martial-art
+slides:
+  - link: images/activities/judo/slide-1.jpg
+  - link: images/activities/judo/slide-2.jpg
+desc: Recomendado por la OMS y UNESCO
 ---
 <p>Arte marcial de origen japonés, basado en la autodefensa. En Japón, el judo junto al kendo son considerados deporte nacional.</p>
 

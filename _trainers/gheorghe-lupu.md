@@ -1,6 +1,11 @@
 ---
 layout: trainer
 title: Gheorghe Lupu
+activities:
+  - Sanda
+socials:
+  - link: https://www.facebook.com/gheorghe.lupu.3
+    icon: facebook
 ---
 <h5>Títulos oficiales de Sanda (Wushu)</h5>
 <ul>
