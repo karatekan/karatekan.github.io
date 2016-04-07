@@ -5,6 +5,7 @@ image: images/activities/mma/activity.jpg
 link_to: actividades/mma.html
 klass: contact-sport
 position: 3
+video: Xfb9MA9tYoY
 slides:
   - link: images/activities/mma/slide-1.jpg
   - link: images/activities/mma/slide-2.jpg
