@@ -4,7 +4,6 @@ title: Yuro Pantiru
 link: yuro-pantiru
 activities:
   - Boxeo
-  - Artes Marciales Mixtas (MMA)
 socials:
   - link: https://www.facebook.com/profile.php?id=100006402166586
     icon: facebook
