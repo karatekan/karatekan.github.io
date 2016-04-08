@@ -4,6 +4,7 @@ title: Gheorghe Lupu
 link: gheorghe-lupu
 activities:
   - Sanda
+  - Artes Marciales Mixtas (MMA)
 socials:
   - link: https://www.facebook.com/gheorghe.lupu.3
     icon: facebook
