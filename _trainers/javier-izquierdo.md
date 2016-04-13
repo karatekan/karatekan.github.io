@@ -24,8 +24,7 @@ redirect_from:
   <li>Diploma en "ITSUTSU NO KATA", "JU NO KATA", "KODOKAN GOSHIN JUUTSU" y "KATAME NO KATA" por KODOKAN Judo Institute</li>
   <li>Cinturón negro (1er Dan) de Aikido</li>
   <li>Instructor en Pilates, ISED, Zaragoza 2014</li>
-  <li>Clinic Pilates Unizar (Universidad de Zaragoza), 2014</li>
-  <li>Clinic Pilates Unizar (Universidad de Zaragoza), 2015</li>
+  <li>Clinic Pilates Unizar (Universidad de Zaragoza), 2014-2016</li>
   <li>Curso Pilates con Implementos, Zaragoza, 2016</li>
   <li>Certificado de idioma japonés, nivel 4, por el Ministerio de Cultura Japonés y Fundación Japón</li>
 </ul>
