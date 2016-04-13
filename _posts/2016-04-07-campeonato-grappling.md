@@ -14,7 +14,7 @@ hemos decidido retrasarlo a los meses de septiembre - octubre y, en su lugar,
 hacer un campeonato interno para los integrantes del Club.
 
 La entrada es gratuita para ese dia y puede asistir quien quiera a verlo.
-No os olvidéis, tenéis una cita en el Club Karate Kan el 14 de mayo a las 10 de la
+No os olvidéis, tenéis una cita en el Club Karate Kan el 21 de mayo a las 10 de la
 mañana.
 
 Os mantendremos informados para el campeonato oficial abierto.
