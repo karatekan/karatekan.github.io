@@ -20,11 +20,11 @@ maravilloso.
 Los resultados han sido increibles, la ilusión y las ganas con las que entrenan
 y quieren aprender luego se plasman en el tatami:
 
-1 ºPrimaria: Kumite Alvaro Campeón<br />
-2 ºPrimaria: Kumite Mathias Campeón, Tomás Subcampeón, Hugo 3º (volvemos a
-repetir podio completo del Club).<br />0
-3º Primaria: Kumite Alex Campeón<br />
-4º Primaria: Juan Subcampeon Katas y 3ºkumite.<br />
+* 1º Primaria: Kumite Alvaro Campeón
+* 2º Primaria: Kumite Mathias Campeón, Tomás Subcampeón, Hugo 3º (volvemos a
+repetir podio completo del Club)
+* 3º Primaria: Kumite Alex Campeón
+* 4º Primaria: Juan Subcampeon Katas y 3ºkumite
 
 Sin duda unos resultados increibles, que no hacen más que indicarnos que estamos
 en el camino adecuado, que tenemos que seguir así, con ilusión y ganas, estos
