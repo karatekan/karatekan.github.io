@@ -10,7 +10,7 @@ excerpt:
   Nuestra nueva actividad de fitness
 ---
 
-Ya tenemos todo listo para dar comienzo las clases de [Total Entreno]({{site.url}}/actividades/total-entreno.html).
+Ya tenemos todo listo para dar comienzo las clases de [Total Entreno](/actividades/total-entreno.html).
 
 Nuevas tarifas, nuevos horarios de mañana y de tarde y material nuevo.
 

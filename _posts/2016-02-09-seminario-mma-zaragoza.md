@@ -15,4 +15,4 @@ Campeones Mundiales Wilson Ramos y Gheorghe Lupu.
 No te pierdas la oportunindad de entrenar con estos dos grandes maestros, no
 importa la disciplina que practiques.
 
-Apúntate en persona en el Club o [contacta con nosotros]({{site.url}}/contacto.html).
+Apúntate en persona en el Club o [contacta con nosotros](/contacto.html).

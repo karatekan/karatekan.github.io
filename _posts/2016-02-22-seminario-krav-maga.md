@@ -16,4 +16,4 @@ Asociación Española Contra el Cáncer.
 
 Las plazas son limitadas.
 
-Si deseas apuntarte o consultar algún detalle, no dudes en [contactar con nosotros]({{site.url}}/contacto.html).
+Si deseas apuntarte o consultar algún detalle, no dudes en [contactar con nosotros](/contacto.html).
