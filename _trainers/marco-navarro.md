@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Marco Navarro
 link: marco-navarro
 activities:

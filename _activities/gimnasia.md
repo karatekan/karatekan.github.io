@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Gimnasia de Mantenimiento
 image: images/activities/gimnasia/activity.jpg
 link_to: actividades/gimnasia.html

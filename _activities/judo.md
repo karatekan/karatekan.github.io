@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Judo
 image: images/activities/judo/activity.jpg
 link_to: actividades/judo.html

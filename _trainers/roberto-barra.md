@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Roberto Barra
 link: roberto-barra
 activities:

@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Wilson Ramos
 link: wilson-ramos
 activities:

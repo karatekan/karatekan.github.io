@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Javier Sánchez
 link: javier-sanchez
 activities:

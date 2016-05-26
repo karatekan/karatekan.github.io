@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Gheorghe Lupu
 link: gheorghe-lupu
 activities:

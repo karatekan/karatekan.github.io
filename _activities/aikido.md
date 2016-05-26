@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Aikido
 image: images/activities/aikido/activity.jpg
 link_to: actividades/aikido.html

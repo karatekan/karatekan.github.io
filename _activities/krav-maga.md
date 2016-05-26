@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Krav Maga
 image: images/activities/krav-maga/activity.jpg
 link_to: actividades/krav-maga.html

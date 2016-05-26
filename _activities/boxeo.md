@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Boxeo
 image: images/activities/boxeo/activity.jpg
 link_to: actividades/boxeo.html

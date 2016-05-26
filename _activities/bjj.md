@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Jiu Jitsu Brasileño (BJJ)
 image: images/activities/bjj/activity.jpg
 link_to: actividades/bjj.html

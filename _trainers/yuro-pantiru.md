@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Yuro Pantiru
 link: yuro-pantiru
 activities:

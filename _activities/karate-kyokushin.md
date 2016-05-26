@@ -1,5 +1,4 @@
 ---
-layout: activity
 image: images/activities/karate-kyokushin/activity.jpg
 title: Karate Kyokushin
 link_to: actividades/karate-kyokushin.html

@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Jesús Baguena
 link: jesus-baguena
 activities:

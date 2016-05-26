@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Antonio Piñero
 link: antonio-pinero
 activities:

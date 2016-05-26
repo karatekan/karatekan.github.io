@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Sanda
 image: images/activities/sanda/activity.jpg
 link_to: actividades/sanda.html

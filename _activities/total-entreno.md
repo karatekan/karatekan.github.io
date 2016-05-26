@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Total Entreno
 image: images/activities/total-entreno/activity.jpg
 link_to: actividades/total-entreno.html

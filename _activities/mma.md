@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Artes Marciales Mixtas (MMA)
 image: images/activities/mma/activity.jpg
 link_to: actividades/mma.html

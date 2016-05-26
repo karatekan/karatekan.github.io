@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Javier Izquierdo
 link: javier-izquierdo
 activities:

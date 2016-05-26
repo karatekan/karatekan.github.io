@@ -1,5 +1,4 @@
 ---
-layout: activity
 title: Karate Infantil
 image: images/activities/karate-infantil/activity.jpg
 link_to: actividades/karate-infantil.html

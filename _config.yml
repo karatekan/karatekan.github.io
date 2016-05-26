@@ -20,6 +20,20 @@ collections:
     output: true
     permalink: /entrenadores/:path
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: activities
+    values:
+      layout: activity
+  -
+    scope:
+      path: ""
+      type: trainers
+    values:
+      layout: trainer
+
 gems:
     - jekyll-paginate
     - jekyll-redirect-from

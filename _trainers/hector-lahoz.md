@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Héctor Lahoz
 link: hector-lahoz
 activities:

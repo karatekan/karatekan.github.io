@@ -1,5 +1,4 @@
 ---
-layout: trainer
 title: Álex Lutic
 link: alex-lutic
 activities:
