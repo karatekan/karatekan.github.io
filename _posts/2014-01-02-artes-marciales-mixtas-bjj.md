@@ -10,6 +10,6 @@ redirect_from:
 excerpt:
   Nuevas actividades del gimnasio.
 ---
-Desde hoy puedes entrenar en el Club Karate-Kan [Artes Marciales Mixtas]({{site.url}}/actividades/mma.html) o [Brasilian Jiu-Jitsu]({{site.url}}/actividades/bjj.html).
+Desde hoy puedes entrenar en el Club Karate-Kan [Artes Marciales Mixtas](/actividades/mma.html) o [Brasilian Jiu-Jitsu](/actividades/bjj.html).
 
 En sus respectivas secciones se puede consultar sobre estas actividades, sus horarios y profesores.
