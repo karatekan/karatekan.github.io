@@ -1500,6 +1500,9 @@ form input.error, form textarea.error {
   opacity: 0.75;
 }
 
+.justify {
+  text-align: justify;
+}
 .modBlogPost {
   margin-bottom: 40px;
   background: #fff;
