@@ -2,7 +2,7 @@
 {% cycle 'startrow': '<div class="large-12 columns">', '' %}
   <div class='small-12 medium-6 large-6 columns'>
     <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-      <div class='icon-text-simple'>
+      <div class='icon-text-simple justify'>
         <i class='fa fa-{{service.icon}}'></i>
         <h3>{{service.title}}</h3>
         {{service.desc}}
