@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Curso Internacional de Kyokushin
-date:   2016-06-16 11:00:00
+date:   2016-06-16 09:00:00
 images:
   - 2016-06-16-curso-internacional-kyokushin.jpg
 excerpt:
