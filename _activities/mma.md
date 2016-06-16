@@ -6,9 +6,9 @@ klass: contact-sport
 position: 3
 video: Xfb9MA9tYoY
 slides:
-  - link: images/activities/mma/slide-1.jpg
-  - link: images/activities/mma/slide-2.jpg
-desc: Técnicas de combate de pie y suelo
+  - images/activities/mma/slide-1.jpg
+  - images/activities/mma/slide-2.jpg
+excerpt: Técnicas de combate de pie y suelo
 ---
 <p>Artes marciales mixtas (conocidas frecuentemente por sus siglas en inglés, MMA o Mixed Martial Arts) son un deporte de combate de pleno contacto que incorpora golpes y técnicas de una gran variedad de otras disciplinas de combate</p>
 

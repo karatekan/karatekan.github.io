@@ -6,9 +6,9 @@ klass: martial-art
 position: 8
 video: Uvlstua5rUg
 slides:
-  - link: images/activities/judo/slide-1.jpg
-  - link: images/activities/judo/slide-2.jpg
-desc: Recomendado por la OMS y UNESCO
+  - images/activities/judo/slide-1.jpg
+  - images/activities/judo/slide-2.jpg
+excerpt: Recomendado por la OMS y UNESCO
 ---
 <p>Arte marcial de origen japonés, basado en la autodefensa. En Japón, el judo junto al kendo son considerados deporte nacional.</p>
 

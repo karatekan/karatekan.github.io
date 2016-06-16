@@ -18,7 +18,12 @@ section_id: blog
         {{ content }}
       </div>
       <div class='two spacing'></div>
-      {% include share.html %}
+      {% if page.images.first %}
+        {% capture shareimage %}{{site.url}}/images/posts/{{page.images.first}}{% endcapture %}
+        {% include share.html image=shareimage %}
+      {% else %}
+        {% include share.html %}
+      {% endif %}
     </div>
     <div class='two spacing'></div>
   </div>

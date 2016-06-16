@@ -5,9 +5,9 @@ link_to: actividades/krav-maga.html
 klass: contact-sport
 position: 6
 slides:
-  - link: images/activities/krav-maga/slide-1.jpg
-  - link: images/activities/krav-maga/slide-2.jpg
-desc: Defensa personal usada por FBI, GIGN, etc
+  - images/activities/krav-maga/slide-1.jpg
+  - images/activities/krav-maga/slide-2.jpg
+excerpt: Defensa personal usada por FBI, GIGN, etc
 video: MhrIYx_DBng
 ---
 <p>Primera escuela en Zaragoza reconocida y afiliada a la F.E.K.M. - R.D. (Federación Europea de Krav Maga - Richard Douieb).</p>

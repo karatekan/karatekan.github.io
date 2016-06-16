@@ -6,9 +6,9 @@ klass: martial-art
 position: 9
 video: lGrV-sqwVZU
 slides:
-  - link: images/activities/sanda/slide-1.jpg
-  - link: images/activities/sanda/slide-2.jpg
-desc: Sistema de combate completo
+  - images/activities/sanda/slide-1.jpg
+  - images/activities/sanda/slide-2.jpg
+excerpt: Sistema de combate completo
 ---
 <p>Es la modalidad deportiva y competitiva del wushu en la categoría de
 "Combate", en el cual se encuentran técnicas de golpes y proyecciones.</p>

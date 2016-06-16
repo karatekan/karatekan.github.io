@@ -1,5 +1,7 @@
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@{{ site.twitter_username }}" />
 <meta name="twitter:title" content="{{ page.title }}" />
 <meta name="twitter:description" content="{{ page.excerpt | escape }}" />
-<meta name="twitter:image" content="{{site.url}}/images/posts/{{ page.images.first }}">
+{% if include.image %}
+<meta name="twitter:image" content="{{ include.image }}">
+{% endif %}

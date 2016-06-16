@@ -4,9 +4,9 @@ image: images/activities/bjj/activity.jpg
 link_to: actividades/bjj.html
 klass: martial-art
 slides:
-  - link: images/activities/bjj/slide-1.jpg
-  - link: images/activities/bjj/slide-2.jpg
-desc: Lucha cuerpo a cuerpo en el suelo
+  - images/activities/bjj/slide-1.jpg
+  - images/activities/bjj/slide-2.jpg
+excerpt: Lucha cuerpo a cuerpo en el suelo
 video: 4Ev1i0vN6XY
 position: 4
 redirect_from:
