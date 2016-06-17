@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Entrenamiento Infantil
-date:   2016-06-17 11:00:00
+date:   2016-06-17 07:00:00
 images:
   - 2016-06-17-entrenamiento-infantil.jpg
 excerpt:
@@ -9,9 +9,10 @@ excerpt:
 ---
 Casi finalizado el curso, y con los exámenes ya realizados, el otro día tocó
 entrenar al aire libre: Kyokushin y juegos para que se haga más leve la espera
-para el gran día.
+para el gran día que iba a ser ayer.
 
-El próximo Jueves a las 17:45 se realizará una exhibición abierta al público, la
-entrega de cinturones y una merendola.
+Ayer Jueves se realizó la exhibición abierta al público, la entrega de cinturones y una merendola.
 
-¡Nos lo vamos a pasar en grande!
+En ella los niños pudieron demostrar a sus padres y espectadores de lo que eran capaces, lo que habían aprendido a lo largo del año y lo mucho que les gusta el Karate.
+
+¡Nos lo pasamos en grande!
