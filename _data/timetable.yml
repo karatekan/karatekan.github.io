@@ -4,10 +4,6 @@
       start: "09:15"
       end: "10:15"
       color: Orange
-    - title: Gimnasia de Mantenimiento
-      start: "09:30"
-      end: "10:30"
-      color: Orchid
     - title: Jiu Jitsu Brasileño (BJJ)
       start: "10:30"
       end: "12:00"
@@ -80,10 +76,6 @@
       start: "09:15"
       end: "10:15"
       color: Orange
-    - title: Gimnasia de Mantenimiento
-      start: "09:30"
-      end: "10:30"
-      color: Orchid
     - title: Jiu Jitsu Brasileño (BJJ)
       start: "10:30"
       end: "12:00"
