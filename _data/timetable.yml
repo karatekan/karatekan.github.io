@@ -33,13 +33,9 @@
       start: "18:45"
       end: "20:00"
       color: Red
-    - title: Total Entreno
-      start: "19:00"
-      end: "20:00"
-      color: Orange
     - title: Krav Maga
       start: "20:00"
-      end: "21:15"
+      end: "21:30"
       color: Purple
     - title: Artes Marciales Mixtas (MMA)
       start: "20:30"
@@ -113,13 +109,9 @@
       start: "18:45"
       end: "20:00"
       color: Red
-    - title: Total Entreno
-      start: "19:00"
-      end: "20:00"
-      color: Orange
     - title: Krav Maga
       start: "20:00"
-      end: "21:15"
+      end: "21:30"
       color: Purple
     - title: Artes Marciales Mixtas (MMA)
       start: "20:30"
