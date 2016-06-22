@@ -3,7 +3,6 @@ title: Javier Izquierdo
 link: javier-izquierdo
 activities:
   - Judo
-  - Aikido
 position: 5
 socials:
 redirect_from:
