@@ -176,10 +176,6 @@
       start: "12:00"
       end: "13:00"
       color: Grey
-    - title: K-1
-      start: "11:00"
-      end: "12:30"
-      color: DarkBlue
     - title: Karate Kyokushin
       start: "13:15"
       end: "14:30"
