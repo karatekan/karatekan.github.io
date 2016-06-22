@@ -3,7 +3,6 @@ title: Javier Sánchez
 link: javier-sanchez
 activities:
   - Karate Kyokushin
-  - Gimnasia de Mantenimiento
 socials:
   - link: https://www.facebook.com/ShihanJavier
     icon: facebook
