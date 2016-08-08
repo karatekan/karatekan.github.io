@@ -8,7 +8,7 @@ slides:
   - images/activities/bjj-infantil/slide-1.jpg
 excerpt: Desarrollo físico y personal de los niños
 ---
-#####La práctica del jiu-jitsu para cada edad infantil
+<h5>La práctica del jiu-jitsu para cada edad infantil</h5>
 
 Jiu Jitsu significa “arte suave”, resaltando así la importancia no solo de los valores deportivos y técnicos sino también del respeto, superación, autocontrol, etc.
 
@@ -18,7 +18,7 @@ Entre los 7 y los 10 años, esos sencillos ejercicios de psicomotricidad empieza
 
 A partir de los 10 años los niños ya podrán desarrollar técnicas deportivas de jiu-jitsu. Paralelamente, tendrán la oportunidad de poner en práctica los valores de compañerismo, exigencia o trabajo en equipo que aprendieron en fases anteriores.
 
-#####Beneficios del jiu-jitsu para los niños
+<h5>Beneficios del jiu-jitsu para los niños</h5>
 
 * Desarrollo de las habilidades motoras básicas. Una de las reglas más importantes a la hora de hacer jiu-jitsu es aprender a caer correctamente, evitará muchas lesiones durante las clases pero también fuera de ellas.
 * Favorece el desarrollo del aparato motriz.
