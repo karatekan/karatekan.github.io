@@ -18,7 +18,7 @@ redirect_from:
   <li>Instructor en Defensa Personal para la Seguridad Privada (Ministerio del Interior)</li>
   <li>Juez nacional de Kata</li>
   <li>Certificado de Curso de Técnica KODOKAN 2013</li>
-  <li>Certificados de los cursos de kata, expedidos por "KODOKAN Judo Institute", de Tokyo, desde el año 2002 al 2009, 2013, 2014 y 2015</li>
+  <li>Certificados de cursos de kata expedidos por "KODOKAN Judo Institute" de Tokyo de los años 2002 - 2009, 2013 - 2016</li>
   <li>Diploma en "ITSUTSU NO KATA", "JU NO KATA", "KODOKAN GOSHIN JUUTSU" y "KATAME NO KATA" por KODOKAN Judo Institute</li>
   <li>Cinturón negro (1er Dan) de Aikido</li>
   <li>Instructor en Pilates, ISED, Zaragoza 2014</li>

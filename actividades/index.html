@@ -36,18 +36,20 @@ section_id: activities
       <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
       {% assign activities = site.activities | sort: 'position' %}
       {% for activity in activities %}
+        {% if activity.position %}
           <li class="{{ activity.klass }}">
             <a href='/{{activity.link_to}}'>
               <img alt="{{activity.title}}" src="/{{activity.image}}" />
               <div class='overlay'>
                 <div class='thumb-info'>
                   <h3>{{ activity.title }}</h3>
-                  <p>{{ activity.desc }}</p>
+                  <p>{{ activity.excerpt }}</p>
                 </div>
               </div>
             </a>
           </li>
-        {% endfor %}
+        {% endif %}
+      {% endfor %}
       </ul>
     </div>
   </div>

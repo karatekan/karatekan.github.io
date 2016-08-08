@@ -34,10 +34,10 @@
       path: sanda.html
     - name: Karate Infantil
       path: karate-infantil.html
+    - name: Jiu Jitsu Infantil
+      path: bjj-infantil.html
     - name: Total Entreno
       path: total-entreno.html
-    - name: Gimnasia de Mantenimiento
-      path: gimnasia.html
 - name: Contacto
   path: contacto.html
   section_id: contact

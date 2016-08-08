@@ -61,10 +61,10 @@
       start: "20:00"
       end: "21:15"
       color: DarkBlue
-    - title: Jiu Jitsu Brasileño (BJJ)
+    - title: Krav Maga
       start: "18:45"
       end: "20:15"
-      color: Gold
+      color: Purple
 
 - name: Miércoles
   activities:
@@ -129,10 +129,10 @@
       start: "20:00"
       end: "21:15"
       color: DarkBlue
-    - title: Jiu Jitsu Brasileño (BJJ)
+    - title: Krav Maga
       start: "18:45"
       end: "20:15"
-      color: Gold
+      color: Purple
 
 - name: Viernes
   activities:

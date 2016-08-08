@@ -3,7 +3,6 @@ title: Gimnasia de Mantenimiento
 image: images/activities/gimnasia/activity.jpg
 link_to: actividades/gimnasia.html
 klass: fitness
-position: 12
 slides:
   - images/activities/gimnasia/slide-1.jpg
   - images/activities/gimnasia/slide-2.jpg
