@@ -49,22 +49,22 @@
       start: "17:45"
       end: "18:45"
       color: Sienna
-    - title: Sanda
+    - title: Krav Maga
       start: "18:45"
-      end: "20:15"
-      color: Indigo
+      end: "20:00"
+      color: Purple
+    - title: Jiu Jitsu Brasileño (BJJ)
+      start: "19:00"
+      end: "20:30"
+      color: Gold
     - title: Judo
       start: "20:00"
       end: "21:15"
       color: Blue
     - title: K-1
-      start: "20:00"
-      end: "21:15"
+      start: "20:30"
+      end: "21:30"
       color: DarkBlue
-    - title: Krav Maga
-      start: "18:45"
-      end: "20:15"
-      color: Purple
 
 - name: Miércoles
   activities:
@@ -117,22 +117,22 @@
       start: "17:45"
       end: "18:45"
       color: Sienna
-    - title: Sanda
+    - title: Krav Maga
       start: "18:45"
-      end: "20:15"
-      color: Indigo
+      end: "20:00"
+      color: Purple
+    - title: Jiu Jitsu Brasileño (BJJ)
+      start: "19:00"
+      end: "20:30"
+      color: Gold
     - title: Judo
       start: "20:00"
       end: "21:15"
       color: Blue
     - title: K-1
-      start: "20:00"
-      end: "21:15"
+      start: "20:30"
+      end: "21:30"
       color: DarkBlue
-    - title: Krav Maga
-      start: "18:45"
-      end: "20:15"
-      color: Purple
 
 - name: Viernes
   activities:
@@ -160,6 +160,10 @@
       start: "20:00"
       end: "21:15"
       color: Blue
+    - title: K-1
+      start: "20:30"
+      end: "22:00"
+      color: DarkBlue
     - title: Artes Marciales Mixtas (MMA)
       start: "20:30"
       end: "22:00"
