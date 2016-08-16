@@ -47,14 +47,22 @@ layout: default
     <aside class='large-3 columns'>
       <h4>Horarios</h4>
       <dl>
+      {% assign gotHours = false %}
       {% for day in site.data.timetable %}
       {% assign hours = day.activities | where: "title", activity.title %}
-      {% if hours.first != nil %} <dt>{{day.name}}</dt> {% endif %}
+      {% if hours.first != nil %}
+        {% assign gotHours = true %}
+        <dt>{{day.name}}</dt>
+      {% endif %}
         {% for hour in hours %}
           <dd>{{hour.start}}h - {{hour.end}}h</dd>
         {% endfor %}
       {% endfor %}
       </dl>
+      {% unless gotHours %}
+      <strong>Preguntar</strong>
+      <div class='spacing'></div>
+      {% endunless %}
 
      {% if trainers.size > 1 %}
       <h4>Profesores</h4>
