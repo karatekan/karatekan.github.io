@@ -3,7 +3,7 @@ title: Jiu Jitsu Infantil
 image: images/activities/bjj-infantil/activity.jpg
 link_to: actividades/bjj-infantil.html
 klass: martial-art
-position: 12
+position: 10
 slides:
   - images/activities/bjj-infantil/slide-1.jpg
 excerpt: Desarrollo físico y personal de los niños

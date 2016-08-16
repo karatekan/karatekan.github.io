@@ -10,6 +10,9 @@
 - name: Tarifas
   path: tarifas.html
   section_id: tarifas
+- name: Horario
+  path: horario.html
+  section_id: timetable
 - name: Actividades
   path: actividades/
   section_id: activities
@@ -30,20 +33,15 @@
       path: aikido.html
     - name: Judo
       path: judo.html
-    - name: Sanda
-      path: sanda.html
     - name: Karate Infantil
       path: karate-infantil.html
     - name: Jiu Jitsu Infantil
       path: bjj-infantil.html
     - name: Total Entreno
       path: total-entreno.html
-- name: Contacto
-  path: contacto.html
-  section_id: contact
 - name: Blog
   path: blog/
   section_id: blog
-- name: Horario
-  path: horario.html
-  section_id: timetable
+- name: Contacto
+  path: contacto.html
+  section_id: contact
