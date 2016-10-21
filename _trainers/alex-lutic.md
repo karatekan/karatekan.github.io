@@ -3,6 +3,7 @@ title: Álex Lutic
 link: alex-lutic
 activities:
   - K-1
+  - Boxeo
   - Artes Marciales Mixtas (MMA)
 socials:
   - link: https://www.facebook.com/alexLutic1
