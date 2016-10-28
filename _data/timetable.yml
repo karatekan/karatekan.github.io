@@ -66,6 +66,10 @@
 
 - name: Miércoles
   activities:
+    - title: Judo
+      start: "09:15"
+      end: "10:15"
+      color: Blue
     - title: Jiu Jitsu Brasileño (BJJ)
       start: "10:30"
       end: "12:00"
@@ -127,6 +131,10 @@
 
 - name: Viernes
   activities:
+    - title: Judo
+      start: "09:15"
+      end: "10:15"
+      color: Blue
     - title: Artes Marciales Mixtas (MMA)
       subtitle: "Grappling"
       start: "10:30"
