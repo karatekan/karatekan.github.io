@@ -33,6 +33,8 @@
       path: aikido.html
     - name: Judo
       path: judo.html
+    - name: Muai Thai
+      path: muay-thai.html
     - name: Karate Infantil
       path: karate-infantil.html
     - name: Jiu Jitsu Infantil
