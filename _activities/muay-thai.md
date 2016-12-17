@@ -5,7 +5,7 @@ link_to: actividades/muay-thai.html
 klass: martial-art
 position: 9
 slides:
-excerpt: Neutralización del adversario sin dañarlo
+excerpt: Boxeo Tailandés
 ---
 El Muay Thai (boxeo tailandés) pertenece al patrimonio cultural inmaterial del
 Reino de Tailandia. El origen de este arte marcial tradicional se remonta a los
