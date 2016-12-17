@@ -3,7 +3,7 @@ title: Total Entreno
 image: images/activities/total-entreno/activity.jpg
 link_to: actividades/total-entreno.html
 klass: fitness
-position: 11
+position: 12
 slides:
   - images/activities/total-entreno/slide-1.jpg
   - images/activities/total-entreno/slide-2.jpg
