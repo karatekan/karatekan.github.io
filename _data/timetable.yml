@@ -4,11 +4,10 @@
       start: "10:30"
       end: "12:00"
       color: Gold
-    - title: Artes Marciales Mixtas (MMA)
-      subtitle: "Grappling"
+    - title: Muay Thai
       start: "12:00"
-      end: "13:00"
-      color: Grey
+      end: "13:30"
+      color: Chartreuse
     - title: Karate Kyokushin
       start: "13:15"
       end: "14:30"
@@ -85,11 +84,10 @@
       start: "10:30"
       end: "12:00"
       color: Gold
-    - title: Artes Marciales Mixtas (MMA)
-      subtitle: "Grappling"
+    - title: Muay Thai
       start: "12:00"
-      end: "13:00"
-      color: Grey
+      end: "13:30"
+      color: Chartreuse
     - title: Karate Kyokushin
       start: "13:15"
       end: "14:30"
@@ -157,11 +155,10 @@
       start: "09:15"
       end: "10:15"
       color: Blue
-    - title: Artes Marciales Mixtas (MMA)
-      subtitle: "Grappling"
+    - title: Jiu Jitsu Brasileño (BJJ)
       start: "10:30"
       end: "12:00"
-      color: Grey
+      color: Yellow
     - title: K-1
       start: "12:00"
       end: "13:30"
@@ -186,9 +183,11 @@
       start: "20:00"
       end: "21:00"
       color: Blue
-    - title:
-        - Artes Marciales Mixtas (MMA)
-        - K-1
+    - title: Artes Marciales Mixtas (MMA)
+      start: "20:00"
+      end: "21:00"
+      color: Grey
+    - title: K-1
       start: "21:00"
       end: "22:00"
-      color: Grey
+      color: DarkBlue
