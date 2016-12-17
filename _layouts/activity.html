@@ -49,7 +49,15 @@ layout: default
       <dl>
       {% assign gotHours = false %}
       {% for day in site.data.timetable %}
-      {% assign hours = day.activities | where: "title", activity.title %}
+      {% assign hours = "" | split: "/" %}
+      {% for act in day.activities %}
+        {% for title in act.title %}
+            {% if title contains page.title %}
+              {% assign hours = hours | push: act %}
+            {% endif %}
+        {% endfor %}
+      {% endfor %}
+
       {% if hours.first != nil %}
         {% assign gotHours = true %}
         <dt>{{day.name}}</dt>

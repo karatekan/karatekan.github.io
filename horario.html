@@ -67,7 +67,9 @@ hours:
               {% for activity in day.activities %}
                 {% if activity.start < hour.end and activity.start >= hour.start %}
                 <div class='activity' style="background-color: {{activity.color}}">
-                  <span class="title">{{activity.title}}</span><br />
+                  {% for title in activity.title %}
+                  <span class="title">{{title}}</span><br />
+                  {% endfor %}
                   {% if activity.subtitle %}<span class="subtitle">{{activity.subtitle}}</span><br />{% endif %}
                   <span class="hour">{{activity.start}} - {{activity.end}}</span><br />
                 </div>
