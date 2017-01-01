@@ -3,7 +3,7 @@ title: Jesús Baguena
 link: jesus-baguena
 activities:
   - Karate Kyokushin
-position: 6
+position: 8
 socials:
   - link: https://www.facebook.com/moterojesus
     icon: facebook
