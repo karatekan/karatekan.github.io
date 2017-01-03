@@ -5,6 +5,8 @@ activities:
   - Judo
 position: 5
 socials:
+  - link: http://www.judoizquierdo.es
+    icon: globe
 redirect_from:
   - /nosotros/quienes-somos/item/259-javier-izquierdo/
 ---
