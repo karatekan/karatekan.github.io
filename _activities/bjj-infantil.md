@@ -6,6 +6,7 @@ klass: martial-art
 position: 11
 slides:
   - images/activities/bjj-infantil/slide-1.jpg
+  - images/activities/bjj-infantil/slide-2.jpg
 excerpt: Desarrollo físico y personal de los niños
 ---
 <h5>La práctica del jiu-jitsu para cada edad infantil</h5>
