@@ -50,7 +50,9 @@
       start: "17:45"
       end: "18:45"
       color: Sienna
-    - title: Jiu Jitsu Brasileño (BJJ)
+    - title: 
+        - Jiu Jitsu Brasileño (BJJ)
+        - Jiu Jitsu Infantil
       start: "19:00"
       end: "20:00"
       color: Gold
@@ -125,7 +127,9 @@
       start: "17:45"
       end: "18:45"
       color: Sienna
-    - title: Jiu Jitsu Brasileño (BJJ)
+    - title: 
+        - Jiu Jitsu Brasileño (BJJ)
+        - Jiu Jitsu Infantil
       start: "19:00"
       end: "20:00"
       color: Gold
