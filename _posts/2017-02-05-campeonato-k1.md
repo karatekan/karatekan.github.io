@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  Resultados del campeonato de K1
 date:   2017-02-05 11:00:00
