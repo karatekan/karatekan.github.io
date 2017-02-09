@@ -16,7 +16,7 @@ Ya hemos abierto las inscripciones, y el procedimiento es el siguiente:
 2. Se responderá con un archivo adjunto con las bases, reglamento y toda la información del torneo.
 3. Via mail, adjuntar listado de competidores junto con la hoja de responsabilidad que se le enviará.
 
-#### Se actualizarán las listas cada día con las altas para manerenos informados
+##### Se actualizarán las listas cada día con las altas para manerenos informados
 
 Por fin Zaragoza tiene un evento de tal magnitud.
 Más adelante habrá eventos para todo tipo de artes marciales y deportes de contacto, este es el primero de muchos... ¡Os esperamos!
