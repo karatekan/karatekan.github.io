@@ -5,8 +5,6 @@ activities:
   - Karate Kyokushin
 position: 10
 socials:
-  - link: https://www.facebook.com/moterojesus
-    icon: facebook
 ---
 <p>Entró con 16 años al gimnasio Norland, habiendo aprendido de Alberto Melus durante
 un año.</p>
