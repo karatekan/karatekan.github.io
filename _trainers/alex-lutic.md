@@ -2,13 +2,9 @@
 title: Álex Lutic
 link: alex-lutic
 activities:
-  - K-1
-  - Boxeo
-  - Artes Marciales Mixtas (MMA)
 socials:
   - link: https://www.facebook.com/alexLutic1
     icon: facebook
-position: 6
 ---
 <h5>Karate (Shito-Ryu)</h5>
 <p>3 años (gim Aragón, maestro José Antonio Maura)</p>
