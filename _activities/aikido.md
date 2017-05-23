@@ -7,6 +7,7 @@ position: 7
 slides:
   - images/activities/aikido/slide-1.jpg
   - images/activities/aikido/slide-2.jpg
+  - images/activities/aikido/slide-3.jpg
 excerpt: Neutralización del adversario sin dañarlo
 ---
 <p>El Aikido (vía de la unión con la energía universal - ki) es un arte marcial japonés, uno de los más evolucionados que actualmente existen.

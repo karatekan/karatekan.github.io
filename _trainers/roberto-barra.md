@@ -6,7 +6,7 @@ activities:
 socials:
   - link: https://www.facebook.com/aikinomada.aikinomada
     icon: facebook
-position: 9
+position: 8
 ---
 <p>26 años de práctica ininterrumpida, 8 años de experiencia como profesor. 4º DAN ACAE – AIKIKAI HOMBU DOJO (JAPON).</p>
 
