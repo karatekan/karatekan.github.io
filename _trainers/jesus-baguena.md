@@ -3,7 +3,7 @@ title: Jesús Baguena
 link: jesus-baguena
 activities:
   - Karate Kyokushin
-position: 10
+position: 11
 socials:
 ---
 <p>Entró con 16 años al gimnasio Norland, habiendo aprendido de Alberto Melus durante
