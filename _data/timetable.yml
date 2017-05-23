@@ -30,7 +30,6 @@
       end: "21:00"
       color: Purple
     - title: Artes Marciales Mixtas (MMA)
-      subtitle: "Grappling"
       start: "21:00"
       end: "22:00"
       color: Grey
@@ -50,7 +49,7 @@
       start: "17:45"
       end: "18:45"
       color: Sienna
-    - title: 
+    - title:
         - Jiu Jitsu Brasileño (BJJ)
         - Jiu Jitsu Infantil
       start: "19:00"
@@ -67,7 +66,6 @@
     - title:
         - Artes Marciales Mixtas (MMA)
         - Muay Thai
-      subtitle: "Competición"
       start: "20:00"
       end: "21:00"
       color: Grey
@@ -107,7 +105,6 @@
       end: "21:00"
       color: Purple
     - title: Artes Marciales Mixtas (MMA)
-      subtitle: "Grappling"
       start: "21:00"
       end: "22:00"
       color: Grey
@@ -127,7 +124,7 @@
       start: "17:45"
       end: "18:45"
       color: Sienna
-    - title: 
+    - title:
         - Jiu Jitsu Brasileño (BJJ)
         - Jiu Jitsu Infantil
       start: "19:00"
@@ -144,7 +141,6 @@
     - title:
         - Artes Marciales Mixtas (MMA)
         - Muay Thai
-      subtitle: "Competición"
       start: "20:00"
       end: "21:00"
       color: Grey
@@ -163,7 +159,9 @@
       start: "10:30"
       end: "12:00"
       color: Gold
-    - title: K-1
+    - title:
+        - K-1
+        - Muay Thai
       start: "12:00"
       end: "13:30"
       color: DarkBlue
