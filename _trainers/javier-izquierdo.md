@@ -20,11 +20,11 @@ redirect_from:
   <li>Instructor en Defensa Personal para la Seguridad Privada (Ministerio del Interior)</li>
   <li>Juez nacional de Kata</li>
   <li>Certificado de Curso de Técnica KODOKAN 2013</li>
-  <li>Certificados de cursos de kata expedidos por "KODOKAN Judo Institute" de Tokyo de los años 2002 - 2009, 2013 - 2016</li>
+  <li>Certificados de cursos de kata expedidos por "KODOKAN Judo Institute" de Tokyo de los años 2002 al 2009 y del 2013 al 2016</li>
   <li>Diploma en "ITSUTSU NO KATA", "JU NO KATA", "KODOKAN GOSHIN JUUTSU" y "KATAME NO KATA" por KODOKAN Judo Institute</li>
   <li>Cinturón negro (1er Dan) de Aikido</li>
   <li>Instructor en Pilates, ISED, Zaragoza 2014</li>
-  <li>Clinic Pilates Unizar (Universidad de Zaragoza), 2014-2016</li>
+  <li>Clinic Pilates Unizar (Universidad de Zaragoza) años 2014, 2015 y 2016</li>
   <li>Curso Pilates con Implementos, Zaragoza, 2016</li>
   <li>Certificado de idioma japonés, nivel 4, por el Ministerio de Cultura Japonés y Fundación Japón</li>
 </ul>
