@@ -14,12 +14,12 @@
       color: Red
     - title: Boxeo
       start: "17:00"
-      end: "18:00"
+      end: "18:30"
       color: Black
     - title: Karate Infantil
-      subtitle: "Menos de 5 años"
-      start: "17:45"
-      end: "18:45"
+      subtitle: "10-14 años"
+      start: "18:00"
+      end: "19:00"
       color: Chocolate
     - title: Karate Kyokushin
       start: "19:00"
@@ -33,6 +33,10 @@
       start: "21:00"
       end: "22:00"
       color: Grey
+    - title: Muay Thai
+      start: "21:00"
+      end: "22:00"
+      color: Chartreuse
 
 - name: Martes
   activities:
