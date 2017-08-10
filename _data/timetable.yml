@@ -197,11 +197,6 @@
       start: "18:00"
       end: "19:00"
       color: Purple
-    - title: Karate Infantil
-      subtitle: "10-14 años"
-      start: "18:00"
-      end: "19:00"
-      color: Chocolate
     - title: Karate Kyokushin
       start: "19:00"
       end: "20:00"
