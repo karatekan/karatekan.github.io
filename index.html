@@ -2,6 +2,17 @@
 layout: default
 title: Artes Marciales en Zaragoza
 section_id: home
+redirect_from:
+  - /blog/index.html
+  - /servicios.html
+  - /2012-03-07-02-54-47/
+  - /2012-03-07-02-54-47/entrenador-personal/
+  - /2012-03-07-02-54-47/musculacion-fitness/
+  - /2012-03-07-02-54-47/biblioteca/
+  - /2012-03-07-02-54-47/plataforma-vibratoria/
+  - /2012-03-07-02-54-47/tienda/
+  - /2012-03-07-02-54-47/salud/
+
 slides:
   - bg: images/slide-1.jpg
     title:
@@ -101,39 +112,6 @@ slides:
     </ul>
   </div>
 </section>
-
-<section class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Noticias recientes" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-
-  <div class='row'>
-    {% for post in site.posts limit:3 %}
-      <article class='large-4 medium-4 columns'>
-        <div class='mod modBlogPost'>
-          <a href="{{post.url}}"><img alt="{{post.title}}" src="images/posts/{% if post.images == nil %}default.jpg{% else %}{{post.images.first}}{% endif %}" /></a>
-          <div class='content'>
-            <p class='date'><time datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%-d/%-m/%Y" }}</time></p>
-            <h4><a href="{{post.url}}">{{post.title}}</a></h4>
-            <p>{{post.excerpt}}</p>
-          </div>
-        </div>
-      </article>
-    {% endfor %}
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <a class='button' href='/blog'>Ver más noticias</a>
-      </p>
-    </div>
-  </div>
-</section>
-
-<div class="spacing"></div>
 
 <section class="full" style="background: #f5f5f5;">
   <div class="row">

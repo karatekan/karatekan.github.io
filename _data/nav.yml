@@ -4,9 +4,6 @@
 - name: Nosotros
   path: sobre-nosotros.html
   section_id: about
-- name: Servicios
-  path: servicios.html
-  section_id: services
 - name: Tarifas
   path: tarifas.html
   section_id: tarifas
@@ -41,9 +38,6 @@
       path: bjj-infantil.html
     - name: Total Entreno
       path: total-entreno.html
-- name: Blog
-  path: blog/
-  section_id: blog
 - name: Contacto
   path: contacto.html
   section_id: contact
