@@ -56,6 +56,10 @@
       start: "11:00"
       end: "12:30"
       color: Black
+    - title: Krav Maga
+      start: "12:00"
+      end: "13:30"
+      color: Purple
     - title: Muay Thai
       start: "17:30"
       end: "19:00"
@@ -142,6 +146,10 @@
       start: "11:00"
       end: "12:30"
       color: Black
+    - title: Krav Maga
+      start: "12:00"
+      end: "13:30"
+      color: Purple
     - title: Muay Thai
       start: "17:30"
       end: "19:00"
