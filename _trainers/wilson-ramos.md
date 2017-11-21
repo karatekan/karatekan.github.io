@@ -2,10 +2,7 @@
 title: Wilson Ramos
 link: wilson-ramos
 activities:
-  - Jiu Jitsu Brasileño (BJJ)
-  - Artes Marciales Mixtas (MMA)
-  - Jiu Jitsu Infantil
-position: 4
+position:
 socials:
   - link: https://www.facebook.com/wilson.ramos.71216
     icon: facebook
