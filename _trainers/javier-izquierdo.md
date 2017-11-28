@@ -14,7 +14,7 @@ redirect_from:
 <ul>
   <li>Maestro–Entrenador nacional de Judo (Real Federación Española de Judo y Deportes Asociados)</li>
   <li>Profesor Especialista (Judo suelo)</li>
-  <li>Cinturón rojo y blanco (6º Dan)</li>
+  <li>Cinturón rojo y blanco (7º Dan)</li>
   <li>Árbitro Nacional</li>
   <li>Experto en Defensa Personal (Nivel superior)</li>
   <li>Instructor en Defensa Personal para la Seguridad Privada (Ministerio del Interior)</li>
