@@ -8,7 +8,6 @@
       start: "11:00"
       end: "12:00"
       color: Purple
-      
     - title: Muay Thai
       start: "12:00"
       end: "13:30"
@@ -42,10 +41,9 @@
       start: "21:00"
       end: "22:00"
       color: Chartreuse
-
 - name: Martes
   activities:
-       - title: Karate Kyokushin
+    - title: Karate Kyokushin
       start: "09:30"
       end: "11:00"
       color: Red
@@ -57,7 +55,6 @@
       start: "11:00"
       end: "12:30"
       color: Black
-    
     - title: Muay Thai
       start: "17:30"
       end: "19:00"
@@ -140,7 +137,6 @@
 
 - name: Jueves
   activities:
-   
     - title: Karate Kyokushin
       start: "09:30"
       end: "11:00"
@@ -153,7 +149,6 @@
       start: "11:00"
       end: "12:30"
       color: Black
-  
     - title: Muay Thai
       start: "17:30"
       end: "19:00"
@@ -188,7 +183,6 @@
 
 - name: Viernes
   activities:
-    
     - title: Judo
       start: "09:15"
       end: "10:15"
