@@ -2,11 +2,10 @@
 title: Emilio Martel
 link: emilio-martel
 activities:
-  - Muay Thai
 socials:
   - link: https://www.facebook.com/emilio.martelhernandez
     icon: facebook
-position: 7
+position:
 ---
 Se inicia en la práctica del Muaythai de la mano de Isidro Martínez Gil.
 
